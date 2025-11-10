@@ -5,10 +5,55 @@
     SPDX-License-Identifier: Apache-2.0
 -->
 <apns version="8">
-  <apn carrier="IR-MCI" mcc="432" mnc="11" apn="mcinet" type="default,supl" />
-  <apn carrier="Rightel" mcc="432" mnc="20" apn="rightel" type="default,supl" />
-  <apn carrier="Rightel MMS" mcc="432" mnc="20" apn="RighTel-WAP" mmsc="http://10.200.40.55:38090/was" mmsproxy="10.200.39.10" mmsport="8080" type="mms" />
-  <apn carrier="IR-MCI MMS" mcc="432" mnc="20" apn="mcinet" mmsc="http://192.168.193.134:38090/was" mmsproxy="192.168.194.73" mmsport="8080" type="mms" />
-  <apn carrier="Irancell" mcc="432" mnc="35" apn="irancell" type="default,supl" />
-  <apn carrier="Irancell MMS" mcc="432" mnc="35" apn="irancell" mmsc="http://mms:8002" mmsproxy="10.131.26.138" mmsport="8080" type="mms" />
+    <apn
+        mcc="432"
+        mnc="11"
+        apn="mcinet"
+        carrier="IR-MCI"
+        type="default,supl"
+    />
+    <apn
+        mcc="432"
+        mnc="20"
+        apn="rightel"
+        carrier="Rightel"
+        type="default,supl"
+    />
+    <apn
+        mcc="432"
+        mnc="20"
+        apn="RighTel-WAP"
+        carrier="Rightel MMS"
+        mmsc="http://10.200.40.55:38090/was"
+        mmsport="8080"
+        mmsproxy="10.200.39.10"
+        type="mms"
+    />
+    <apn
+        mcc="432"
+        mnc="20"
+        apn="mcinet"
+        carrier="IR-MCI MMS"
+        mmsc="http://192.168.193.134:38090/was"
+        mmsport="8080"
+        mmsproxy="192.168.194.73"
+        type="mms"
+    />
+    <apn
+        mcc="432"
+        mnc="35"
+        apn="irancell"
+        carrier="Irancell"
+        type="default,supl"
+    />
+    <apn
+        mcc="432"
+        mnc="35"
+        apn="irancell"
+        carrier="Irancell MMS"
+        mmsc="http://mms:8002"
+        mmsport="8080"
+        mmsproxy="10.131.26.138"
+        type="mms"
+    />
 </apns>

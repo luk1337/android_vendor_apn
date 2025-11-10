@@ -5,9 +5,45 @@
     SPDX-License-Identifier: Apache-2.0
 -->
 <apns version="8">
-  <apn carrier="Syriatel MMS" mcc="417" mnc="01" apn="mms.syriatel.com" mmsc="http://mymms.syriatel.com/" mmsproxy="172.20.5.6" mmsport="9201" type="mms" />
-  <apn carrier="Syriatel" mcc="417" mnc="01" apn="net.syriatel.com" type="default,supl" />
-  <apn carrier="MTN Syria" mcc="417" mnc="02" apn="internet" type="default,supl" />
-  <apn carrier="MTN SY" mcc="417" mnc="02" apn="internet" type="default,supl" />
-  <apn carrier="MTN SY MMS" mcc="417" mnc="02" apn="mms" mmsc="http://10.11.161.138/:10021/mmsc" mmsproxy="10.11.161.131" mmsport="8080" type="mms" />
+    <apn
+        mcc="417"
+        mnc="01"
+        apn="mms.syriatel.com"
+        carrier="Syriatel MMS"
+        mmsc="http://mymms.syriatel.com/"
+        mmsport="9201"
+        mmsproxy="172.20.5.6"
+        type="mms"
+    />
+    <apn
+        mcc="417"
+        mnc="01"
+        apn="net.syriatel.com"
+        carrier="Syriatel"
+        type="default,supl"
+    />
+    <apn
+        mcc="417"
+        mnc="02"
+        apn="internet"
+        carrier="MTN Syria"
+        type="default,supl"
+    />
+    <apn
+        mcc="417"
+        mnc="02"
+        apn="internet"
+        carrier="MTN SY"
+        type="default,supl"
+    />
+    <apn
+        mcc="417"
+        mnc="02"
+        apn="mms"
+        carrier="MTN SY MMS"
+        mmsc="http://10.11.161.138/:10021/mmsc"
+        mmsport="8080"
+        mmsproxy="10.11.161.131"
+        type="mms"
+    />
 </apns>

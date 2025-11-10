@@ -5,46 +5,467 @@
     SPDX-License-Identifier: Apache-2.0
 -->
 <apns version="8">
-  <apn carrier="Prepaid Data" mcc="374" mnc="12" apn="bconnected" server="http://www.google.com" user="" password="" type="default,supl" />
-  <apn carrier="Bmobile BUZZ" mcc="374" mnc="12" apn="buzz" proxy="192.168.210.104" port="8080" server="http://192.168.210.103/operator/wap" user="" password="" type="default,supl" />
-  <apn carrier="Bmobile MMS" mcc="374" mnc="12" apn="mms" mmsproxy="192.168.210.104" mmsport="8080" mmsc="http://192.168.210.104/mmrelay.app" user="" password="" type="mms" />
-  <apn carrier="BMobile Postpaid" mcc="374" mnc="12" apn="internet" type="default,supl" port="8080" />
-  <apn carrier="BMobile Prepaid" mcc="374" mnc="12" apn="bconnected" type="default,supl" port="8080" />
-  <apn carrier="BMobile MMS" mcc="374" mnc="12" apn="mms" type="mms" mmsc="http://192.168.210.104/mmrelay.app" mmsproxy="192.168.210.104" mmsport="8080" />
-  <apn carrier="BMobile Buzz" mcc="374" mnc="12" apn="buzz" type="default,mms" proxy="192.168.210.104" port="8080" mmsc="http://192.168.210.103/operator/wap" />
-  <apn carrier="Digicel Web" mcc="374" mnc="13" apn="web" user="" password="" type="default,supl" />
-  <apn carrier="Digicel MMS" mcc="374" mnc="13" apn="wap" proxy="" port="" mmsproxy="172.20.6.12" mmsport="8080" mmsc="http://mmc.digiceltt.com/servlets/mms" user="wap" password="wap" type="mms" />
-  <apn carrier="Digicel TT" mcc="374" mnc="13" apn="web.digiceltt.com" type="default,supl" />
-  <apn carrier="Prepaid Data" mcc="374" mnc="120" apn="bconnected" server="http://www.google.com" user="" password="" type="default,supl" />
-  <apn carrier="Bmobile BUZZ" mcc="374" mnc="120" apn="buzz" proxy="192.168.210.104" port="8080" server="http://192.168.210.103/operator/wap" user="" password="" type="default,supl" />
-  <apn carrier="Bmobile MMS" mcc="374" mnc="120" apn="mms" mmsproxy="192.168.210.104" mmsport="8080" mmsc="http://192.168.210.104/mmrelay.app" user="" password="" type="mms" />
-  <apn carrier="Prepaid Data" mcc="374" mnc="121" apn="bconnected" server="http://www.google.com" user="" password="" type="default,supl" />
-  <apn carrier="Bmobile BUZZ" mcc="374" mnc="121" apn="buzz" proxy="192.168.210.104" port="8080" server="http://192.168.210.103/operator/wap" user="" password="" type="default,supl" />
-  <apn carrier="Bmobile MMS" mcc="374" mnc="121" apn="mms" mmsproxy="192.168.210.104" mmsport="8080" mmsc="http://192.168.210.104/mmrelay.app" user="" password="" type="mms" />
-  <apn carrier="Prepaid Data" mcc="374" mnc="122" apn="bconnected" server="http://www.google.com" user="" password="" type="default,supl" />
-  <apn carrier="Bmobile BUZZ" mcc="374" mnc="122" apn="buzz" proxy="192.168.210.104" port="8080" server="http://192.168.210.103/operator/wap" user="" password="" type="default,supl" />
-  <apn carrier="Bmobile MMS" mcc="374" mnc="122" apn="mms" mmsproxy="192.168.210.104" mmsport="8080" mmsc="http://192.168.210.104/mmrelay.app" user="" password="" type="mms" />
-  <apn carrier="Prepaid Data" mcc="374" mnc="123" apn="bconnected" server="http://www.google.com" user="" password="" type="default,supl" />
-  <apn carrier="Bmobile BUZZ" mcc="374" mnc="123" apn="buzz" proxy="192.168.210.104" port="8080" server="http://192.168.210.103/operator/wap" user="" password="" type="default,supl" />
-  <apn carrier="Bmobile MMS" mcc="374" mnc="123" apn="mms" mmsproxy="192.168.210.104" mmsport="8080" mmsc="http://192.168.210.104/mmrelay.app" user="" password="" type="mms" />
-  <apn carrier="Prepaid Data" mcc="374" mnc="124" apn="bconnected" server="http://www.google.com" user="" password="" type="default,supl" />
-  <apn carrier="Bmobile BUZZ" mcc="374" mnc="124" apn="buzz" proxy="192.168.210.104" port="8080" server="http://192.168.210.103/operator/wap" user="" password="" type="default,supl" />
-  <apn carrier="Bmobile MMS" mcc="374" mnc="124" apn="mms" mmsproxy="192.168.210.104" mmsport="8080" mmsc="http://192.168.210.104/mmrelay.app" user="" password="" type="mms" />
-  <apn carrier="Prepaid Data" mcc="374" mnc="125" apn="bconnected" server="http://www.google.com" user="" password="" type="default,supl" />
-  <apn carrier="Bmobile BUZZ" mcc="374" mnc="125" apn="buzz" proxy="192.168.210.104" port="8080" server="http://192.168.210.103/operator/wap" user="" password="" type="default,supl" />
-  <apn carrier="Bmobile MMS" mcc="374" mnc="125" apn="mms" mmsproxy="192.168.210.104" mmsport="8080" mmsc="http://192.168.210.104/mmrelay.app" user="" password="" type="mms" />
-  <apn carrier="Prepaid Data" mcc="374" mnc="126" apn="bconnected" server="http://www.google.com" user="" password="" type="default,supl" />
-  <apn carrier="Bmobile BUZZ" mcc="374" mnc="126" apn="buzz" proxy="192.168.210.104" port="8080" server="http://192.168.210.103/operator/wap" user="" password="" type="default,supl" />
-  <apn carrier="Bmobile MMS" mcc="374" mnc="126" apn="mms" mmsproxy="192.168.210.104" mmsport="8080" mmsc="http://192.168.210.104/mmrelay.app" user="" password="" type="mms" />
-  <apn carrier="Prepaid Data" mcc="374" mnc="127" apn="bconnected" server="http://www.google.com" user="" password="" type="default,supl" />
-  <apn carrier="Bmobile BUZZ" mcc="374" mnc="127" apn="buzz" proxy="192.168.210.104" port="8080" server="http://192.168.210.103/operator/wap" user="" password="" type="default,supl" />
-  <apn carrier="Bmobile MMS" mcc="374" mnc="127" apn="mms" mmsproxy="192.168.210.104" mmsport="8080" mmsc="http://192.168.210.104/mmrelay.app" user="" password="" type="mms" />
-  <apn carrier="Prepaid Data" mcc="374" mnc="128" apn="bconnected" server="http://www.google.com" user="" password="" type="default,supl" />
-  <apn carrier="Bmobile BUZZ" mcc="374" mnc="128" apn="buzz" proxy="192.168.210.104" port="8080" server="http://192.168.210.103/operator/wap" user="" password="" type="default,supl" />
-  <apn carrier="Bmobile MMS" mcc="374" mnc="128" apn="mms" mmsproxy="192.168.210.104" mmsport="8080" mmsc="http://192.168.210.104/mmrelay.app" user="" password="" type="mms" />
-  <apn carrier="Prepaid Data" mcc="374" mnc="129" apn="bconnected" server="http://www.google.com" user="" password="" type="default,supl" />
-  <apn carrier="Bmobile BUZZ" mcc="374" mnc="129" apn="buzz" proxy="192.168.210.104" port="8080" server="http://192.168.210.103/operator/wap" user="" password="" type="default,supl" />
-  <apn carrier="Bmobile MMS" mcc="374" mnc="129" apn="mms" mmsproxy="192.168.210.104" mmsport="8080" mmsc="http://192.168.210.104/mmrelay.app" user="" password="" type="mms" />
-  <apn carrier="Digicel Web" mcc="374" mnc="130" apn="web" user="" password="" type="default,supl" />
-  <apn carrier="Digicel MMS" mcc="374" mnc="130" apn="wap" proxy="" port="" mmsproxy="172.20.6.12" mmsport="8080" mmsc="http://mmc.digiceltt.com/servlets/mms" user="wap" password="wap" type="mms" />
+    <apn
+        mcc="374"
+        mnc="12"
+        apn="bconnected"
+        carrier="Prepaid Data"
+        password=""
+        server="http://www.google.com"
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="374"
+        mnc="12"
+        apn="buzz"
+        carrier="Bmobile BUZZ"
+        password=""
+        port="8080"
+        proxy="192.168.210.104"
+        server="http://192.168.210.103/operator/wap"
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="374"
+        mnc="12"
+        apn="mms"
+        carrier="Bmobile MMS"
+        mmsc="http://192.168.210.104/mmrelay.app"
+        mmsport="8080"
+        mmsproxy="192.168.210.104"
+        password=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="374"
+        mnc="12"
+        apn="internet"
+        carrier="BMobile Postpaid"
+        port="8080"
+        type="default,supl"
+    />
+    <apn
+        mcc="374"
+        mnc="12"
+        apn="bconnected"
+        carrier="BMobile Prepaid"
+        port="8080"
+        type="default,supl"
+    />
+    <apn
+        mcc="374"
+        mnc="12"
+        apn="mms"
+        carrier="BMobile MMS"
+        mmsc="http://192.168.210.104/mmrelay.app"
+        mmsport="8080"
+        mmsproxy="192.168.210.104"
+        type="mms"
+    />
+    <apn
+        mcc="374"
+        mnc="12"
+        apn="buzz"
+        carrier="BMobile Buzz"
+        mmsc="http://192.168.210.103/operator/wap"
+        port="8080"
+        proxy="192.168.210.104"
+        type="default,mms"
+    />
+    <apn
+        mcc="374"
+        mnc="13"
+        apn="web"
+        carrier="Digicel Web"
+        password=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="374"
+        mnc="13"
+        apn="wap"
+        carrier="Digicel MMS"
+        mmsc="http://mmc.digiceltt.com/servlets/mms"
+        mmsport="8080"
+        mmsproxy="172.20.6.12"
+        password="wap"
+        port=""
+        proxy=""
+        type="mms"
+        user="wap"
+    />
+    <apn
+        mcc="374"
+        mnc="13"
+        apn="web.digiceltt.com"
+        carrier="Digicel TT"
+        type="default,supl"
+    />
+    <apn
+        mcc="374"
+        mnc="120"
+        apn="bconnected"
+        carrier="Prepaid Data"
+        password=""
+        server="http://www.google.com"
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="374"
+        mnc="120"
+        apn="buzz"
+        carrier="Bmobile BUZZ"
+        password=""
+        port="8080"
+        proxy="192.168.210.104"
+        server="http://192.168.210.103/operator/wap"
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="374"
+        mnc="120"
+        apn="mms"
+        carrier="Bmobile MMS"
+        mmsc="http://192.168.210.104/mmrelay.app"
+        mmsport="8080"
+        mmsproxy="192.168.210.104"
+        password=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="374"
+        mnc="121"
+        apn="bconnected"
+        carrier="Prepaid Data"
+        password=""
+        server="http://www.google.com"
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="374"
+        mnc="121"
+        apn="buzz"
+        carrier="Bmobile BUZZ"
+        password=""
+        port="8080"
+        proxy="192.168.210.104"
+        server="http://192.168.210.103/operator/wap"
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="374"
+        mnc="121"
+        apn="mms"
+        carrier="Bmobile MMS"
+        mmsc="http://192.168.210.104/mmrelay.app"
+        mmsport="8080"
+        mmsproxy="192.168.210.104"
+        password=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="374"
+        mnc="122"
+        apn="bconnected"
+        carrier="Prepaid Data"
+        password=""
+        server="http://www.google.com"
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="374"
+        mnc="122"
+        apn="buzz"
+        carrier="Bmobile BUZZ"
+        password=""
+        port="8080"
+        proxy="192.168.210.104"
+        server="http://192.168.210.103/operator/wap"
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="374"
+        mnc="122"
+        apn="mms"
+        carrier="Bmobile MMS"
+        mmsc="http://192.168.210.104/mmrelay.app"
+        mmsport="8080"
+        mmsproxy="192.168.210.104"
+        password=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="374"
+        mnc="123"
+        apn="bconnected"
+        carrier="Prepaid Data"
+        password=""
+        server="http://www.google.com"
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="374"
+        mnc="123"
+        apn="buzz"
+        carrier="Bmobile BUZZ"
+        password=""
+        port="8080"
+        proxy="192.168.210.104"
+        server="http://192.168.210.103/operator/wap"
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="374"
+        mnc="123"
+        apn="mms"
+        carrier="Bmobile MMS"
+        mmsc="http://192.168.210.104/mmrelay.app"
+        mmsport="8080"
+        mmsproxy="192.168.210.104"
+        password=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="374"
+        mnc="124"
+        apn="bconnected"
+        carrier="Prepaid Data"
+        password=""
+        server="http://www.google.com"
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="374"
+        mnc="124"
+        apn="buzz"
+        carrier="Bmobile BUZZ"
+        password=""
+        port="8080"
+        proxy="192.168.210.104"
+        server="http://192.168.210.103/operator/wap"
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="374"
+        mnc="124"
+        apn="mms"
+        carrier="Bmobile MMS"
+        mmsc="http://192.168.210.104/mmrelay.app"
+        mmsport="8080"
+        mmsproxy="192.168.210.104"
+        password=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="374"
+        mnc="125"
+        apn="bconnected"
+        carrier="Prepaid Data"
+        password=""
+        server="http://www.google.com"
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="374"
+        mnc="125"
+        apn="buzz"
+        carrier="Bmobile BUZZ"
+        password=""
+        port="8080"
+        proxy="192.168.210.104"
+        server="http://192.168.210.103/operator/wap"
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="374"
+        mnc="125"
+        apn="mms"
+        carrier="Bmobile MMS"
+        mmsc="http://192.168.210.104/mmrelay.app"
+        mmsport="8080"
+        mmsproxy="192.168.210.104"
+        password=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="374"
+        mnc="126"
+        apn="bconnected"
+        carrier="Prepaid Data"
+        password=""
+        server="http://www.google.com"
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="374"
+        mnc="126"
+        apn="buzz"
+        carrier="Bmobile BUZZ"
+        password=""
+        port="8080"
+        proxy="192.168.210.104"
+        server="http://192.168.210.103/operator/wap"
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="374"
+        mnc="126"
+        apn="mms"
+        carrier="Bmobile MMS"
+        mmsc="http://192.168.210.104/mmrelay.app"
+        mmsport="8080"
+        mmsproxy="192.168.210.104"
+        password=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="374"
+        mnc="127"
+        apn="bconnected"
+        carrier="Prepaid Data"
+        password=""
+        server="http://www.google.com"
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="374"
+        mnc="127"
+        apn="buzz"
+        carrier="Bmobile BUZZ"
+        password=""
+        port="8080"
+        proxy="192.168.210.104"
+        server="http://192.168.210.103/operator/wap"
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="374"
+        mnc="127"
+        apn="mms"
+        carrier="Bmobile MMS"
+        mmsc="http://192.168.210.104/mmrelay.app"
+        mmsport="8080"
+        mmsproxy="192.168.210.104"
+        password=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="374"
+        mnc="128"
+        apn="bconnected"
+        carrier="Prepaid Data"
+        password=""
+        server="http://www.google.com"
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="374"
+        mnc="128"
+        apn="buzz"
+        carrier="Bmobile BUZZ"
+        password=""
+        port="8080"
+        proxy="192.168.210.104"
+        server="http://192.168.210.103/operator/wap"
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="374"
+        mnc="128"
+        apn="mms"
+        carrier="Bmobile MMS"
+        mmsc="http://192.168.210.104/mmrelay.app"
+        mmsport="8080"
+        mmsproxy="192.168.210.104"
+        password=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="374"
+        mnc="129"
+        apn="bconnected"
+        carrier="Prepaid Data"
+        password=""
+        server="http://www.google.com"
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="374"
+        mnc="129"
+        apn="buzz"
+        carrier="Bmobile BUZZ"
+        password=""
+        port="8080"
+        proxy="192.168.210.104"
+        server="http://192.168.210.103/operator/wap"
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="374"
+        mnc="129"
+        apn="mms"
+        carrier="Bmobile MMS"
+        mmsc="http://192.168.210.104/mmrelay.app"
+        mmsport="8080"
+        mmsproxy="192.168.210.104"
+        password=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="374"
+        mnc="130"
+        apn="web"
+        carrier="Digicel Web"
+        password=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="374"
+        mnc="130"
+        apn="wap"
+        carrier="Digicel MMS"
+        mmsc="http://mmc.digiceltt.com/servlets/mms"
+        mmsport="8080"
+        mmsproxy="172.20.6.12"
+        password="wap"
+        port=""
+        proxy=""
+        type="mms"
+        user="wap"
+    />
 </apns>

@@ -5,12 +5,94 @@
     SPDX-License-Identifier: Apache-2.0
 -->
 <apns version="8">
-  <apn carrier="Viva Edge" mcc="736" mnc="01" apn="edge.viva.net.do" user="viva" password="viva" mmsc="http://wap.viva.net.do/WapDeck/" proxy="192.168.016.010" port="9401" type="default,supl" />
-  <apn carrier="Viva MMS" mcc="736" mnc="01" apn="mms.viva.net.do" user="viva" password="viva" mmsproxy="192.168.016.010" mmsport="9401" mmsc="http://10.200.16.4/mms/wapenc" type="mms" />
-  <apn carrier="Viva GPRS" mcc="736" mnc="01" apn="internet.nuevatel.com" proxy="192.168.101.4" port="3128" type="default,supl" />
-  <apn carrier="Viva MMS" mcc="736" mnc="01" apn="mms.nuevatel.com" server="mmsgw.nuevatel.com:1981" mmsc="http://mmsgw.nuevatel.com:1981" mmsproxy="192.168.101.4" mmsport="3128" type="mms" />
-  <apn carrier="ENTEL 4G" mcc="736" mnc="02" apn="4g.entel" user="" password="" type="default,supl" />
-  <apn carrier="ENTEL MMS" mcc="736" mnc="02" apn="mms.movil.com.bo" proxy="" port="" mmsproxy="127.27.7.10" mmsport="8080" mmsc="http://mms.movil.com.bo/servlets/mms" user="" password="" type="mms" />
-  <apn carrier="INTERNET TIGO BO" mcc="736" mnc="03" apn="internet.tigo.bo" user="" password="" proxy="" port="" type="default,supl,dun" />
-  <apn carrier="MMS TIGO BO" mcc="736" mnc="03" apn="mms.tigo.bo" user="" password="" mmsproxy="172.25.100.8" mmsport="8888" mmsc="http://mms" type="mms" />
+    <apn
+        mcc="736"
+        mnc="01"
+        apn="edge.viva.net.do"
+        carrier="Viva Edge"
+        mmsc="http://wap.viva.net.do/WapDeck/"
+        password="viva"
+        port="9401"
+        proxy="192.168.016.010"
+        type="default,supl"
+        user="viva"
+    />
+    <apn
+        mcc="736"
+        mnc="01"
+        apn="mms.viva.net.do"
+        carrier="Viva MMS"
+        mmsc="http://10.200.16.4/mms/wapenc"
+        mmsport="9401"
+        mmsproxy="192.168.016.010"
+        password="viva"
+        type="mms"
+        user="viva"
+    />
+    <apn
+        mcc="736"
+        mnc="01"
+        apn="internet.nuevatel.com"
+        carrier="Viva GPRS"
+        port="3128"
+        proxy="192.168.101.4"
+        type="default,supl"
+    />
+    <apn
+        mcc="736"
+        mnc="01"
+        apn="mms.nuevatel.com"
+        carrier="Viva MMS"
+        mmsc="http://mmsgw.nuevatel.com:1981"
+        mmsport="3128"
+        mmsproxy="192.168.101.4"
+        server="mmsgw.nuevatel.com:1981"
+        type="mms"
+    />
+    <apn
+        mcc="736"
+        mnc="02"
+        apn="4g.entel"
+        carrier="ENTEL 4G"
+        password=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="736"
+        mnc="02"
+        apn="mms.movil.com.bo"
+        carrier="ENTEL MMS"
+        mmsc="http://mms.movil.com.bo/servlets/mms"
+        mmsport="8080"
+        mmsproxy="127.27.7.10"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="736"
+        mnc="03"
+        apn="internet.tigo.bo"
+        carrier="INTERNET TIGO BO"
+        password=""
+        port=""
+        proxy=""
+        type="default,supl,dun"
+        user=""
+    />
+    <apn
+        mcc="736"
+        mnc="03"
+        apn="mms.tigo.bo"
+        carrier="MMS TIGO BO"
+        mmsc="http://mms"
+        mmsport="8888"
+        mmsproxy="172.25.100.8"
+        password=""
+        type="mms"
+        user=""
+    />
 </apns>

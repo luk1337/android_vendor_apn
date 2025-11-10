@@ -5,6 +5,23 @@
     SPDX-License-Identifier: Apache-2.0
 -->
 <apns version="8">
-  <apn carrier="Orange MMS" mcc="614" mnc="04" apn="orange.mms" user="orange" password="orange" mmsc="http://10.10.10.35:38090/was" mmsproxy="10.10.10.36" mmsport="8080" type="mms" />
-  <apn carrier="Orange Internet" mcc="614" mnc="04" apn="orange.ne" type="default,supl" />
+    <apn
+        mcc="614"
+        mnc="04"
+        apn="orange.mms"
+        carrier="Orange MMS"
+        mmsc="http://10.10.10.35:38090/was"
+        mmsport="8080"
+        mmsproxy="10.10.10.36"
+        password="orange"
+        type="mms"
+        user="orange"
+    />
+    <apn
+        mcc="614"
+        mnc="04"
+        apn="orange.ne"
+        carrier="Orange Internet"
+        type="default,supl"
+    />
 </apns>

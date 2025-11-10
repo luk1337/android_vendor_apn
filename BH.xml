@@ -5,17 +5,142 @@
     SPDX-License-Identifier: Apache-2.0
 -->
 <apns version="8">
-  <apn carrier="Batelco Internet" mcc="426" mnc="01" apn="internet.batelco.com" type="default,supl" />
-  <apn carrier="Batelco WAP" mcc="426" mnc="01" apn="wap.batelco.com" user="wap" password="wap" authtype="0" proxy="192.168.1.2" port="80" type="default,supl" />
-  <apn carrier="Batelco MMS" mcc="426" mnc="01" apn="mms.batelco.com" user="mms" password="mms" authtype="0" mmsc="http://192.168.36.10/servlets/mms" mmsproxy="192.168.1.2" mmsport="80" type="mms" />
-  <apn carrier="Zain BH WAP" mcc="426" mnc="02" apn="wap" user="wap" password="wap" authtype="0" proxy="172.18.85.33" port="80" type="default,supl" />
-  <apn carrier="Zain BH Internet" mcc="426" mnc="02" apn="internet" user="internet" password="internet" authtype="0" type="default,supl" />
-  <apn carrier="Zain BH MMS" mcc="426" mnc="02" apn="mms" user="mms" password="mms" authtype="0" mmsc="http://172.18.83.129:80/" mmsproxy="172.18.85.34" mmsport="80" type="mms" />
-  <apn carrier="MTC Vodafone BH" mcc="426" mnc="02" apn="internet" user="internet" password="internet" type="default,supl" />
-  <apn carrier="MTC Vodafone BH MMS" mcc="426" mnc="02" apn="mms" user="mms" password="mms" mmsc="http://172.18.83.129" mmsproxy="172.18.85.34" mmsport="9201" type="mms" />
-  <apn carrier="VIVA GPRS" mcc="426" mnc="04" apn="viva.bh" type="default,supl" />
-  <apn carrier="VIVA WAP" mcc="426" mnc="04" apn="vivawap.bh" proxy="172.18.142.36" port="8080" mmsc="" user="" password="" type="default,supl" />
-  <apn carrier="VIVA MMS" mcc="426" mnc="04" apn="vivawap.bh" proxy="" port="" mmsproxy="172.18.142.36" mmsport="8080" mmsc="http://mms.viva.com.bh:38090 " user="" password="" type="mms" />
-  <apn carrier="Viva BH" mcc="426" mnc="04" apn="viva.bh" type="default,supl" />
-  <apn carrier="Viva BH MMS" mcc="426" mnc="04" apn="vivawap.bh" mmsc="http://mms.viva.com.bh:38090" mmsproxy="172.18.142.36" mmsport="8080" type="mms" />
+    <apn
+        mcc="426"
+        mnc="01"
+        apn="internet.batelco.com"
+        carrier="Batelco Internet"
+        type="default,supl"
+    />
+    <apn
+        mcc="426"
+        mnc="01"
+        apn="wap.batelco.com"
+        authtype="0"
+        carrier="Batelco WAP"
+        password="wap"
+        port="80"
+        proxy="192.168.1.2"
+        type="default,supl"
+        user="wap"
+    />
+    <apn
+        mcc="426"
+        mnc="01"
+        apn="mms.batelco.com"
+        authtype="0"
+        carrier="Batelco MMS"
+        mmsc="http://192.168.36.10/servlets/mms"
+        mmsport="80"
+        mmsproxy="192.168.1.2"
+        password="mms"
+        type="mms"
+        user="mms"
+    />
+    <apn
+        mcc="426"
+        mnc="02"
+        apn="wap"
+        authtype="0"
+        carrier="Zain BH WAP"
+        password="wap"
+        port="80"
+        proxy="172.18.85.33"
+        type="default,supl"
+        user="wap"
+    />
+    <apn
+        mcc="426"
+        mnc="02"
+        apn="internet"
+        authtype="0"
+        carrier="Zain BH Internet"
+        password="internet"
+        type="default,supl"
+        user="internet"
+    />
+    <apn
+        mcc="426"
+        mnc="02"
+        apn="mms"
+        authtype="0"
+        carrier="Zain BH MMS"
+        mmsc="http://172.18.83.129:80/"
+        mmsport="80"
+        mmsproxy="172.18.85.34"
+        password="mms"
+        type="mms"
+        user="mms"
+    />
+    <apn
+        mcc="426"
+        mnc="02"
+        apn="internet"
+        carrier="MTC Vodafone BH"
+        password="internet"
+        type="default,supl"
+        user="internet"
+    />
+    <apn
+        mcc="426"
+        mnc="02"
+        apn="mms"
+        carrier="MTC Vodafone BH MMS"
+        mmsc="http://172.18.83.129"
+        mmsport="9201"
+        mmsproxy="172.18.85.34"
+        password="mms"
+        type="mms"
+        user="mms"
+    />
+    <apn
+        mcc="426"
+        mnc="04"
+        apn="viva.bh"
+        carrier="VIVA GPRS"
+        type="default,supl"
+    />
+    <apn
+        mcc="426"
+        mnc="04"
+        apn="vivawap.bh"
+        carrier="VIVA WAP"
+        mmsc=""
+        password=""
+        port="8080"
+        proxy="172.18.142.36"
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="426"
+        mnc="04"
+        apn="vivawap.bh"
+        carrier="VIVA MMS"
+        mmsc="http://mms.viva.com.bh:38090 "
+        mmsport="8080"
+        mmsproxy="172.18.142.36"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="426"
+        mnc="04"
+        apn="viva.bh"
+        carrier="Viva BH"
+        type="default,supl"
+    />
+    <apn
+        mcc="426"
+        mnc="04"
+        apn="vivawap.bh"
+        carrier="Viva BH MMS"
+        mmsc="http://mms.viva.com.bh:38090"
+        mmsport="8080"
+        mmsproxy="172.18.142.36"
+        type="mms"
+    />
 </apns>

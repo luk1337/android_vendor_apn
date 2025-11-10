@@ -5,32 +5,313 @@
     SPDX-License-Identifier: Apache-2.0
 -->
 <apns version="8">
-  <apn carrier="Proximus MMS" mcc="206" mnc="01" apn="event.proximus.be" user="mms" password="mms" mmsc="http://mmsc.proximus.be/mms" mmsproxy="10.55.14.75" mmsport="8080" type="mms" />
-  <apn carrier="Proximus Internet" mcc="206" mnc="01" apn="internet.proximus.be" type="default,supl" />
-  <apn carrier="Eastlink Internet" mcc="206" mnc="01" apn="wisp.mobi.eastlink.ca" type="default,supl" />
-  <apn carrier="Eastlink MMS" mcc="206" mnc="01" apn="mms.mobi.eastlink.ca" mmsc="http://mmss.mobi.eastlink.ca" mmsproxy="10.232.12.49" mmsport="8080" type="mms" />
-  <apn carrier="Telenet Intl Roam" mcc="206" mnc="01" apn="telenetwap.be" type="default,supl" />
-  <apn carrier="Telenet MMS Intl Roam" mcc="206" mnc="01" apn="mms.be" mmsc="http://mmsc.telenet.be" mmsproxy="195.130.149.100" mmsport="80" type="mms" />
-  <apn carrier="Iusacell Internet" mcc="206" mnc="01" apn="web.iusacellgsm.mx" authtype="0" user="iusacellgsm" password="iusacellgsm" type="default,supl" />
-  <apn carrier="Iusacell MMS" mcc="206" mnc="01" apn="mms.iusacellgsm.mx" authtype="0" mmsc="http://mms.iusacell3g.com/" user="mmsiusacellgsm" password="mmsiusacellgsm" type="mms" />
-  <apn carrier="Iusacell Modem" mcc="206" mnc="01" apn="modem.iusacellgsm.mx" authtype="0" user="iusacellgsm" password="iusacellgsm" type="dun" />
-  <apn carrier="Scarlet Internet" mcc="206" mnc="01" apn="internet.bmbpartner.be" type="default,supl" />
-  <apn carrier="Scarlet MMS" mcc="206" mnc="01" apn="event.proximus.be" proxy="" port="" user="mms" password="mms" mmsc="http://mmsc.proximus.be/mms" mmsproxy="10.55.14.75" mmsport="8080" type="mms" />
-  <apn carrier="Telenet" mcc="206" mnc="05" apn="telenetwap.be" type="default,supl" />
-  <apn carrier="Telenet MMS" mcc="206" mnc="05" apn="mms.be" mmsc="http://mmsc.telenet.be" mmsproxy="195.130.149.100" mmsport="80" type="mms" />
-  <apn carrier="Voo Mobile" mcc="206" mnc="05" apn="telenetwap.be" user="" password="" type="default,supl" />
-  <apn carrier="Voo MMS" mcc="206" mnc="05" apn="mms.be" proxy="" port="" user="mms" password="mms" mmsc="http://mmsc.telenet.be" mmsproxy="195.130.149.100" mmsport="80" authtype="1" type="mms" />
-  <apn carrier="Lycamobile BE" mcc="206" mnc="06" apn="data.lycamobile.be" user="lmbe" password="plus" type="default,supl" />
-  <apn carrier="Mobistar" mcc="206" mnc="10" apn="mworld.be" proxy="212.65.63.143" port="8080" user="mobistar" password="mobistar" mmsc="" authtype="1" type="default,supl" />
-  <apn carrier="Mobistar MMS" mcc="206" mnc="10" apn="mms.be" proxy="" port="" user="mobistar" password="mobistar" mmsc="http://mmsc.mobistar.be" mmsproxy="212.65.63.143" mmsport="8080" authtype="1" type="mms" />
-  <apn carrier="Telenet" mcc="206" mnc="10" apn="telenetwap.be" proxy="" port="" user="" password="" mmsc="" authtype="1" type="default,supl" />
-  <apn carrier="BASE Belgium" mcc="206" mnc="20" apn="gprs.base.be" proxy="" port="" user="base" password="base" mmsc="" authtype="1" type="default,supl" />
-  <apn carrier="BASE MMS Belgium" mcc="206" mnc="20" apn="mms.base.be" proxy="" port="" user="base" password="base" mmsc="http://mmsc.base.be" mmsproxy="217.72.235.1" mmsport="8080" authtype="1" type="mms" />
-  <apn carrier="Carrefour Belgium" mcc="206" mnc="20" apn="carrefourdata.be" user="carrefour" password="carrefour" type="default,supl" />
-  <apn carrier="Carrefour Belgium MMS" mcc="206" mnc="20" apn="carrefourmms.be" user="carrefour" password="carrefour" mmsc="http://mmsc.base.be/" mmsproxy="217.72.235.1" mmsport="8080" type="mms" />
-  <apn carrier="Mobile Vikings" mcc="206" mnc="20" apn="web.be" proxy="" port="" user="web" password="web" mmsc="" authtype="1" type="default,supl" />
-  <apn carrier="Mobile Vikings MMS" mcc="206" mnc="20" apn="mms.be" proxy="" port="" user="mms" password="mms" mmsc="http://mmsc.be" mmsproxy="217.72.235.1" mmsport="8080" authtype="1" type="mms" />
-  <apn carrier="JIM Mobile Internet" mcc="206" mnc="20" apn="gprs.base.be" proxy="" port="" user="base" password="base" mmsc="" authtype="1" type="default,supl" />
-  <apn carrier="JIM Mobile MMS" mcc="206" mnc="20" apn="mms.base.be" proxy="" port="" user="base" password="base" mmsc="http://mmsc.base.be" mmsproxy="217.72.235.1" mmsport="8080" authtype="1" type="mms" />
-  <apn carrier="BICS Internet" carrier_id="2132" mcc="206" mnc="28" apn="bicsapn" type="default,ia,supl" />
+    <apn
+        mcc="206"
+        mnc="01"
+        apn="event.proximus.be"
+        carrier="Proximus MMS"
+        mmsc="http://mmsc.proximus.be/mms"
+        mmsport="8080"
+        mmsproxy="10.55.14.75"
+        password="mms"
+        type="mms"
+        user="mms"
+    />
+    <apn
+        mcc="206"
+        mnc="01"
+        apn="internet.proximus.be"
+        carrier="Proximus Internet"
+        type="default,supl"
+    />
+    <apn
+        mcc="206"
+        mnc="01"
+        apn="wisp.mobi.eastlink.ca"
+        carrier="Eastlink Internet"
+        type="default,supl"
+    />
+    <apn
+        mcc="206"
+        mnc="01"
+        apn="mms.mobi.eastlink.ca"
+        carrier="Eastlink MMS"
+        mmsc="http://mmss.mobi.eastlink.ca"
+        mmsport="8080"
+        mmsproxy="10.232.12.49"
+        type="mms"
+    />
+    <apn
+        mcc="206"
+        mnc="01"
+        apn="telenetwap.be"
+        carrier="Telenet Intl Roam"
+        type="default,supl"
+    />
+    <apn
+        mcc="206"
+        mnc="01"
+        apn="mms.be"
+        carrier="Telenet MMS Intl Roam"
+        mmsc="http://mmsc.telenet.be"
+        mmsport="80"
+        mmsproxy="195.130.149.100"
+        type="mms"
+    />
+    <apn
+        mcc="206"
+        mnc="01"
+        apn="web.iusacellgsm.mx"
+        authtype="0"
+        carrier="Iusacell Internet"
+        password="iusacellgsm"
+        type="default,supl"
+        user="iusacellgsm"
+    />
+    <apn
+        mcc="206"
+        mnc="01"
+        apn="mms.iusacellgsm.mx"
+        authtype="0"
+        carrier="Iusacell MMS"
+        mmsc="http://mms.iusacell3g.com/"
+        password="mmsiusacellgsm"
+        type="mms"
+        user="mmsiusacellgsm"
+    />
+    <apn
+        mcc="206"
+        mnc="01"
+        apn="modem.iusacellgsm.mx"
+        authtype="0"
+        carrier="Iusacell Modem"
+        password="iusacellgsm"
+        type="dun"
+        user="iusacellgsm"
+    />
+    <apn
+        mcc="206"
+        mnc="01"
+        apn="internet.bmbpartner.be"
+        carrier="Scarlet Internet"
+        type="default,supl"
+    />
+    <apn
+        mcc="206"
+        mnc="01"
+        apn="event.proximus.be"
+        carrier="Scarlet MMS"
+        mmsc="http://mmsc.proximus.be/mms"
+        mmsport="8080"
+        mmsproxy="10.55.14.75"
+        password="mms"
+        port=""
+        proxy=""
+        type="mms"
+        user="mms"
+    />
+    <apn
+        mcc="206"
+        mnc="05"
+        apn="telenetwap.be"
+        carrier="Telenet"
+        type="default,supl"
+    />
+    <apn
+        mcc="206"
+        mnc="05"
+        apn="mms.be"
+        carrier="Telenet MMS"
+        mmsc="http://mmsc.telenet.be"
+        mmsport="80"
+        mmsproxy="195.130.149.100"
+        type="mms"
+    />
+    <apn
+        mcc="206"
+        mnc="05"
+        apn="telenetwap.be"
+        carrier="Voo Mobile"
+        password=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="206"
+        mnc="05"
+        apn="mms.be"
+        authtype="1"
+        carrier="Voo MMS"
+        mmsc="http://mmsc.telenet.be"
+        mmsport="80"
+        mmsproxy="195.130.149.100"
+        password="mms"
+        port=""
+        proxy=""
+        type="mms"
+        user="mms"
+    />
+    <apn
+        mcc="206"
+        mnc="06"
+        apn="data.lycamobile.be"
+        carrier="Lycamobile BE"
+        password="plus"
+        type="default,supl"
+        user="lmbe"
+    />
+    <apn
+        mcc="206"
+        mnc="10"
+        apn="mworld.be"
+        authtype="1"
+        carrier="Mobistar"
+        mmsc=""
+        password="mobistar"
+        port="8080"
+        proxy="212.65.63.143"
+        type="default,supl"
+        user="mobistar"
+    />
+    <apn
+        mcc="206"
+        mnc="10"
+        apn="mms.be"
+        authtype="1"
+        carrier="Mobistar MMS"
+        mmsc="http://mmsc.mobistar.be"
+        mmsport="8080"
+        mmsproxy="212.65.63.143"
+        password="mobistar"
+        port=""
+        proxy=""
+        type="mms"
+        user="mobistar"
+    />
+    <apn
+        mcc="206"
+        mnc="10"
+        apn="telenetwap.be"
+        authtype="1"
+        carrier="Telenet"
+        mmsc=""
+        password=""
+        port=""
+        proxy=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="206"
+        mnc="20"
+        apn="gprs.base.be"
+        authtype="1"
+        carrier="BASE Belgium"
+        mmsc=""
+        password="base"
+        port=""
+        proxy=""
+        type="default,supl"
+        user="base"
+    />
+    <apn
+        mcc="206"
+        mnc="20"
+        apn="mms.base.be"
+        authtype="1"
+        carrier="BASE MMS Belgium"
+        mmsc="http://mmsc.base.be"
+        mmsport="8080"
+        mmsproxy="217.72.235.1"
+        password="base"
+        port=""
+        proxy=""
+        type="mms"
+        user="base"
+    />
+    <apn
+        mcc="206"
+        mnc="20"
+        apn="carrefourdata.be"
+        carrier="Carrefour Belgium"
+        password="carrefour"
+        type="default,supl"
+        user="carrefour"
+    />
+    <apn
+        mcc="206"
+        mnc="20"
+        apn="carrefourmms.be"
+        carrier="Carrefour Belgium MMS"
+        mmsc="http://mmsc.base.be/"
+        mmsport="8080"
+        mmsproxy="217.72.235.1"
+        password="carrefour"
+        type="mms"
+        user="carrefour"
+    />
+    <apn
+        mcc="206"
+        mnc="20"
+        apn="web.be"
+        authtype="1"
+        carrier="Mobile Vikings"
+        mmsc=""
+        password="web"
+        port=""
+        proxy=""
+        type="default,supl"
+        user="web"
+    />
+    <apn
+        mcc="206"
+        mnc="20"
+        apn="mms.be"
+        authtype="1"
+        carrier="Mobile Vikings MMS"
+        mmsc="http://mmsc.be"
+        mmsport="8080"
+        mmsproxy="217.72.235.1"
+        password="mms"
+        port=""
+        proxy=""
+        type="mms"
+        user="mms"
+    />
+    <apn
+        mcc="206"
+        mnc="20"
+        apn="gprs.base.be"
+        authtype="1"
+        carrier="JIM Mobile Internet"
+        mmsc=""
+        password="base"
+        port=""
+        proxy=""
+        type="default,supl"
+        user="base"
+    />
+    <apn
+        mcc="206"
+        mnc="20"
+        apn="mms.base.be"
+        authtype="1"
+        carrier="JIM Mobile MMS"
+        mmsc="http://mmsc.base.be"
+        mmsport="8080"
+        mmsproxy="217.72.235.1"
+        password="base"
+        port=""
+        proxy=""
+        type="mms"
+        user="base"
+    />
+    <apn
+        mcc="206"
+        mnc="28"
+        apn="bicsapn"
+        carrier="BICS Internet"
+        carrier_id="2132"
+        type="default,ia,supl"
+    />
 </apns>

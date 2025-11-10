@@ -5,10 +5,63 @@
     SPDX-License-Identifier: Apache-2.0
 -->
 <apns version="8">
-  <apn carrier="Mobilis" mcc="603" mnc="01" apn="internet" user="internet" password="internet" type="default,supl" />
-  <apn carrier="Mobilis MMS" mcc="603" mnc="01" apn="mms" user="mms" password="mms" mmsc="http://172.025.049.009/servlets/mms" mmsproxy="172.25.49.2" mmsport="8080" type="mms" />
-  <apn carrier="Djezzy" mcc="603" mnc="02" apn="djezzy.internet" type="default,supl,mms" />
-  <apn carrier="Djezzy MMS" mcc="603" mnc="02" apn="djezzy.mms" mmsc="http://172.024.97.152:10021/mmsc" mmsproxy="172.024.97.158" mmsport="8799" type="mms" />
-  <apn carrier="Nedjma" mcc="603" mnc="03" apn="internet" user="nedjma" password="nedjma" type="default,supl" />
-  <apn carrier="Nedjma MMS" mcc="603" mnc="03" apn="nedjmaMMS" user="mms" password="mms" mmsc="http://10.10.111.1" mmsproxy="192.168.52.3" mmsport="9201" type="mms" />
+    <apn
+        mcc="603"
+        mnc="01"
+        apn="internet"
+        carrier="Mobilis"
+        password="internet"
+        type="default,supl"
+        user="internet"
+    />
+    <apn
+        mcc="603"
+        mnc="01"
+        apn="mms"
+        carrier="Mobilis MMS"
+        mmsc="http://172.025.049.009/servlets/mms"
+        mmsport="8080"
+        mmsproxy="172.25.49.2"
+        password="mms"
+        type="mms"
+        user="mms"
+    />
+    <apn
+        mcc="603"
+        mnc="02"
+        apn="djezzy.internet"
+        carrier="Djezzy"
+        type="default,supl,mms"
+    />
+    <apn
+        mcc="603"
+        mnc="02"
+        apn="djezzy.mms"
+        carrier="Djezzy MMS"
+        mmsc="http://172.024.97.152:10021/mmsc"
+        mmsport="8799"
+        mmsproxy="172.024.97.158"
+        type="mms"
+    />
+    <apn
+        mcc="603"
+        mnc="03"
+        apn="internet"
+        carrier="Nedjma"
+        password="nedjma"
+        type="default,supl"
+        user="nedjma"
+    />
+    <apn
+        mcc="603"
+        mnc="03"
+        apn="nedjmaMMS"
+        carrier="Nedjma MMS"
+        mmsc="http://10.10.111.1"
+        mmsport="9201"
+        mmsproxy="192.168.52.3"
+        password="mms"
+        type="mms"
+        user="mms"
+    />
 </apns>

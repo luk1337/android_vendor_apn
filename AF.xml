@@ -5,13 +5,82 @@
     SPDX-License-Identifier: Apache-2.0
 -->
 <apns version="8">
-  <apn carrier="AWCC" mcc="412" mnc="01" apn="internet" type="default,supl" />
-  <apn carrier="AWCC MMS" mcc="412" mnc="01" apn="mms1" mmsc="http://172.17.81.2:8002" mmsproxy="172.17.81.2" mmsport="8002" type="mms" />
-  <apn carrier="Roshan" mcc="412" mnc="20" apn="internet" user="gprs" password="roshan" type="default,supl" />
-  <apn carrier="Roshan MMS" mcc="412" mnc="20" apn="mms" mmsc="http://mms.roshan.af" mmsproxy="172.31.37.16" mmsport="8080" type="mms" />
-  <apn carrier="MTN Internet" mcc="412" mnc="40" apn="internet.mtn.com.af" type="default,supl" />
-  <apn carrier="MTN MMS" mcc="412" mnc="40" apn="mms.mtn.com.af" mmsc="http://192.168.4.136/servlets/mms" mmsproxy="192.168.4.136" mmsport="8080" type="mms" />
-  <apn carrier="Etisalat" mcc="412" mnc="50" apn="etisalat.af.web" type="default,supl" />
-  <apn carrier="Etisalat WAP" mcc="412" mnc="50" apn="etisalat.af.wap" proxy="10.0.0.172" port="80" type="default,supl" />
-  <apn carrier="Etisalat MMS" mcc="412" mnc="50" apn="etisalat.af.mms" proxy="10.0.0.172" port="80" type="mms" />
+    <apn
+        mcc="412"
+        mnc="01"
+        apn="internet"
+        carrier="AWCC"
+        type="default,supl"
+    />
+    <apn
+        mcc="412"
+        mnc="01"
+        apn="mms1"
+        carrier="AWCC MMS"
+        mmsc="http://172.17.81.2:8002"
+        mmsport="8002"
+        mmsproxy="172.17.81.2"
+        type="mms"
+    />
+    <apn
+        mcc="412"
+        mnc="20"
+        apn="internet"
+        carrier="Roshan"
+        password="roshan"
+        type="default,supl"
+        user="gprs"
+    />
+    <apn
+        mcc="412"
+        mnc="20"
+        apn="mms"
+        carrier="Roshan MMS"
+        mmsc="http://mms.roshan.af"
+        mmsport="8080"
+        mmsproxy="172.31.37.16"
+        type="mms"
+    />
+    <apn
+        mcc="412"
+        mnc="40"
+        apn="internet.mtn.com.af"
+        carrier="MTN Internet"
+        type="default,supl"
+    />
+    <apn
+        mcc="412"
+        mnc="40"
+        apn="mms.mtn.com.af"
+        carrier="MTN MMS"
+        mmsc="http://192.168.4.136/servlets/mms"
+        mmsport="8080"
+        mmsproxy="192.168.4.136"
+        type="mms"
+    />
+    <apn
+        mcc="412"
+        mnc="50"
+        apn="etisalat.af.web"
+        carrier="Etisalat"
+        type="default,supl"
+    />
+    <apn
+        mcc="412"
+        mnc="50"
+        apn="etisalat.af.wap"
+        carrier="Etisalat WAP"
+        port="80"
+        proxy="10.0.0.172"
+        type="default,supl"
+    />
+    <apn
+        mcc="412"
+        mnc="50"
+        apn="etisalat.af.mms"
+        carrier="Etisalat MMS"
+        port="80"
+        proxy="10.0.0.172"
+        type="mms"
+    />
 </apns>

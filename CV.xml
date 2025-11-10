@@ -5,5 +5,14 @@
     SPDX-License-Identifier: Apache-2.0
 -->
 <apns version="8">
-  <apn carrier="CVMóvel Internet" mcc="625" mnc="01" apn="internet-aac" proxy="" user="" password="" type="default" />
+    <apn
+        mcc="625"
+        mnc="01"
+        apn="internet-aac"
+        carrier="CVMóvel Internet"
+        password=""
+        proxy=""
+        type="default"
+        user=""
+    />
 </apns>

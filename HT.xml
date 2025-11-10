@@ -5,6 +5,28 @@
     SPDX-License-Identifier: Apache-2.0
 -->
 <apns version="8">
-  <apn carrier="Digicel Web" mcc="372" mnc="01" apn="web" user="" password="" mmsc="" proxy="" port="" type="default,supl" />
-  <apn carrier="Digicel MMS" mcc="372" mnc="01" apn="wap" user="" password="" mmsproxy="172.20.134.12" mmsport="8080" mmsc="http://mmc.digicelhaiti.com/servlets/mms" type="mms" />
+    <apn
+        mcc="372"
+        mnc="01"
+        apn="web"
+        carrier="Digicel Web"
+        mmsc=""
+        password=""
+        port=""
+        proxy=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="372"
+        mnc="01"
+        apn="wap"
+        carrier="Digicel MMS"
+        mmsc="http://mmc.digicelhaiti.com/servlets/mms"
+        mmsport="8080"
+        mmsproxy="172.20.134.12"
+        password=""
+        type="mms"
+        user=""
+    />
 </apns>

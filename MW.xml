@@ -5,5 +5,11 @@
     SPDX-License-Identifier: Apache-2.0
 -->
 <apns version="8">
-  <apn carrier="TNM" mcc="650" mnc="01" apn="internet" type="default,supl" />
+    <apn
+        mcc="650"
+        mnc="01"
+        apn="internet"
+        carrier="TNM"
+        type="default,supl"
+    />
 </apns>

@@ -5,12 +5,88 @@
     SPDX-License-Identifier: Apache-2.0
 -->
 <apns version="8">
-  <apn carrier="Swisscom" mcc="228" mnc="01" apn="gprs.swisscom.ch" user="" password="" authtype="3" type="default,supl" />
-  <apn carrier="Swisscom-MMS" mcc="228" mnc="01" apn="event.swisscom.ch" proxy="" port="" mmsproxy="192.168.210.2" mmsport="8080" mmsc="http://mms.natel.ch:8079" user="" password="" authtype="3" type="mms" />
-  <apn carrier="Sunrise Internet" mcc="228" mnc="02" apn="internet" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
-  <apn carrier="Sunrise MMS" mcc="228" mnc="02" apn="mms.sunrise.ch" proxy="" port="" user="" password="" mmsc="http://mmsc.sunrise.ch" mmsproxy="212.35.34.75" mmsport="8080" type="mms" />
-  <apn carrier="Salt Internet" mcc="228" mnc="03" apn="internet" type="default,supl" />
-  <apn carrier="Salt MMS" mcc="228" mnc="03" apn="mms" mmsc="http://192.168.151.3:8002" mmsproxy="192.168.151.2" mmsport="8080" type="mms" />
-  <apn carrier="Salt Prepay" mcc="228" mnc="03" apn="click" type="default,supl" />
-  <apn carrier="Lycamobile CH" mcc="228" mnc="54" apn="data.lycamobile.ch" user="lmch" password="plus" type="default,supl" />
+    <apn
+        mcc="228"
+        mnc="01"
+        apn="gprs.swisscom.ch"
+        authtype="3"
+        carrier="Swisscom"
+        password=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="228"
+        mnc="01"
+        apn="event.swisscom.ch"
+        authtype="3"
+        carrier="Swisscom-MMS"
+        mmsc="http://mms.natel.ch:8079"
+        mmsport="8080"
+        mmsproxy="192.168.210.2"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="228"
+        mnc="02"
+        apn="internet"
+        carrier="Sunrise Internet"
+        mmsc=""
+        password=""
+        port=""
+        proxy=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="228"
+        mnc="02"
+        apn="mms.sunrise.ch"
+        carrier="Sunrise MMS"
+        mmsc="http://mmsc.sunrise.ch"
+        mmsport="8080"
+        mmsproxy="212.35.34.75"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="228"
+        mnc="03"
+        apn="internet"
+        carrier="Salt Internet"
+        type="default,supl"
+    />
+    <apn
+        mcc="228"
+        mnc="03"
+        apn="mms"
+        carrier="Salt MMS"
+        mmsc="http://192.168.151.3:8002"
+        mmsport="8080"
+        mmsproxy="192.168.151.2"
+        type="mms"
+    />
+    <apn
+        mcc="228"
+        mnc="03"
+        apn="click"
+        carrier="Salt Prepay"
+        type="default,supl"
+    />
+    <apn
+        mcc="228"
+        mnc="54"
+        apn="data.lycamobile.ch"
+        carrier="Lycamobile CH"
+        password="plus"
+        type="default,supl"
+        user="lmch"
+    />
 </apns>

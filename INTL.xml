@@ -5,5 +5,12 @@
     SPDX-License-Identifier: Apache-2.0
 -->
 <apns version="8">
-  <apn carrier="BICS Internet" carrier_id="2132" mcc="901" mnc="58" apn="bicsapn" type="default,ia,supl" />
+    <apn
+        mcc="901"
+        mnc="58"
+        apn="bicsapn"
+        carrier="BICS Internet"
+        carrier_id="2132"
+        type="default,ia,supl"
+    />
 </apns>

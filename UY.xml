@@ -5,22 +5,205 @@
     SPDX-License-Identifier: Apache-2.0
 -->
 <apns version="8">
-  <apn carrier="gprsANCEL" mcc="748" mnc="01" apn="gprs.ancel" user="" password="" type="default,supl" />
-  <apn carrier="mmsANCEL" mcc="748" mnc="01" apn="mms" proxy="" port="" mmsproxy="200.40.246.2" mmsport="3128" mmsc="http://mmsc.mms.ancelutil.com.uy" user="" password="" type="mms" />
-  <apn carrier="Ancel" mcc="748" mnc="01" apn="ancel" type="default,supl" />
-  <apn carrier="Ancel MMS" mcc="748" mnc="01" apn="mms" mmsc="http://mmsc.mms.ancelutil.com.uy" mmsproxy="200.40.246.2" mmsport="3128" type="mms" />
-  <apn carrier="Antel" mcc="748" mnc="01" apn="wap" proxy="200.40.246.2" port="3128" server="www.dale.com.uy" mmsc="http://mmsc.mms.ancelutil.com.uy" mmsproxy="200.40.246.2" mmsport="3128" type="default,supl,mms" />
-  <apn carrier="BAM Pepaga Antel" mcc="748" mnc="01" apn="prepago.ancel" user="bam" password="bam" type="default,supl" />
-  <apn carrier="Ancel" mcc="748" mnc="01" apn="ancel" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
-  <apn carrier="Ancel MMS" mcc="748" mnc="01" apn="mms" proxy="" port="" user="" password="" mmsc="http://mmsc.mms.ancelutil.com.uy" mmsproxy="200.40.246.2" mmsport="3128" type="mms" />
-  <apn carrier="Antel" mcc="748" mnc="01" apn="wap" proxy="200.40.246.2" port="3128" user="" password="" server="www.dale.com.uy" mmsc="http://mmsc.mms.ancelutil.com.uy" mmsproxy="200.40.246.2" mmsport="" type="default,supl,mms" />
-  <apn carrier="BAM Pepaga Antel" mcc="748" mnc="01" apn="prepago.ancel" proxy="" port="" user="bam" password="bam" mmsc="" type="default,supl" />
-  <apn carrier="Movistar INTERNET" mcc="748" mnc="07" apn="webapn.movistar.com.uy" user="movistar" password="movistar" type="default,supl" />
-  <apn carrier="Movistar MMS" mcc="748" mnc="07" apn="apnmms.movistar.com.uy" proxy="" port="" mmsproxy="10.0.2.29" mmsport="8080" mmsc="http://mmsc.movistar.com.uy" user="mmsuy" password="mmsuy" type="mms" />
-  <apn carrier="Movistar UY MMS" mcc="748" mnc="07" apn="apnmms.movistar.com.uy" user="mmsuy" password="mmsuy" mmsc="http://mmsc.movistar.com.uy" mmsproxy="010.000.002.029" mmsport="9201" type="mms" />
-  <apn carrier="Movistar UY" mcc="748" mnc="07" apn="apnumt.movistar.com.uy" user="movistar" password="movistar" type="default,supl" />
-  <apn carrier="Claro Internet" mcc="748" mnc="10" apn="igprs.claro.com.uy" user="ctigprs" password="ctigprs999" type="default,supl" />
-  <apn carrier="Claro MMS" mcc="748" mnc="10" apn="mms.ctimovil.com.uy" proxy="" port="" mmsc="http://mms.ctimovil.com.uy" user="" password="" type="mms" />
-  <apn carrier="Claro UY" mcc="748" mnc="10" apn="gprs.claro.com.uy" user="ctigpr" password="ctigpr999" type="default,supl" />
-  <apn carrier="Claro UY MMS" mcc="748" mnc="10" apn="mms.ctimovil.com.uy" user="ctimms" password="ctimms999" mmsc="http://mms.ctimovil.com.uy" mmsproxy="170.051.255.240" mmsport="9201" type="mms" />
+    <apn
+        mcc="748"
+        mnc="01"
+        apn="gprs.ancel"
+        carrier="gprsANCEL"
+        password=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="748"
+        mnc="01"
+        apn="mms"
+        carrier="mmsANCEL"
+        mmsc="http://mmsc.mms.ancelutil.com.uy"
+        mmsport="3128"
+        mmsproxy="200.40.246.2"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="748"
+        mnc="01"
+        apn="ancel"
+        carrier="Ancel"
+        type="default,supl"
+    />
+    <apn
+        mcc="748"
+        mnc="01"
+        apn="mms"
+        carrier="Ancel MMS"
+        mmsc="http://mmsc.mms.ancelutil.com.uy"
+        mmsport="3128"
+        mmsproxy="200.40.246.2"
+        type="mms"
+    />
+    <apn
+        mcc="748"
+        mnc="01"
+        apn="wap"
+        carrier="Antel"
+        mmsc="http://mmsc.mms.ancelutil.com.uy"
+        mmsport="3128"
+        mmsproxy="200.40.246.2"
+        port="3128"
+        proxy="200.40.246.2"
+        server="www.dale.com.uy"
+        type="default,supl,mms"
+    />
+    <apn
+        mcc="748"
+        mnc="01"
+        apn="prepago.ancel"
+        carrier="BAM Pepaga Antel"
+        password="bam"
+        type="default,supl"
+        user="bam"
+    />
+    <apn
+        mcc="748"
+        mnc="01"
+        apn="ancel"
+        carrier="Ancel"
+        mmsc=""
+        password=""
+        port=""
+        proxy=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="748"
+        mnc="01"
+        apn="mms"
+        carrier="Ancel MMS"
+        mmsc="http://mmsc.mms.ancelutil.com.uy"
+        mmsport="3128"
+        mmsproxy="200.40.246.2"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="748"
+        mnc="01"
+        apn="wap"
+        carrier="Antel"
+        mmsc="http://mmsc.mms.ancelutil.com.uy"
+        mmsport=""
+        mmsproxy="200.40.246.2"
+        password=""
+        port="3128"
+        proxy="200.40.246.2"
+        server="www.dale.com.uy"
+        type="default,supl,mms"
+        user=""
+    />
+    <apn
+        mcc="748"
+        mnc="01"
+        apn="prepago.ancel"
+        carrier="BAM Pepaga Antel"
+        mmsc=""
+        password="bam"
+        port=""
+        proxy=""
+        type="default,supl"
+        user="bam"
+    />
+    <apn
+        mcc="748"
+        mnc="07"
+        apn="webapn.movistar.com.uy"
+        carrier="Movistar INTERNET"
+        password="movistar"
+        type="default,supl"
+        user="movistar"
+    />
+    <apn
+        mcc="748"
+        mnc="07"
+        apn="apnmms.movistar.com.uy"
+        carrier="Movistar MMS"
+        mmsc="http://mmsc.movistar.com.uy"
+        mmsport="8080"
+        mmsproxy="10.0.2.29"
+        password="mmsuy"
+        port=""
+        proxy=""
+        type="mms"
+        user="mmsuy"
+    />
+    <apn
+        mcc="748"
+        mnc="07"
+        apn="apnmms.movistar.com.uy"
+        carrier="Movistar UY MMS"
+        mmsc="http://mmsc.movistar.com.uy"
+        mmsport="9201"
+        mmsproxy="010.000.002.029"
+        password="mmsuy"
+        type="mms"
+        user="mmsuy"
+    />
+    <apn
+        mcc="748"
+        mnc="07"
+        apn="apnumt.movistar.com.uy"
+        carrier="Movistar UY"
+        password="movistar"
+        type="default,supl"
+        user="movistar"
+    />
+    <apn
+        mcc="748"
+        mnc="10"
+        apn="igprs.claro.com.uy"
+        carrier="Claro Internet"
+        password="ctigprs999"
+        type="default,supl"
+        user="ctigprs"
+    />
+    <apn
+        mcc="748"
+        mnc="10"
+        apn="mms.ctimovil.com.uy"
+        carrier="Claro MMS"
+        mmsc="http://mms.ctimovil.com.uy"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="748"
+        mnc="10"
+        apn="gprs.claro.com.uy"
+        carrier="Claro UY"
+        password="ctigpr999"
+        type="default,supl"
+        user="ctigpr"
+    />
+    <apn
+        mcc="748"
+        mnc="10"
+        apn="mms.ctimovil.com.uy"
+        carrier="Claro UY MMS"
+        mmsc="http://mms.ctimovil.com.uy"
+        mmsport="9201"
+        mmsproxy="170.051.255.240"
+        password="ctimms999"
+        type="mms"
+        user="ctimms"
+    />
 </apns>

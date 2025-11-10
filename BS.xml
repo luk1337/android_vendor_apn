@@ -5,9 +5,58 @@
     SPDX-License-Identifier: Apache-2.0
 -->
 <apns version="8">
-  <apn carrier="Postpaid Internet" mcc="364" mnc="39" apn="internet1.btcbahamas.com" user="" password="" proxy="" port="" type="supl" />
-  <apn carrier="Postpaid MMS" mcc="364" mnc="39" apn="ppmms1.btcbahamas.com" user="" password="" mmsproxy="172.16.220.44" mmsport="8080" type="mms" />
-  <apn carrier="Postpaid Internet" mcc="364" mnc="390" apn="internet1.btcbahamas.com" user="" password="" proxy="" port="" />
-  <apn carrier="Postpaid MMS" mcc="364" mnc="390" apn="ppmms1.btcbahamas.com" user="" password="" mmsproxy="172.16.220.44" mmsport="8080" />
-  <apn carrier="BATELCO BS" mcc="364" mnc="390" apn="internet.btcbahamas.com" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
+    <apn
+        mcc="364"
+        mnc="39"
+        apn="internet1.btcbahamas.com"
+        carrier="Postpaid Internet"
+        password=""
+        port=""
+        proxy=""
+        type="supl"
+        user=""
+    />
+    <apn
+        mcc="364"
+        mnc="39"
+        apn="ppmms1.btcbahamas.com"
+        carrier="Postpaid MMS"
+        mmsport="8080"
+        mmsproxy="172.16.220.44"
+        password=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="364"
+        mnc="390"
+        apn="internet1.btcbahamas.com"
+        carrier="Postpaid Internet"
+        password=""
+        port=""
+        proxy=""
+        user=""
+    />
+    <apn
+        mcc="364"
+        mnc="390"
+        apn="ppmms1.btcbahamas.com"
+        carrier="Postpaid MMS"
+        mmsport="8080"
+        mmsproxy="172.16.220.44"
+        password=""
+        user=""
+    />
+    <apn
+        mcc="364"
+        mnc="390"
+        apn="internet.btcbahamas.com"
+        carrier="BATELCO BS"
+        mmsc=""
+        password=""
+        port=""
+        proxy=""
+        type="default,supl"
+        user=""
+    />
 </apns>

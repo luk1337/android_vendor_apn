@@ -5,10 +5,64 @@
     SPDX-License-Identifier: Apache-2.0
 -->
 <apns version="8">
-  <apn carrier="Zain Internet" mcc="634" mnc="01" apn="internet" authtype="1" type="default,supl" />
-  <apn carrier="Zain MMS" mcc="634" mnc="01" apn="MMS" mmsc="http://mms.zain.sd" mmsproxy="172.20.2.124" mmsport="80" authtype="1" type="mms" />
-  <apn carrier="MTN" mcc="634" mnc="02" apn="internet" authtype="1" type="default,supl" />
-  <apn carrier="MMS" mcc="634" mnc="02" apn="mms" mmsc="http://mms.mtn.sd/mmsc" mmsproxy="172.24.97.20" mmsport="8080" type="mms" />
-  <apn carrier="Sudina ONE" apn="sudaninet" user="sudani" password="sudani" mcc="634" mnc="07" authtype="1" type="default,supl" />
-  <apn carrier="Sudani One MMS" mcc="634" mnc="07" apn="sudanimms" user="sudani" password="sudani" mmsc="http://10.50.182.30:38090/was" mmsproxy="10.50.189.114" mmsport="8080" authtype="1" type="mms" />
+    <apn
+        mcc="634"
+        mnc="01"
+        apn="internet"
+        authtype="1"
+        carrier="Zain Internet"
+        type="default,supl"
+    />
+    <apn
+        mcc="634"
+        mnc="01"
+        apn="MMS"
+        authtype="1"
+        carrier="Zain MMS"
+        mmsc="http://mms.zain.sd"
+        mmsport="80"
+        mmsproxy="172.20.2.124"
+        type="mms"
+    />
+    <apn
+        mcc="634"
+        mnc="02"
+        apn="internet"
+        authtype="1"
+        carrier="MTN"
+        type="default,supl"
+    />
+    <apn
+        mcc="634"
+        mnc="02"
+        apn="mms"
+        carrier="MMS"
+        mmsc="http://mms.mtn.sd/mmsc"
+        mmsport="8080"
+        mmsproxy="172.24.97.20"
+        type="mms"
+    />
+    <apn
+        mcc="634"
+        mnc="07"
+        apn="sudaninet"
+        authtype="1"
+        carrier="Sudina ONE"
+        password="sudani"
+        type="default,supl"
+        user="sudani"
+    />
+    <apn
+        mcc="634"
+        mnc="07"
+        apn="sudanimms"
+        authtype="1"
+        carrier="Sudani One MMS"
+        mmsc="http://10.50.182.30:38090/was"
+        mmsport="8080"
+        mmsproxy="10.50.189.114"
+        password="sudani"
+        type="mms"
+        user="sudani"
+    />
 </apns>

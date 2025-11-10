@@ -5,28 +5,274 @@
     SPDX-License-Identifier: Apache-2.0
 -->
 <apns version="8">
-  <apn carrier="+ movil internet" mcc="714" mnc="01" apn="apn01.cwpanama.com.pa" proxy="172.25.3.5" port="8080" mmsc="" user="" password="" type="default,supl" />
-  <apn carrier="+movil MMS" mcc="714" mnc="01" apn="apn02.cwpanama.com.pa" proxy="" port="" mmsproxy="172.25.3.5" mmsport="8080" mmsc="http://mms.zonamovil.com.pa" user="" password="" type="mms" />
-  <apn carrier="Cable and Wireless Panama" mcc="714" mnc="01" apn="apn01.cwpanama.com.pa" type="default,supl" />
-  <apn carrier="Cable and Wireless Panama MMS" mcc="714" mnc="01" apn="apn02.cwpanama.com.pa" mmsc="http://mms.zonamovil.com.pa:80/i.bin" mmsproxy="172.25.3.5" mmsport="8080" type="mms" />
-  <apn carrier="Movistar INTERNET" mcc="714" mnc="002" apn="internet.movistar.pa" user="movistarpa" password="movistarpa" type="default,supl" />
-  <apn carrier="Movistar MMS" mcc="714" mnc="002" apn="mms.movistar.pa" proxy="" port="" mmsproxy="10.12.21.1" mmsport="80" mmsc="http://mms.movistar.pa/" user="movistarpamms" password="movistarpa" type="mms" />
-  <apn carrier="Movistar INTERNET" mcc="714" mnc="02" apn="internet.movistar.pa" user="movistarpa" password="movistarpa" type="default,supl" />
-  <apn carrier="Movistar MMS" mcc="714" mnc="02" apn="mms.movistar.pa" proxy="" port="" mmsproxy="10.12.21.1" mmsport="80" mmsc="http://mms.movistar.pa/" user="movistarpamms" password="movistarpa" type="mms" />
-  <apn carrier="Movistar PA" mcc="714" mnc="02" apn="internet.movistar.pa" user="movistarpa" password="movistarpa" type="default,supl" />
-  <apn carrier="PA WAP CLARO" mcc="714" mnc="03" apn="wap.claro.com.pa" proxy="10.240.3.1" port="8799" mmsc="" user="CLAROWAP" password="CLAROWAP" type="default,supl" />
-  <apn carrier="PA MMS CLARO" mcc="714" mnc="03" apn="mms.claro.com.pa" proxy="" port="" mmsproxy="10.240.3.129" mmsport="9201" mmsc="http://www.claro.com.pa/mms/" user="CLAROMMS" password="CLAROMMS" type="mms" />
-  <apn carrier="Claro Web" mcc="714" mnc="03" apn="web.claro.com.pa" user="CLAROWEB" password="CLAROWEB" authtype="1" type="default,supl" />
-  <apn carrier="Claro MMS" mcc="714" mnc="03" apn="mms.claro.com.pa" user="CLAROMMS" password="CLAROMMS" mmsc="http://www.claro.com.pa/mms" authtype="1" type="mms" />
-  <apn carrier="Digicel Web" mcc="714" mnc="04" apn="web" user="" password="" type="default,supl" />
-  <apn carrier="Digicel MMS" mcc="714" mnc="04" apn="wap" proxy="" port="" mmsproxy="172.27.99.99" mmsport="8080" mmsc="http://mmc.digicelpanama.com/servlets/mms" user="" password="" type="mms" />
-  <apn carrier="Digicel PA" mcc="714" mnc="04" apn="web.digicelpanama.com" type="default,supl" />
-  <apn carrier="+movil internet" mcc="714" mnc="010" apn="apn01.cwpanama.com.pa" proxy="172.25.3.5" port="8080" mmsc="" user="" password="" type="default,supl" />
-  <apn carrier="+movil MMS" mcc="714" mnc="010" apn="apn02.cwpanama.com.pa" proxy="" port="" mmsproxy="172.25.3.5" mmsport="8080" mmsc="http://mms.zonamovil.com.pa" user="" password="" type="mms" />
-  <apn carrier="Movistar INTERNET" mcc="714" mnc="020" apn="internet.movistar.pa" user="movistarpa" password="movistarpa" type="default,supl" />
-  <apn carrier="Movistar MMS" mcc="714" mnc="020" apn="mms.movistar.pa" proxy="" port="" mmsproxy="10.12.21.1" mmsport="80" mmsc="http://mms.movistar.pa/" user="movistarpamms" password="movistarpa" type="mms" />
-  <apn carrier="Movistar INTERNET" mcc="714" mnc="20" apn="internet.movistar.pa" user="movistarpa" password="movistarpa" type="default,supl" />
-  <apn carrier="Movistar MMS" mcc="714" mnc="20" apn="mms.movistar.pa" proxy="" port="" mmsproxy="10.12.21.1" mmsport="80" mmsc="http://mms.movistar.pa/" user="movistarpamms" password="movistarpa" type="mms" />
-  <apn carrier="Digicel Web" mcc="714" mnc="040" apn="web" user="" password="" type="default,supl" />
-  <apn carrier="Digicel MMS" apn="wap" mcc="714" mnc="040" proxy="" port="" mmsproxy="172.27.99.99" mmsport="8080" mmsc="http://mmc.digicelpanama.com/servlets/mms" user="" password="" type="mms" />
+    <apn
+        mcc="714"
+        mnc="01"
+        apn="apn01.cwpanama.com.pa"
+        carrier="+ movil internet"
+        mmsc=""
+        password=""
+        port="8080"
+        proxy="172.25.3.5"
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="714"
+        mnc="01"
+        apn="apn02.cwpanama.com.pa"
+        carrier="+movil MMS"
+        mmsc="http://mms.zonamovil.com.pa"
+        mmsport="8080"
+        mmsproxy="172.25.3.5"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="714"
+        mnc="01"
+        apn="apn01.cwpanama.com.pa"
+        carrier="Cable and Wireless Panama"
+        type="default,supl"
+    />
+    <apn
+        mcc="714"
+        mnc="01"
+        apn="apn02.cwpanama.com.pa"
+        carrier="Cable and Wireless Panama MMS"
+        mmsc="http://mms.zonamovil.com.pa:80/i.bin"
+        mmsport="8080"
+        mmsproxy="172.25.3.5"
+        type="mms"
+    />
+    <apn
+        mcc="714"
+        mnc="002"
+        apn="internet.movistar.pa"
+        carrier="Movistar INTERNET"
+        password="movistarpa"
+        type="default,supl"
+        user="movistarpa"
+    />
+    <apn
+        mcc="714"
+        mnc="002"
+        apn="mms.movistar.pa"
+        carrier="Movistar MMS"
+        mmsc="http://mms.movistar.pa/"
+        mmsport="80"
+        mmsproxy="10.12.21.1"
+        password="movistarpa"
+        port=""
+        proxy=""
+        type="mms"
+        user="movistarpamms"
+    />
+    <apn
+        mcc="714"
+        mnc="02"
+        apn="internet.movistar.pa"
+        carrier="Movistar INTERNET"
+        password="movistarpa"
+        type="default,supl"
+        user="movistarpa"
+    />
+    <apn
+        mcc="714"
+        mnc="02"
+        apn="mms.movistar.pa"
+        carrier="Movistar MMS"
+        mmsc="http://mms.movistar.pa/"
+        mmsport="80"
+        mmsproxy="10.12.21.1"
+        password="movistarpa"
+        port=""
+        proxy=""
+        type="mms"
+        user="movistarpamms"
+    />
+    <apn
+        mcc="714"
+        mnc="02"
+        apn="internet.movistar.pa"
+        carrier="Movistar PA"
+        password="movistarpa"
+        type="default,supl"
+        user="movistarpa"
+    />
+    <apn
+        mcc="714"
+        mnc="03"
+        apn="wap.claro.com.pa"
+        carrier="PA WAP CLARO"
+        mmsc=""
+        password="CLAROWAP"
+        port="8799"
+        proxy="10.240.3.1"
+        type="default,supl"
+        user="CLAROWAP"
+    />
+    <apn
+        mcc="714"
+        mnc="03"
+        apn="mms.claro.com.pa"
+        carrier="PA MMS CLARO"
+        mmsc="http://www.claro.com.pa/mms/"
+        mmsport="9201"
+        mmsproxy="10.240.3.129"
+        password="CLAROMMS"
+        port=""
+        proxy=""
+        type="mms"
+        user="CLAROMMS"
+    />
+    <apn
+        mcc="714"
+        mnc="03"
+        apn="web.claro.com.pa"
+        authtype="1"
+        carrier="Claro Web"
+        password="CLAROWEB"
+        type="default,supl"
+        user="CLAROWEB"
+    />
+    <apn
+        mcc="714"
+        mnc="03"
+        apn="mms.claro.com.pa"
+        authtype="1"
+        carrier="Claro MMS"
+        mmsc="http://www.claro.com.pa/mms"
+        password="CLAROMMS"
+        type="mms"
+        user="CLAROMMS"
+    />
+    <apn
+        mcc="714"
+        mnc="04"
+        apn="web"
+        carrier="Digicel Web"
+        password=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="714"
+        mnc="04"
+        apn="wap"
+        carrier="Digicel MMS"
+        mmsc="http://mmc.digicelpanama.com/servlets/mms"
+        mmsport="8080"
+        mmsproxy="172.27.99.99"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="714"
+        mnc="04"
+        apn="web.digicelpanama.com"
+        carrier="Digicel PA"
+        type="default,supl"
+    />
+    <apn
+        mcc="714"
+        mnc="010"
+        apn="apn01.cwpanama.com.pa"
+        carrier="+movil internet"
+        mmsc=""
+        password=""
+        port="8080"
+        proxy="172.25.3.5"
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="714"
+        mnc="010"
+        apn="apn02.cwpanama.com.pa"
+        carrier="+movil MMS"
+        mmsc="http://mms.zonamovil.com.pa"
+        mmsport="8080"
+        mmsproxy="172.25.3.5"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="714"
+        mnc="020"
+        apn="internet.movistar.pa"
+        carrier="Movistar INTERNET"
+        password="movistarpa"
+        type="default,supl"
+        user="movistarpa"
+    />
+    <apn
+        mcc="714"
+        mnc="020"
+        apn="mms.movistar.pa"
+        carrier="Movistar MMS"
+        mmsc="http://mms.movistar.pa/"
+        mmsport="80"
+        mmsproxy="10.12.21.1"
+        password="movistarpa"
+        port=""
+        proxy=""
+        type="mms"
+        user="movistarpamms"
+    />
+    <apn
+        mcc="714"
+        mnc="20"
+        apn="internet.movistar.pa"
+        carrier="Movistar INTERNET"
+        password="movistarpa"
+        type="default,supl"
+        user="movistarpa"
+    />
+    <apn
+        mcc="714"
+        mnc="20"
+        apn="mms.movistar.pa"
+        carrier="Movistar MMS"
+        mmsc="http://mms.movistar.pa/"
+        mmsport="80"
+        mmsproxy="10.12.21.1"
+        password="movistarpa"
+        port=""
+        proxy=""
+        type="mms"
+        user="movistarpamms"
+    />
+    <apn
+        mcc="714"
+        mnc="040"
+        apn="web"
+        carrier="Digicel Web"
+        password=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="714"
+        mnc="040"
+        apn="wap"
+        carrier="Digicel MMS"
+        mmsc="http://mmc.digicelpanama.com/servlets/mms"
+        mmsport="8080"
+        mmsproxy="172.27.99.99"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
 </apns>

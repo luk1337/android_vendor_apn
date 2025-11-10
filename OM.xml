@@ -5,14 +5,118 @@
     SPDX-License-Identifier: Apache-2.0
 -->
 <apns version="8">
-  <apn carrier="Oman Mobile" mcc="422" mnc="02" apn="taif" user="taif" password="taif" type="default,supl" />
-  <apn carrier="MMS" mcc="422" mnc="02" apn="mms" proxy="" port="" mmsproxy="192.168.203.35" mmsport="8080" mmsc="http://mmsc.omanmobile.om:10021/mmsc" user="mms" password="mms" type="mms" />
-  <apn carrier="omantel wap" mcc="422" mnc="02" apn="wap" proxy="192.168.203.34" port="8080" mmsc="" user="wap" password="wap" type="default,supl" />
-  <apn carrier="Oman Mobile MMS" mcc="422" mnc="02" apn="mms" user="mms" password="mms" mmsc="http://mmsc.omanmobile.com:10021/mmsc" mmsproxy="192.168.203.35" mmsport="9201" type="mms" />
-  <apn carrier="Oman Mobile" mcc="422" mnc="02" apn="wap" user="wap" password="wap" type="default,supl" />
-  <apn carrier="Nawras" mcc="422" mnc="03" apn="isp.nawras.com.om" user="" password="" type="default,supl" />
-  <apn carrier="nawras wap" mcc="422" mnc="03" apn="wap.nawras.com.om" proxy="10.128.240.19" port="8080" mmsc="" user="test" password="test" type="default,supl" />
-  <apn carrier="nawras mms" mcc="422" mnc="03" apn="mms.nawras.com.om" proxy="" port="" mmsproxy="10.128.240.19" mmsport="8080" mmsc="http://10.128.240.16/servlets/mms" user="test" password="test" type="mms" />
-  <apn carrier="Nawras" mcc="422" mnc="03" apn="isp.nawras.com.om" user="test" password="test" type="default,supl" />
-  <apn carrier="Nawras MMS" mcc="422" mnc="03" apn="mms.nawras.com.om" user="test" password="test" proxy="10.128.240.19" port="8080" mmsc="http://10.128.240.16/servlets/mms" mmsproxy="10.128.240.19" mmsport="8080" type="mms" />
+    <apn
+        mcc="422"
+        mnc="02"
+        apn="taif"
+        carrier="Oman Mobile"
+        password="taif"
+        type="default,supl"
+        user="taif"
+    />
+    <apn
+        mcc="422"
+        mnc="02"
+        apn="mms"
+        carrier="MMS"
+        mmsc="http://mmsc.omanmobile.om:10021/mmsc"
+        mmsport="8080"
+        mmsproxy="192.168.203.35"
+        password="mms"
+        port=""
+        proxy=""
+        type="mms"
+        user="mms"
+    />
+    <apn
+        mcc="422"
+        mnc="02"
+        apn="wap"
+        carrier="omantel wap"
+        mmsc=""
+        password="wap"
+        port="8080"
+        proxy="192.168.203.34"
+        type="default,supl"
+        user="wap"
+    />
+    <apn
+        mcc="422"
+        mnc="02"
+        apn="mms"
+        carrier="Oman Mobile MMS"
+        mmsc="http://mmsc.omanmobile.com:10021/mmsc"
+        mmsport="9201"
+        mmsproxy="192.168.203.35"
+        password="mms"
+        type="mms"
+        user="mms"
+    />
+    <apn
+        mcc="422"
+        mnc="02"
+        apn="wap"
+        carrier="Oman Mobile"
+        password="wap"
+        type="default,supl"
+        user="wap"
+    />
+    <apn
+        mcc="422"
+        mnc="03"
+        apn="isp.nawras.com.om"
+        carrier="Nawras"
+        password=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="422"
+        mnc="03"
+        apn="wap.nawras.com.om"
+        carrier="nawras wap"
+        mmsc=""
+        password="test"
+        port="8080"
+        proxy="10.128.240.19"
+        type="default,supl"
+        user="test"
+    />
+    <apn
+        mcc="422"
+        mnc="03"
+        apn="mms.nawras.com.om"
+        carrier="nawras mms"
+        mmsc="http://10.128.240.16/servlets/mms"
+        mmsport="8080"
+        mmsproxy="10.128.240.19"
+        password="test"
+        port=""
+        proxy=""
+        type="mms"
+        user="test"
+    />
+    <apn
+        mcc="422"
+        mnc="03"
+        apn="isp.nawras.com.om"
+        carrier="Nawras"
+        password="test"
+        type="default,supl"
+        user="test"
+    />
+    <apn
+        mcc="422"
+        mnc="03"
+        apn="mms.nawras.com.om"
+        carrier="Nawras MMS"
+        mmsc="http://10.128.240.16/servlets/mms"
+        mmsport="8080"
+        mmsproxy="10.128.240.19"
+        password="test"
+        port="8080"
+        proxy="10.128.240.19"
+        type="mms"
+        user="test"
+    />
 </apns>

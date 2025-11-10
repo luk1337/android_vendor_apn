@@ -5,11 +5,94 @@
     SPDX-License-Identifier: Apache-2.0
 -->
 <apns version="8">
-  <apn carrier="EMT" mcc="248" mnc="01" apn="internet.emt.ee" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
-  <apn carrier="EMT MMS" mcc="248" mnc="01" apn="mms.emt.ee" proxy="" port="" user="" password="" mmsc="http://mms.emt.ee/servlets/mms" type="mms" />
-  <apn carrier="Elisa EE" mcc="248" mnc="02" apn="internet" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
-  <apn carrier="Elisa EE MMS" mcc="248" mnc="02" apn="mms" proxy="" port="" user="" password="" mmsc="http://194.204.2.10" mmsproxy="194.204.2.6" mmsport="8080" type="mms" />
-  <apn carrier="Tele2 EE" mcc="248" mnc="03" apn="internet.tele2.ee" proxy="" port="" user="wap" password="wap" mmsc="" type="default,supl" />
-  <apn carrier="Tele2 EE MMS" mcc="248" mnc="03" apn="mms.emt.ee" proxy="" port="" user="" password="" mmsc="http://mms.emt.ee/servlets/mms" mmsproxy="217.71.32.82" mmsport="8080" type="mms" />
-  <apn carrier="Tele2 MMS" mcc="248" mnc="03" apn="mms.tele2.ee" proxy="" port="" user="" password="" mmsc="http://mmsc.tele2.ee" mmsproxy="193.12.40.6" mmsport="8080" type="mms" />
+    <apn
+        mcc="248"
+        mnc="01"
+        apn="internet.emt.ee"
+        carrier="EMT"
+        mmsc=""
+        password=""
+        port=""
+        proxy=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="248"
+        mnc="01"
+        apn="mms.emt.ee"
+        carrier="EMT MMS"
+        mmsc="http://mms.emt.ee/servlets/mms"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="248"
+        mnc="02"
+        apn="internet"
+        carrier="Elisa EE"
+        mmsc=""
+        password=""
+        port=""
+        proxy=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="248"
+        mnc="02"
+        apn="mms"
+        carrier="Elisa EE MMS"
+        mmsc="http://194.204.2.10"
+        mmsport="8080"
+        mmsproxy="194.204.2.6"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="248"
+        mnc="03"
+        apn="internet.tele2.ee"
+        carrier="Tele2 EE"
+        mmsc=""
+        password="wap"
+        port=""
+        proxy=""
+        type="default,supl"
+        user="wap"
+    />
+    <apn
+        mcc="248"
+        mnc="03"
+        apn="mms.emt.ee"
+        carrier="Tele2 EE MMS"
+        mmsc="http://mms.emt.ee/servlets/mms"
+        mmsport="8080"
+        mmsproxy="217.71.32.82"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="248"
+        mnc="03"
+        apn="mms.tele2.ee"
+        carrier="Tele2 MMS"
+        mmsc="http://mmsc.tele2.ee"
+        mmsport="8080"
+        mmsproxy="193.12.40.6"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
 </apns>

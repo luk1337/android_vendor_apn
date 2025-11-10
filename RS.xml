@@ -5,16 +5,158 @@
     SPDX-License-Identifier: Apache-2.0
 -->
 <apns version="8">
-  <apn carrier="Telenor RS" mcc="220" mnc="01" apn="internet" user="telenor" password="gprs" proxy="217.65.192.33" port="8080" type="default,supl" />
-  <apn carrier="Telenor RS MMS" mcc="220" mnc="01" apn="mms" mmsc="http://mms.telenor.rs/servlets/mms" mmsproxy="217.65.192.33" mmsport="8080" type="mms" />
-  <apn carrier="Telenor MNE internet" mcc="220" mnc="02" apn="internet" proxy="192.168.246.005" port="8080" mmsc="" user="gprs" password="gprs" type="default,supl" />
-  <apn carrier="Telenor MNE mms" mcc="220" mnc="02" apn="mms" proxy="" port="" mmsproxy="192.168.246.005" mmsport="8080" mmsc="http://mm.vor.telenor.me" user="mms" password="mms" type="mms" />
-  <apn carrier="MTS RS INTERNET" mcc="220" mnc="03" apn="gprsinternet" user="mts" password="064" proxy="" port="" type="default,supl" />
-  <apn carrier="MTS RS" mcc="220" mnc="03" apn="gprswap" proxy="172.17.88.198" port="8080" user="mts" password="064" mmsc="" type="default,supl" />
-  <apn carrier="MTS RS MMS" mcc="220" mnc="03" apn="mms" proxy="" port="" user="mts" password="064" mmsc="http://mms.mts064.telekom.rs/mms/wapenc" mmsproxy="172.17.85.131" mmsport="8080" type="mms" />
-  <apn carrier="T-Mobile Internet" mcc="220" mnc="04" apn="tmcg-wnw" proxy="010.000.005.019" port="8080" user="38267" password="38267" mmsc="" authtype="1" type="default,supl" />
-  <apn carrier="T-Mobile MMS" mcc="220" mnc="04" apn="mms" proxy="" port="" user="38267" password="38267" mmsc="http://192.168.180.100/servlets/mms" mmsproxy="010.000.005.019" mmsport="8080" authtype="1" type="mms" />
-  <apn carrier="Vip MMS" mcc="220" mnc="05" apn="vipmobile.mms" proxy="" port="" mmsproxy="212.15.182.82" mmsport="8080" mmsc="http://mmsc.vipmobile.rs" user="vipmobile" password="vipmobile" type="mms" />
-  <apn carrier="Vip GPRS" mcc="220" mnc="05" apn="vipmobile" proxy="212.15.182.82" port="8080" mmsc="" user="vipmobile" password="vipmobile" authtype="1" type="default,supl" />
-  <apn carrier="Vip MMS" mcc="220" mnc="05" apn="vipmobile.mms" proxy="" port="" mmsproxy="212.15.182.82" mmsport="8080" mmsc="http://mmsc.vipmobile.rs" user="vipmobile" password="vipmobile" authtype="1" type="mms" />
+    <apn
+        mcc="220"
+        mnc="01"
+        apn="internet"
+        carrier="Telenor RS"
+        password="gprs"
+        port="8080"
+        proxy="217.65.192.33"
+        type="default,supl"
+        user="telenor"
+    />
+    <apn
+        mcc="220"
+        mnc="01"
+        apn="mms"
+        carrier="Telenor RS MMS"
+        mmsc="http://mms.telenor.rs/servlets/mms"
+        mmsport="8080"
+        mmsproxy="217.65.192.33"
+        type="mms"
+    />
+    <apn
+        mcc="220"
+        mnc="02"
+        apn="internet"
+        carrier="Telenor MNE internet"
+        mmsc=""
+        password="gprs"
+        port="8080"
+        proxy="192.168.246.005"
+        type="default,supl"
+        user="gprs"
+    />
+    <apn
+        mcc="220"
+        mnc="02"
+        apn="mms"
+        carrier="Telenor MNE mms"
+        mmsc="http://mm.vor.telenor.me"
+        mmsport="8080"
+        mmsproxy="192.168.246.005"
+        password="mms"
+        port=""
+        proxy=""
+        type="mms"
+        user="mms"
+    />
+    <apn
+        mcc="220"
+        mnc="03"
+        apn="gprsinternet"
+        carrier="MTS RS INTERNET"
+        password="064"
+        port=""
+        proxy=""
+        type="default,supl"
+        user="mts"
+    />
+    <apn
+        mcc="220"
+        mnc="03"
+        apn="gprswap"
+        carrier="MTS RS"
+        mmsc=""
+        password="064"
+        port="8080"
+        proxy="172.17.88.198"
+        type="default,supl"
+        user="mts"
+    />
+    <apn
+        mcc="220"
+        mnc="03"
+        apn="mms"
+        carrier="MTS RS MMS"
+        mmsc="http://mms.mts064.telekom.rs/mms/wapenc"
+        mmsport="8080"
+        mmsproxy="172.17.85.131"
+        password="064"
+        port=""
+        proxy=""
+        type="mms"
+        user="mts"
+    />
+    <apn
+        mcc="220"
+        mnc="04"
+        apn="tmcg-wnw"
+        authtype="1"
+        carrier="T-Mobile Internet"
+        mmsc=""
+        password="38267"
+        port="8080"
+        proxy="010.000.005.019"
+        type="default,supl"
+        user="38267"
+    />
+    <apn
+        mcc="220"
+        mnc="04"
+        apn="mms"
+        authtype="1"
+        carrier="T-Mobile MMS"
+        mmsc="http://192.168.180.100/servlets/mms"
+        mmsport="8080"
+        mmsproxy="010.000.005.019"
+        password="38267"
+        port=""
+        proxy=""
+        type="mms"
+        user="38267"
+    />
+    <apn
+        mcc="220"
+        mnc="05"
+        apn="vipmobile.mms"
+        carrier="Vip MMS"
+        mmsc="http://mmsc.vipmobile.rs"
+        mmsport="8080"
+        mmsproxy="212.15.182.82"
+        password="vipmobile"
+        port=""
+        proxy=""
+        type="mms"
+        user="vipmobile"
+    />
+    <apn
+        mcc="220"
+        mnc="05"
+        apn="vipmobile"
+        authtype="1"
+        carrier="Vip GPRS"
+        mmsc=""
+        password="vipmobile"
+        port="8080"
+        proxy="212.15.182.82"
+        type="default,supl"
+        user="vipmobile"
+    />
+    <apn
+        mcc="220"
+        mnc="05"
+        apn="vipmobile.mms"
+        authtype="1"
+        carrier="Vip MMS"
+        mmsc="http://mmsc.vipmobile.rs"
+        mmsport="8080"
+        mmsproxy="212.15.182.82"
+        password="vipmobile"
+        port=""
+        proxy=""
+        type="mms"
+        user="vipmobile"
+    />
 </apns>

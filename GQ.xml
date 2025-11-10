@@ -5,6 +5,25 @@
     SPDX-License-Identifier: Apache-2.0
 -->
 <apns version="8">
-  <apn carrier="Orange GQ MMS" mcc="627" mnc="01" apn="orangemms" user="mms" password="mms" mmsc="http://192.168.17.34/servlets/mms" mmsproxy="192.168.17.2" mmsport="8080" type="mms" />
-  <apn carrier="Orange GQ" mcc="627" mnc="01" apn="orangenet" user="net" password="net" type="default,supl" />
+    <apn
+        mcc="627"
+        mnc="01"
+        apn="orangemms"
+        carrier="Orange GQ MMS"
+        mmsc="http://192.168.17.34/servlets/mms"
+        mmsport="8080"
+        mmsproxy="192.168.17.2"
+        password="mms"
+        type="mms"
+        user="mms"
+    />
+    <apn
+        mcc="627"
+        mnc="01"
+        apn="orangenet"
+        carrier="Orange GQ"
+        password="net"
+        type="default,supl"
+        user="net"
+    />
 </apns>

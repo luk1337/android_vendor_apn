@@ -5,13 +5,111 @@
     SPDX-License-Identifier: Apache-2.0
 -->
 <apns version="8">
-  <apn carrier="Orange DO" mcc="370" mnc="01" apn="orangenet.com.do" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
-  <apn carrier="Orange DO MMS" mcc="370" mnc="01" apn="orangeworld" proxy="" port="" user="" password="" mmsc="http://mmr.orangewi.com/servlets/mms" mmsproxy="172.16.126.70" mmsport="8080" type="mms" />
-  <apn carrier="Ideas CLARO" mcc="370" mnc="02" apn="internet.ideasclaro.com.do" user="" password="" type="default,supl" authtype="3" />
-  <apn carrier="MMS CLARO" mcc="370" mnc="02" apn="internet.ideasclaro.com.do" proxy="" port="" mmsc="http://mms.ideasclaro.com.do/mms/wapenc" user="" password="" type="mms" authtype="3" />
-  <apn carrier="Viva Edge" mcc="370" mnc="04" apn="edge.viva.net.do" user="viva" password="viva" mmsc="http://wap.viva.net.do/WapDeck/" proxy="192.168.016.010" port="9401" type="default,supl" />
-  <apn carrier="Viva MMS" mcc="370" mnc="04" apn="mms.viva.net.do" user="viva" password="viva" mmsproxy="192.168.016.010" mmsport="9401" mmsc="http://10.200.16.4/mms/wapenc" type="mms" />
-  <apn carrier="Trilogy Dominicana" mcc="370" mnc="04" apn="edge.viva.net.do" mmsproxy="192.168.16.10" mmsport="9401" user="viva" password="viva" type="default,supl,mms" />
-  <apn carrier="Orange Net" mcc="370" mnc="010" apn="orangenet.com.do" user="orange" password="orange" type="default,supl" />
-  <apn carrier="Orange MMS" mcc="370" mnc="010" apn="orangeworld" proxy="" port="" mmsproxy="172.16.126.70" mmsport="8080" mmsc="http://mms.orange.com.do/servlets/mms" user="orange" password="orange" type="mms" />
+    <apn
+        mcc="370"
+        mnc="01"
+        apn="orangenet.com.do"
+        carrier="Orange DO"
+        mmsc=""
+        password=""
+        port=""
+        proxy=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="370"
+        mnc="01"
+        apn="orangeworld"
+        carrier="Orange DO MMS"
+        mmsc="http://mmr.orangewi.com/servlets/mms"
+        mmsport="8080"
+        mmsproxy="172.16.126.70"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="370"
+        mnc="02"
+        apn="internet.ideasclaro.com.do"
+        authtype="3"
+        carrier="Ideas CLARO"
+        password=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="370"
+        mnc="02"
+        apn="internet.ideasclaro.com.do"
+        authtype="3"
+        carrier="MMS CLARO"
+        mmsc="http://mms.ideasclaro.com.do/mms/wapenc"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="370"
+        mnc="04"
+        apn="edge.viva.net.do"
+        carrier="Viva Edge"
+        mmsc="http://wap.viva.net.do/WapDeck/"
+        password="viva"
+        port="9401"
+        proxy="192.168.016.010"
+        type="default,supl"
+        user="viva"
+    />
+    <apn
+        mcc="370"
+        mnc="04"
+        apn="mms.viva.net.do"
+        carrier="Viva MMS"
+        mmsc="http://10.200.16.4/mms/wapenc"
+        mmsport="9401"
+        mmsproxy="192.168.016.010"
+        password="viva"
+        type="mms"
+        user="viva"
+    />
+    <apn
+        mcc="370"
+        mnc="04"
+        apn="edge.viva.net.do"
+        carrier="Trilogy Dominicana"
+        mmsport="9401"
+        mmsproxy="192.168.16.10"
+        password="viva"
+        type="default,supl,mms"
+        user="viva"
+    />
+    <apn
+        mcc="370"
+        mnc="010"
+        apn="orangenet.com.do"
+        carrier="Orange Net"
+        password="orange"
+        type="default,supl"
+        user="orange"
+    />
+    <apn
+        mcc="370"
+        mnc="010"
+        apn="orangeworld"
+        carrier="Orange MMS"
+        mmsc="http://mms.orange.com.do/servlets/mms"
+        mmsport="8080"
+        mmsproxy="172.16.126.70"
+        password="orange"
+        port=""
+        proxy=""
+        type="mms"
+        user="orange"
+    />
 </apns>

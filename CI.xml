@@ -5,10 +5,68 @@
     SPDX-License-Identifier: Apache-2.0
 -->
 <apns version="8">
-  <apn carrier="OWORLD" mcc="612" mnc="03" apn="orangeciwap" proxy="172.20.4.33" port="8080" user="wap" password="wap" type="default,supl" />
-  <apn carrier="Omms" mcc="612" mnc="03" apn="orangecimms" user="mms" password="mms" mmsc="http://172.20.6.1/servlets/mms" mmsproxy="172.20.4.33" mmsport="8080" type="mms" />
-  <apn carrier="Omms CI" mcc="612" mnc="03" apn="orangecimms" user="mms" password="mms" mmsc="http://172.20.6.1/servlets/mms" mmsproxy="172.20.4.33" mmsport="8080" type="mms" />
-  <apn carrier="OWORLD CI" mcc="612" mnc="03" apn="orangeciwap" user="wap" password="wap" proxy="172.20.4.33" port="8080" type="default,supl" />
-  <apn carrier="MTN CI MMS" mcc="612" mnc="05" apn="mms.mtn.ci" mmsc="http://mms.mtn.ci/mms/wapenc" mmsproxy="172.16.100.5" mmsport="9201" type="mms" />
-  <apn carrier="MTN CI" mcc="612" mnc="05" apn="web.mtn.ci" server="*" type="default,supl" />
+    <apn
+        mcc="612"
+        mnc="03"
+        apn="orangeciwap"
+        carrier="OWORLD"
+        password="wap"
+        port="8080"
+        proxy="172.20.4.33"
+        type="default,supl"
+        user="wap"
+    />
+    <apn
+        mcc="612"
+        mnc="03"
+        apn="orangecimms"
+        carrier="Omms"
+        mmsc="http://172.20.6.1/servlets/mms"
+        mmsport="8080"
+        mmsproxy="172.20.4.33"
+        password="mms"
+        type="mms"
+        user="mms"
+    />
+    <apn
+        mcc="612"
+        mnc="03"
+        apn="orangecimms"
+        carrier="Omms CI"
+        mmsc="http://172.20.6.1/servlets/mms"
+        mmsport="8080"
+        mmsproxy="172.20.4.33"
+        password="mms"
+        type="mms"
+        user="mms"
+    />
+    <apn
+        mcc="612"
+        mnc="03"
+        apn="orangeciwap"
+        carrier="OWORLD CI"
+        password="wap"
+        port="8080"
+        proxy="172.20.4.33"
+        type="default,supl"
+        user="wap"
+    />
+    <apn
+        mcc="612"
+        mnc="05"
+        apn="mms.mtn.ci"
+        carrier="MTN CI MMS"
+        mmsc="http://mms.mtn.ci/mms/wapenc"
+        mmsport="9201"
+        mmsproxy="172.16.100.5"
+        type="mms"
+    />
+    <apn
+        mcc="612"
+        mnc="05"
+        apn="web.mtn.ci"
+        carrier="MTN CI"
+        server="*"
+        type="default,supl"
+    />
 </apns>

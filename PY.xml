@@ -5,12 +5,94 @@
     SPDX-License-Identifier: Apache-2.0
 -->
 <apns version="8">
-  <apn carrier="Vox MMS" mcc="744" mnc="01" apn="vox.mms" mmsc="http://mms.vox.com.py/mmsc" user="vox" password="vox" proxy="172.24.97.29" port="8080" type="mms" />
-  <apn carrier="Vox INTERNET" mcc="744" mnc="01" apn="vox.internet" user="" password="" type="default,supl" />
-  <apn carrier="Claro PY" mcc="744" mnc="02" apn="igprs.claro.com.py" user="ctigprs" password="ctigprs999" authtype="1" type="default,supl" />
-  <apn carrier="MMS GPRS PY" mcc="744" mnc="02" apn="mms.ctimovil.com.py" user="ctimms" password="ctimms999" mmsproxy="170.51.255.240" mmsport="8080" mmsc="http://mms.ctimovil.com.py" authtype="1" type="mms" />
-  <apn carrier="INTERNET TIGO PY" mcc="744" mnc="04" apn="internet.tigo.py" user="" password="" proxy="" port="" type="default,supl" />
-  <apn carrier="MMS TIGO PY" mcc="744" mnc="04" apn="mms.tigo.py" user="" password="" mmsproxy="10.16.17.12" mmsport="8888" mmsc="http://mms" type="mms" />
-  <apn carrier="Personal Datos Py" mcc="744" mnc="05" apn="internet" user="" password="" authtype="1" type="default,supl" />
-  <apn carrier="Personal MMS Py" mcc="744" mnc="05" apn="mms" user="" password="" mmsproxy="172.16.192.7" mmsport="8080" mmsc="http://mms" authtype="1" type="mms" />
+    <apn
+        mcc="744"
+        mnc="01"
+        apn="vox.mms"
+        carrier="Vox MMS"
+        mmsc="http://mms.vox.com.py/mmsc"
+        password="vox"
+        port="8080"
+        proxy="172.24.97.29"
+        type="mms"
+        user="vox"
+    />
+    <apn
+        mcc="744"
+        mnc="01"
+        apn="vox.internet"
+        carrier="Vox INTERNET"
+        password=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="744"
+        mnc="02"
+        apn="igprs.claro.com.py"
+        authtype="1"
+        carrier="Claro PY"
+        password="ctigprs999"
+        type="default,supl"
+        user="ctigprs"
+    />
+    <apn
+        mcc="744"
+        mnc="02"
+        apn="mms.ctimovil.com.py"
+        authtype="1"
+        carrier="MMS GPRS PY"
+        mmsc="http://mms.ctimovil.com.py"
+        mmsport="8080"
+        mmsproxy="170.51.255.240"
+        password="ctimms999"
+        type="mms"
+        user="ctimms"
+    />
+    <apn
+        mcc="744"
+        mnc="04"
+        apn="internet.tigo.py"
+        carrier="INTERNET TIGO PY"
+        password=""
+        port=""
+        proxy=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="744"
+        mnc="04"
+        apn="mms.tigo.py"
+        carrier="MMS TIGO PY"
+        mmsc="http://mms"
+        mmsport="8888"
+        mmsproxy="10.16.17.12"
+        password=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="744"
+        mnc="05"
+        apn="internet"
+        authtype="1"
+        carrier="Personal Datos Py"
+        password=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="744"
+        mnc="05"
+        apn="mms"
+        authtype="1"
+        carrier="Personal MMS Py"
+        mmsc="http://mms"
+        mmsport="8080"
+        mmsproxy="172.16.192.7"
+        password=""
+        type="mms"
+        user=""
+    />
 </apns>

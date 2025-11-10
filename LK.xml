@@ -5,24 +5,171 @@
     SPDX-License-Identifier: Apache-2.0
 -->
 <apns version="8">
-  <apn carrier="Mobitel" mcc="413" mnc="01" apn="mobitel3g" type="default,supl" />
-  <apn carrier="Mobitel MMS" mcc="413" mnc="01" apn="wapmms" mmsc="http://192.168.50.165" mmsproxy="192.168.50.163" mmsport="8080" type="mms" />
-  <apn carrier="Mobitel WAP" mcc="413" mnc="01" apn="mobitel3g" proxy="192.168.050.163" port="8080" type="default,supl" />
-  <apn carrier="Dialog Mobile Broadband" mcc="413" mnc="02" apn="dialogbb" server="dialog" mmsc="http://mms.dialog.lk:3130/mmsc" mmsproxy="192.168.122.2" mmsport="8080" type="default,supl,mms" />
-  <apn carrier="Dialog WAP Prepaid" mcc="413" mnc="02" apn="ppwap" proxy="192.168.122.2" mmsport="8080" type="default,supl" />
-  <apn carrier="Dialog Internet Prepaid" mcc="413" mnc="02" apn="www.dialogsl.com" proxy="192.168.122.2" port="8080" type="default,supl" />
-  <apn carrier="Dialog Internet Postpaid" mcc="413" mnc="02" apn="dialogbb" type="default,supl" />
-  <apn carrier="Dialog MMS Prepaid" mcc="413" mnc="02" apn="ppwap" mmsc="http://mms.dialog.lk:3130/mmsc" mmsproxy="192.168.122.2" type="mms" />
-  <apn carrier="Dialog MMS Postpaid" mcc="413" mnc="02" apn="www.dialogsl.com" mmsc="http://mms.dialog.lk:3130/mmsc" mmsproxy="192.168.122.2" type="mms" />
-  <apn carrier="Etisalat" mcc="413" mnc="03" apn="ebb" type="default,supl" />
-  <apn carrier="Etisalat MMS" mcc="413" mnc="03" apn="mms" mmsc="http://mms.etisalt.lk:8085" mmsproxy="192.168.104.4" mmsport="9401" type="mms" />
-  <apn carrier="Etisalat Internet Prepaid" mcc="413" mnc="03" apn="web" type="default,supl" />
-  <apn carrier="Etisalat Internet Postpaid" mcc="413" mnc="03" apn="internet" type="default,supl" />
-  <apn carrier="Etisalat WAP" mcc="413" mnc="03" apn="wap" proxy="192.168.104.4" port="9401" type="default,supl" />
-  <apn carrier="Airtel Postpaid" mcc="413" mnc="05" apn="airteldata" type="default,supl" />
-  <apn carrier="Airtel MMS" mcc="413" mnc="05" apn="airtellive" mmsc="http://mms.airtel.lk" mmsproxy="10.200.184.86" mmsport="8080" type="mms" />
-  <apn carrier="Airtel Prepaid" mcc="413" mnc="05" apn="airtellive" type="default,supl" />
-  <apn carrier="Airtel" mcc="413" mnc="05" apn="default" type="default,supl" />
-  <apn carrier="Hutch3G" mcc="413" mnc="08" apn="hutch3g" type="default,supl" />
-  <apn carrier="Hutch WAP" mcc="413" mnc="08" apn="hutch3g" proxy="10.220.135.249" port="8080" type="default,supl" />
+    <apn
+        mcc="413"
+        mnc="01"
+        apn="mobitel3g"
+        carrier="Mobitel"
+        type="default,supl"
+    />
+    <apn
+        mcc="413"
+        mnc="01"
+        apn="wapmms"
+        carrier="Mobitel MMS"
+        mmsc="http://192.168.50.165"
+        mmsport="8080"
+        mmsproxy="192.168.50.163"
+        type="mms"
+    />
+    <apn
+        mcc="413"
+        mnc="01"
+        apn="mobitel3g"
+        carrier="Mobitel WAP"
+        port="8080"
+        proxy="192.168.050.163"
+        type="default,supl"
+    />
+    <apn
+        mcc="413"
+        mnc="02"
+        apn="dialogbb"
+        carrier="Dialog Mobile Broadband"
+        mmsc="http://mms.dialog.lk:3130/mmsc"
+        mmsport="8080"
+        mmsproxy="192.168.122.2"
+        server="dialog"
+        type="default,supl,mms"
+    />
+    <apn
+        mcc="413"
+        mnc="02"
+        apn="ppwap"
+        carrier="Dialog WAP Prepaid"
+        mmsport="8080"
+        proxy="192.168.122.2"
+        type="default,supl"
+    />
+    <apn
+        mcc="413"
+        mnc="02"
+        apn="www.dialogsl.com"
+        carrier="Dialog Internet Prepaid"
+        port="8080"
+        proxy="192.168.122.2"
+        type="default,supl"
+    />
+    <apn
+        mcc="413"
+        mnc="02"
+        apn="dialogbb"
+        carrier="Dialog Internet Postpaid"
+        type="default,supl"
+    />
+    <apn
+        mcc="413"
+        mnc="02"
+        apn="ppwap"
+        carrier="Dialog MMS Prepaid"
+        mmsc="http://mms.dialog.lk:3130/mmsc"
+        mmsproxy="192.168.122.2"
+        type="mms"
+    />
+    <apn
+        mcc="413"
+        mnc="02"
+        apn="www.dialogsl.com"
+        carrier="Dialog MMS Postpaid"
+        mmsc="http://mms.dialog.lk:3130/mmsc"
+        mmsproxy="192.168.122.2"
+        type="mms"
+    />
+    <apn
+        mcc="413"
+        mnc="03"
+        apn="ebb"
+        carrier="Etisalat"
+        type="default,supl"
+    />
+    <apn
+        mcc="413"
+        mnc="03"
+        apn="mms"
+        carrier="Etisalat MMS"
+        mmsc="http://mms.etisalt.lk:8085"
+        mmsport="9401"
+        mmsproxy="192.168.104.4"
+        type="mms"
+    />
+    <apn
+        mcc="413"
+        mnc="03"
+        apn="web"
+        carrier="Etisalat Internet Prepaid"
+        type="default,supl"
+    />
+    <apn
+        mcc="413"
+        mnc="03"
+        apn="internet"
+        carrier="Etisalat Internet Postpaid"
+        type="default,supl"
+    />
+    <apn
+        mcc="413"
+        mnc="03"
+        apn="wap"
+        carrier="Etisalat WAP"
+        port="9401"
+        proxy="192.168.104.4"
+        type="default,supl"
+    />
+    <apn
+        mcc="413"
+        mnc="05"
+        apn="airteldata"
+        carrier="Airtel Postpaid"
+        type="default,supl"
+    />
+    <apn
+        mcc="413"
+        mnc="05"
+        apn="airtellive"
+        carrier="Airtel MMS"
+        mmsc="http://mms.airtel.lk"
+        mmsport="8080"
+        mmsproxy="10.200.184.86"
+        type="mms"
+    />
+    <apn
+        mcc="413"
+        mnc="05"
+        apn="airtellive"
+        carrier="Airtel Prepaid"
+        type="default,supl"
+    />
+    <apn
+        mcc="413"
+        mnc="05"
+        apn="default"
+        carrier="Airtel"
+        type="default,supl"
+    />
+    <apn
+        mcc="413"
+        mnc="08"
+        apn="hutch3g"
+        carrier="Hutch3G"
+        type="default,supl"
+    />
+    <apn
+        mcc="413"
+        mnc="08"
+        apn="hutch3g"
+        carrier="Hutch WAP"
+        port="8080"
+        proxy="10.220.135.249"
+        type="default,supl"
+    />
 </apns>

@@ -11,3 +11,12 @@ runs:
     - name: Validate configs
       shell: bash
       run: xmllint --noout --schema apns-conf.xsd *.xml
+
+    - name: Format configs
+      shell: bash
+      run: |
+        ./format.py
+        if [[ ! -z $(git status -s) ]]; then
+          git status
+          exit -1
+        fi

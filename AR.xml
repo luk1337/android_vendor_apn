@@ -5,48 +5,524 @@
     SPDX-License-Identifier: Apache-2.0
 -->
 <apns version="8">
-  <apn carrier="QUAM" mcc="722" mnc="01" apn="internet.movil" user="internet" password="internet" authtype="1" type="default,supl,dun" />
-  <apn carrier="QUAM MMS" mcc="722" mnc="01" apn="mms.movil" user="mms" password="mms" mmsc="http://mms.quam.com.ar" mmsproxy="200.68.32.239" mmsport="9090" type="mms" />
-  <apn carrier="Movistar AG" mcc="722" mnc="007" apn="internet.unifon" user="wap" password="password" type="default,supl" />
-  <apn carrier="Movistar AG MMS" mcc="722" mnc="007" apn="mms.gprs.unifon.com.ar" user="mms" password="mms" mmsc="http://mms.tmovil.cl/" mmsproxy="200.068.032.239" mmsport="9201" type="mms" />
-  <apn carrier="Movistar WAP" mcc="722" mnc="07" apn="wap.gprs.unifon.com.ar" mmsc="" user="wap" password="wap" authtype="1" type="default,supl" />
-  <apn carrier="Movistar MMS" mcc="722" mnc="07" apn="mms.gprs.unifon.com.ar" proxy="" port="" mmsproxy="200.68.32.239" mmsport="8080" mmsc="http://mms.movistar.com.ar" user="mms" password="mms" authtype="1" type="mms" />
-  <apn carrier="Personal WAP" mcc="722" mnc="34" apn="gprs.personal.com" user="" password="" type="default,supl" />
-  <apn carrier="Personal MMS" mcc="722" mnc="34" apn="mms" proxy="" port="" mmsproxy="172.25.7.31" mmsport="8080" mmsc="http://mms.personal.com" user="mms" password="mms" type="mms" />
-  <apn carrier="Personal" mcc="722" mnc="34" apn="datos.personal.com" user="datos" password="datos" type="default,supl" />
-  <apn carrier="Personal MMS" mcc="722" mnc="34" apn="mms" user="mms" password="mms" mmsc="http://mms.personal.com/" mmsproxy="172.025.007.031" mmsport="9201" type="mms" />
-  <apn carrier="Personal" mcc="722" mnc="34" apn="gprs.personal.com" proxy="" port="" user="gprs" password="" mmsc="" type="default,supl" />
-  <apn carrier="Personal MMS" mcc="722" mnc="34" apn="mms" proxy="" port="" user="mms" password="mms" mmsc="http://mms.personal.com/" mmsproxy="172.25.7.31" mmsport="9201" type="mms" />
-  <apn carrier="Movistar WAP" mcc="722" mnc="070" apn="wap.gprs.unifon.com.ar" mmsc="" user="wap" password="wap" type="default,supl" />
-  <apn carrier="Movistar MMS" mcc="722" mnc="070" apn="mms.gprs.unifon.com.ar" proxy="" port="" mmsproxy="200.68.32.239" mmsport="8080" mmsc="http://mms.movistar.com.ar" user="mms" password="mms" type="mms" />
-  <apn carrier="Movistar WAP" mcc="722" mnc="071" apn="wap.gprs.unifon.com.ar" mmsc="" user="wap" password="wap" type="default,supl" />
-  <apn carrier="Movistar MMS" mcc="722" mnc="071" apn="mms.gprs.unifon.com.ar" proxy="" port="" mmsproxy="200.68.32.239" mmsport="8080" mmsc="http://mms.movistar.com.ar" user="mms" password="mms" type="mms" />
-  <apn carrier="Movistar WAP" mcc="722" mnc="072" apn="wap.gprs.unifon.com.ar" mmsc="" user="wap" password="wap" type="default,supl" />
-  <apn carrier="Movistar MMS" mcc="722" mnc="072" apn="mms.gprs.unifon.com.ar" proxy="" port="" mmsproxy="200.68.32.239" mmsport="8080" mmsc="http://mms.movistar.com.ar" user="mms" password="mms" type="mms" />
-  <apn carrier="Movistar WAP" mcc="722" mnc="073" apn="wap.gprs.unifon.com.ar" mmsc="" user="wap" password="wap" type="default,supl" />
-  <apn carrier="Movistar MMS" mcc="722" mnc="073" apn="mms.gprs.unifon.com.ar" proxy="" port="" mmsproxy="200.68.32.239" mmsport="8080" mmsc="http://mms.movistar.com.ar" user="mms" password="mms" type="mms" />
-  <apn carrier="Movistar WAP" mcc="722" mnc="074" apn="wap.gprs.unifon.com.ar" mmsc="" user="wap" password="wap" type="default,supl" />
-  <apn carrier="Movistar MMS" mcc="722" mnc="074" apn="mms.gprs.unifon.com.ar" proxy="" port="" mmsproxy="200.68.32.239" mmsport="8080" mmsc="http://mms.movistar.com.ar" user="mms" password="mms" type="mms" />
-  <apn carrier="Movistar WAP" mcc="722" mnc="075" apn="wap.gprs.unifon.com.ar" mmsc="" user="wap" password="wap" type="default,supl" />
-  <apn carrier="Movistar MMS" mcc="722" mnc="075" apn="mms.gprs.unifon.com.ar" proxy="" port="" mmsproxy="200.68.32.239" mmsport="8080" mmsc="http://mms.movistar.com.ar" user="mms" password="mms" type="mms" />
-  <apn carrier="Movistar WAP" mcc="722" mnc="076" apn="wap.gprs.unifon.com.ar" mmsc="" user="wap" password="wap" type="default,supl" />
-  <apn carrier="Movistar MMS" mcc="722" mnc="076" apn="mms.gprs.unifon.com.ar" proxy="" port="" mmsproxy="200.68.32.239" mmsport="8080" mmsc="http://mms.movistar.com.ar" user="mms" password="mms" type="mms" />
-  <apn carrier="Movistar WAP" mcc="722" mnc="077" apn="wap.gprs.unifon.com.ar" mmsc="" user="wap" password="wap" type="default,supl" />
-  <apn carrier="Movistar MMS" mcc="722" mnc="077" apn="mms.gprs.unifon.com.ar" proxy="" port="" mmsproxy="200.68.32.239" mmsport="8080" mmsc="http://mms.movistar.com.ar" user="mms" password="mms" type="mms" />
-  <apn carrier="Movistar WAP" mcc="722" mnc="078" apn="wap.gprs.unifon.com.ar" mmsc="" user="wap" password="wap" type="default,supl" />
-  <apn carrier="Movistar MMS" mcc="722" mnc="078" apn="mms.gprs.unifon.com.ar" proxy="" port="" mmsproxy="200.68.32.239" mmsport="8080" mmsc="http://mms.movistar.com.ar" user="mms" password="mms" type="mms" />
-  <apn carrier="Movistar WAP" mcc="722" mnc="079" apn="wap.gprs.unifon.com.ar" mmsc="" user="wap" password="wap" type="default,supl" />
-  <apn carrier="Movistar MMS" mcc="722" mnc="079" apn="mms.gprs.unifon.com.ar" proxy="" port="" mmsproxy="200.68.32.239" mmsport="8080" mmsc="http://mms.movistar.com.ar" user="mms" password="mms" type="mms" />
-  <apn carrier="Claro Internet" mcc="722" mnc="310" apn="igprs.claro.com.ar" user="ctigprs" password="ctigprs999" type="default,supl" />
-  <apn carrier="Claro AR MMS" mcc="722" mnc="310" apn="mms.ctimovil.com.ar" user="ctimms" password="ctimms999" mmsc="http://mms.ctimovil.com.ar" mmsproxy="170.051.255.240" mmsport="8080" authtype="1" type="mms" />
-  <apn carrier="CTI" mcc="722" mnc="310" apn="internet.ctimovil.com.ar" user="guest" password="guest" type="default,supl" />
-  <apn carrier="CTI MMS" mcc="722" mnc="310" apn="mms.ctimovil.com.ar" user="ctimms" password="ctimms999" mmsc="http://mms.ctimovil.com.ar" mmsproxy="170.051.255.240" mmsport="9201" type="mms" />
-  <apn carrier="CTI" mcc="722" mnc="310" apn="internet.ctimovil.com.ar" proxy="" port="" user="guest" password="guest" mmsc="" type="default,supl" />
-  <apn carrier="CTI MMS" mcc="722" mnc="310" apn="mms.ctimovil.com.ar" proxy="" port="" user="ctimms" password="ctimms999" mmsc="http://mms.ctimovil.com.ar" mmsproxy="170.51.255.240" mmsport="9201" type="mms" />
-  <apn carrier="Claro AR" mcc="722" mnc="310" apn="igprs.claro.com.ar" proxy="" port="" user="ctigprs" password="ctigpr999" mmsc="" authtype="1" type="default,supl" />
-  <apn carrier="Claro AR MMS" mcc="722" mnc="310" apn="mms.ctimovil.com.ar" proxy="" port="" user="ctimms" password="ctimms999" mmsc="http://mms.ctimovil.com.ar" mmsproxy="170.51.255.240" mmsport="8080" authtype="1" type="mms" />
-  <apn carrier="Personal WAP" mcc="722" mnc="341" apn="gprs.personal.com" user="" password="" type="default,supl" />
-  <apn carrier="Personal MMS" mcc="722" mnc="341" apn="mms" proxy="" port="" mmsproxy="172.25.7.31" mmsport="8080" mmsc="http://mms.personal.com" user="mms" password="mms" type="mms" />
-  <apn carrier="Personal" mcc="722" mnc="341" apn="datos.personal.com" user="datos" password="datos" type="default,supl" />
-  <apn carrier="Personal MMS" mcc="722" mnc="341" apn="mms" user="mms" password="mms" mmsc="http://mms.personal.com/" mmsproxy="172.025.007.031" mmsport="9201" type="mms" />
+    <apn
+        mcc="722"
+        mnc="01"
+        apn="internet.movil"
+        authtype="1"
+        carrier="QUAM"
+        password="internet"
+        type="default,supl,dun"
+        user="internet"
+    />
+    <apn
+        mcc="722"
+        mnc="01"
+        apn="mms.movil"
+        carrier="QUAM MMS"
+        mmsc="http://mms.quam.com.ar"
+        mmsport="9090"
+        mmsproxy="200.68.32.239"
+        password="mms"
+        type="mms"
+        user="mms"
+    />
+    <apn
+        mcc="722"
+        mnc="007"
+        apn="internet.unifon"
+        carrier="Movistar AG"
+        password="password"
+        type="default,supl"
+        user="wap"
+    />
+    <apn
+        mcc="722"
+        mnc="007"
+        apn="mms.gprs.unifon.com.ar"
+        carrier="Movistar AG MMS"
+        mmsc="http://mms.tmovil.cl/"
+        mmsport="9201"
+        mmsproxy="200.068.032.239"
+        password="mms"
+        type="mms"
+        user="mms"
+    />
+    <apn
+        mcc="722"
+        mnc="07"
+        apn="wap.gprs.unifon.com.ar"
+        authtype="1"
+        carrier="Movistar WAP"
+        mmsc=""
+        password="wap"
+        type="default,supl"
+        user="wap"
+    />
+    <apn
+        mcc="722"
+        mnc="07"
+        apn="mms.gprs.unifon.com.ar"
+        authtype="1"
+        carrier="Movistar MMS"
+        mmsc="http://mms.movistar.com.ar"
+        mmsport="8080"
+        mmsproxy="200.68.32.239"
+        password="mms"
+        port=""
+        proxy=""
+        type="mms"
+        user="mms"
+    />
+    <apn
+        mcc="722"
+        mnc="34"
+        apn="gprs.personal.com"
+        carrier="Personal WAP"
+        password=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="722"
+        mnc="34"
+        apn="mms"
+        carrier="Personal MMS"
+        mmsc="http://mms.personal.com"
+        mmsport="8080"
+        mmsproxy="172.25.7.31"
+        password="mms"
+        port=""
+        proxy=""
+        type="mms"
+        user="mms"
+    />
+    <apn
+        mcc="722"
+        mnc="34"
+        apn="datos.personal.com"
+        carrier="Personal"
+        password="datos"
+        type="default,supl"
+        user="datos"
+    />
+    <apn
+        mcc="722"
+        mnc="34"
+        apn="mms"
+        carrier="Personal MMS"
+        mmsc="http://mms.personal.com/"
+        mmsport="9201"
+        mmsproxy="172.025.007.031"
+        password="mms"
+        type="mms"
+        user="mms"
+    />
+    <apn
+        mcc="722"
+        mnc="34"
+        apn="gprs.personal.com"
+        carrier="Personal"
+        mmsc=""
+        password=""
+        port=""
+        proxy=""
+        type="default,supl"
+        user="gprs"
+    />
+    <apn
+        mcc="722"
+        mnc="34"
+        apn="mms"
+        carrier="Personal MMS"
+        mmsc="http://mms.personal.com/"
+        mmsport="9201"
+        mmsproxy="172.25.7.31"
+        password="mms"
+        port=""
+        proxy=""
+        type="mms"
+        user="mms"
+    />
+    <apn
+        mcc="722"
+        mnc="070"
+        apn="wap.gprs.unifon.com.ar"
+        carrier="Movistar WAP"
+        mmsc=""
+        password="wap"
+        type="default,supl"
+        user="wap"
+    />
+    <apn
+        mcc="722"
+        mnc="070"
+        apn="mms.gprs.unifon.com.ar"
+        carrier="Movistar MMS"
+        mmsc="http://mms.movistar.com.ar"
+        mmsport="8080"
+        mmsproxy="200.68.32.239"
+        password="mms"
+        port=""
+        proxy=""
+        type="mms"
+        user="mms"
+    />
+    <apn
+        mcc="722"
+        mnc="071"
+        apn="wap.gprs.unifon.com.ar"
+        carrier="Movistar WAP"
+        mmsc=""
+        password="wap"
+        type="default,supl"
+        user="wap"
+    />
+    <apn
+        mcc="722"
+        mnc="071"
+        apn="mms.gprs.unifon.com.ar"
+        carrier="Movistar MMS"
+        mmsc="http://mms.movistar.com.ar"
+        mmsport="8080"
+        mmsproxy="200.68.32.239"
+        password="mms"
+        port=""
+        proxy=""
+        type="mms"
+        user="mms"
+    />
+    <apn
+        mcc="722"
+        mnc="072"
+        apn="wap.gprs.unifon.com.ar"
+        carrier="Movistar WAP"
+        mmsc=""
+        password="wap"
+        type="default,supl"
+        user="wap"
+    />
+    <apn
+        mcc="722"
+        mnc="072"
+        apn="mms.gprs.unifon.com.ar"
+        carrier="Movistar MMS"
+        mmsc="http://mms.movistar.com.ar"
+        mmsport="8080"
+        mmsproxy="200.68.32.239"
+        password="mms"
+        port=""
+        proxy=""
+        type="mms"
+        user="mms"
+    />
+    <apn
+        mcc="722"
+        mnc="073"
+        apn="wap.gprs.unifon.com.ar"
+        carrier="Movistar WAP"
+        mmsc=""
+        password="wap"
+        type="default,supl"
+        user="wap"
+    />
+    <apn
+        mcc="722"
+        mnc="073"
+        apn="mms.gprs.unifon.com.ar"
+        carrier="Movistar MMS"
+        mmsc="http://mms.movistar.com.ar"
+        mmsport="8080"
+        mmsproxy="200.68.32.239"
+        password="mms"
+        port=""
+        proxy=""
+        type="mms"
+        user="mms"
+    />
+    <apn
+        mcc="722"
+        mnc="074"
+        apn="wap.gprs.unifon.com.ar"
+        carrier="Movistar WAP"
+        mmsc=""
+        password="wap"
+        type="default,supl"
+        user="wap"
+    />
+    <apn
+        mcc="722"
+        mnc="074"
+        apn="mms.gprs.unifon.com.ar"
+        carrier="Movistar MMS"
+        mmsc="http://mms.movistar.com.ar"
+        mmsport="8080"
+        mmsproxy="200.68.32.239"
+        password="mms"
+        port=""
+        proxy=""
+        type="mms"
+        user="mms"
+    />
+    <apn
+        mcc="722"
+        mnc="075"
+        apn="wap.gprs.unifon.com.ar"
+        carrier="Movistar WAP"
+        mmsc=""
+        password="wap"
+        type="default,supl"
+        user="wap"
+    />
+    <apn
+        mcc="722"
+        mnc="075"
+        apn="mms.gprs.unifon.com.ar"
+        carrier="Movistar MMS"
+        mmsc="http://mms.movistar.com.ar"
+        mmsport="8080"
+        mmsproxy="200.68.32.239"
+        password="mms"
+        port=""
+        proxy=""
+        type="mms"
+        user="mms"
+    />
+    <apn
+        mcc="722"
+        mnc="076"
+        apn="wap.gprs.unifon.com.ar"
+        carrier="Movistar WAP"
+        mmsc=""
+        password="wap"
+        type="default,supl"
+        user="wap"
+    />
+    <apn
+        mcc="722"
+        mnc="076"
+        apn="mms.gprs.unifon.com.ar"
+        carrier="Movistar MMS"
+        mmsc="http://mms.movistar.com.ar"
+        mmsport="8080"
+        mmsproxy="200.68.32.239"
+        password="mms"
+        port=""
+        proxy=""
+        type="mms"
+        user="mms"
+    />
+    <apn
+        mcc="722"
+        mnc="077"
+        apn="wap.gprs.unifon.com.ar"
+        carrier="Movistar WAP"
+        mmsc=""
+        password="wap"
+        type="default,supl"
+        user="wap"
+    />
+    <apn
+        mcc="722"
+        mnc="077"
+        apn="mms.gprs.unifon.com.ar"
+        carrier="Movistar MMS"
+        mmsc="http://mms.movistar.com.ar"
+        mmsport="8080"
+        mmsproxy="200.68.32.239"
+        password="mms"
+        port=""
+        proxy=""
+        type="mms"
+        user="mms"
+    />
+    <apn
+        mcc="722"
+        mnc="078"
+        apn="wap.gprs.unifon.com.ar"
+        carrier="Movistar WAP"
+        mmsc=""
+        password="wap"
+        type="default,supl"
+        user="wap"
+    />
+    <apn
+        mcc="722"
+        mnc="078"
+        apn="mms.gprs.unifon.com.ar"
+        carrier="Movistar MMS"
+        mmsc="http://mms.movistar.com.ar"
+        mmsport="8080"
+        mmsproxy="200.68.32.239"
+        password="mms"
+        port=""
+        proxy=""
+        type="mms"
+        user="mms"
+    />
+    <apn
+        mcc="722"
+        mnc="079"
+        apn="wap.gprs.unifon.com.ar"
+        carrier="Movistar WAP"
+        mmsc=""
+        password="wap"
+        type="default,supl"
+        user="wap"
+    />
+    <apn
+        mcc="722"
+        mnc="079"
+        apn="mms.gprs.unifon.com.ar"
+        carrier="Movistar MMS"
+        mmsc="http://mms.movistar.com.ar"
+        mmsport="8080"
+        mmsproxy="200.68.32.239"
+        password="mms"
+        port=""
+        proxy=""
+        type="mms"
+        user="mms"
+    />
+    <apn
+        mcc="722"
+        mnc="310"
+        apn="igprs.claro.com.ar"
+        carrier="Claro Internet"
+        password="ctigprs999"
+        type="default,supl"
+        user="ctigprs"
+    />
+    <apn
+        mcc="722"
+        mnc="310"
+        apn="mms.ctimovil.com.ar"
+        authtype="1"
+        carrier="Claro AR MMS"
+        mmsc="http://mms.ctimovil.com.ar"
+        mmsport="8080"
+        mmsproxy="170.051.255.240"
+        password="ctimms999"
+        type="mms"
+        user="ctimms"
+    />
+    <apn
+        mcc="722"
+        mnc="310"
+        apn="internet.ctimovil.com.ar"
+        carrier="CTI"
+        password="guest"
+        type="default,supl"
+        user="guest"
+    />
+    <apn
+        mcc="722"
+        mnc="310"
+        apn="mms.ctimovil.com.ar"
+        carrier="CTI MMS"
+        mmsc="http://mms.ctimovil.com.ar"
+        mmsport="9201"
+        mmsproxy="170.051.255.240"
+        password="ctimms999"
+        type="mms"
+        user="ctimms"
+    />
+    <apn
+        mcc="722"
+        mnc="310"
+        apn="internet.ctimovil.com.ar"
+        carrier="CTI"
+        mmsc=""
+        password="guest"
+        port=""
+        proxy=""
+        type="default,supl"
+        user="guest"
+    />
+    <apn
+        mcc="722"
+        mnc="310"
+        apn="mms.ctimovil.com.ar"
+        carrier="CTI MMS"
+        mmsc="http://mms.ctimovil.com.ar"
+        mmsport="9201"
+        mmsproxy="170.51.255.240"
+        password="ctimms999"
+        port=""
+        proxy=""
+        type="mms"
+        user="ctimms"
+    />
+    <apn
+        mcc="722"
+        mnc="310"
+        apn="igprs.claro.com.ar"
+        authtype="1"
+        carrier="Claro AR"
+        mmsc=""
+        password="ctigpr999"
+        port=""
+        proxy=""
+        type="default,supl"
+        user="ctigprs"
+    />
+    <apn
+        mcc="722"
+        mnc="310"
+        apn="mms.ctimovil.com.ar"
+        authtype="1"
+        carrier="Claro AR MMS"
+        mmsc="http://mms.ctimovil.com.ar"
+        mmsport="8080"
+        mmsproxy="170.51.255.240"
+        password="ctimms999"
+        port=""
+        proxy=""
+        type="mms"
+        user="ctimms"
+    />
+    <apn
+        mcc="722"
+        mnc="341"
+        apn="gprs.personal.com"
+        carrier="Personal WAP"
+        password=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="722"
+        mnc="341"
+        apn="mms"
+        carrier="Personal MMS"
+        mmsc="http://mms.personal.com"
+        mmsport="8080"
+        mmsproxy="172.25.7.31"
+        password="mms"
+        port=""
+        proxy=""
+        type="mms"
+        user="mms"
+    />
+    <apn
+        mcc="722"
+        mnc="341"
+        apn="datos.personal.com"
+        carrier="Personal"
+        password="datos"
+        type="default,supl"
+        user="datos"
+    />
+    <apn
+        mcc="722"
+        mnc="341"
+        apn="mms"
+        carrier="Personal MMS"
+        mmsc="http://mms.personal.com/"
+        mmsport="9201"
+        mmsproxy="172.025.007.031"
+        password="mms"
+        type="mms"
+        user="mms"
+    />
 </apns>

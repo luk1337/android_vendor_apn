@@ -5,7 +5,46 @@
     SPDX-License-Identifier: Apache-2.0
 -->
 <apns version="8">
-  <apn carrier="MMS" mcc="467" mnc="05" apn="KL．M" proxy="" port="" mmsproxy="10.250.155.42" mmsport="8080" mmsc="http://10.250.155.30:38090" user="" password="" type="mms" />
-  <apn carrier="KL．M" mcc="467" mnc="06" apn="KL．M" proxy="" port="" mmsproxy="10.250.155.42" mmsport="8080" mmsc="http://10.250.155.30:38090" user="" password="" type="mms" />
-  <apn carrier="KL．M" mcc="467" mnc="07" apn="KL．M" proxy="" port="" mmsproxy="10.250.155.42" mmsport="8080" mmsc="http://10.250.155.30:38090" user="" password="" type="mms" />
+    <apn
+        mcc="467"
+        mnc="05"
+        apn="KL．M"
+        carrier="MMS"
+        mmsc="http://10.250.155.30:38090"
+        mmsport="8080"
+        mmsproxy="10.250.155.42"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="467"
+        mnc="06"
+        apn="KL．M"
+        carrier="KL．M"
+        mmsc="http://10.250.155.30:38090"
+        mmsport="8080"
+        mmsproxy="10.250.155.42"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="467"
+        mnc="07"
+        apn="KL．M"
+        carrier="KL．M"
+        mmsc="http://10.250.155.30:38090"
+        mmsport="8080"
+        mmsproxy="10.250.155.42"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
 </apns>

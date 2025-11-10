@@ -5,10 +5,77 @@
     SPDX-License-Identifier: Apache-2.0
 -->
 <apns version="8">
-  <apn carrier="Movistar INTERNET" mcc="716" mnc="06" apn="movistar.pe" user="movistar@datos" password="movistar" authtype="1" type="default,supl" />
-  <apn carrier="Movistar MMS" mcc="716" mnc="06" apn="mms.movistar.pe" proxy="" port="" mmsproxy="200.4.196.118" mmsport="8080" mmsc="http://mmsc.telefonicamovistar.com.pe:8088/mms/" user="movistar@mms" password="movistar" authtype="1" type="mms" />
-  <apn carrier="CLARO DATOS" mcc="716" mnc="10" apn="claro.pe" user="claro" password="claro" authtype="1" type="default,supl" />
-  <apn carrier="Claro MMS" mcc="716" mnc="10" apn="mms.claro.pe" proxy="" port="" mmsproxy="192.168.231.30" mmsport="80" mmsc="http://claro/servlets/mms" user="claro" password="claro" authtype="1" type="mms" />
-  <apn carrier="Entel Internet" mcc="716" mnc="17" apn="entel.pe" user="" password="" authtype="0" type="default,supl" />
-  <apn carrier="Entel MMS" mcc="716" mnc="17" apn="mms.entel.pe" proxy="" port="" mmsc="http://mms.nextel.pe" user="" password="" authtype="0" type="mms" />
+    <apn
+        mcc="716"
+        mnc="06"
+        apn="movistar.pe"
+        authtype="1"
+        carrier="Movistar INTERNET"
+        password="movistar"
+        type="default,supl"
+        user="movistar@datos"
+    />
+    <apn
+        mcc="716"
+        mnc="06"
+        apn="mms.movistar.pe"
+        authtype="1"
+        carrier="Movistar MMS"
+        mmsc="http://mmsc.telefonicamovistar.com.pe:8088/mms/"
+        mmsport="8080"
+        mmsproxy="200.4.196.118"
+        password="movistar"
+        port=""
+        proxy=""
+        type="mms"
+        user="movistar@mms"
+    />
+    <apn
+        mcc="716"
+        mnc="10"
+        apn="claro.pe"
+        authtype="1"
+        carrier="CLARO DATOS"
+        password="claro"
+        type="default,supl"
+        user="claro"
+    />
+    <apn
+        mcc="716"
+        mnc="10"
+        apn="mms.claro.pe"
+        authtype="1"
+        carrier="Claro MMS"
+        mmsc="http://claro/servlets/mms"
+        mmsport="80"
+        mmsproxy="192.168.231.30"
+        password="claro"
+        port=""
+        proxy=""
+        type="mms"
+        user="claro"
+    />
+    <apn
+        mcc="716"
+        mnc="17"
+        apn="entel.pe"
+        authtype="0"
+        carrier="Entel Internet"
+        password=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="716"
+        mnc="17"
+        apn="mms.entel.pe"
+        authtype="0"
+        carrier="Entel MMS"
+        mmsc="http://mms.nextel.pe"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
 </apns>

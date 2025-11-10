@@ -5,18 +5,158 @@
     SPDX-License-Identifier: Apache-2.0
 -->
 <apns version="8">
-  <apn carrier="Orange World" mcc="647" mnc="00" apn="orangerun" proxy="192.168.010.100" port="8080" user="orange" password="orange" type="default,supl" />
-  <apn carrier="Orange MMS" mcc="647" mnc="00" apn="orangerun.acte" proxy="" port="" mmsproxy="192.168.10.200" mmsport="8080" mmsc="http://mms.orange.re" user="orange" password="orange" type="mms" />
-  <apn carrier="Internet" mcc="647" mnc="00" apn="orangerun" user="orange" password="orange" type="default,supl" />
-  <apn carrier="Orange MMS" mcc="647" mnc="00" apn="orangerun.acte" user="orange" password="orange" mmsc="http://mms.orange.re/" mmsproxy="192.168.010.200" mmsport="8080" type="mms" />
-  <apn carrier="Orange RE MMS" mcc="647" mnc="00" apn="orangerun.acte" user="orange" password="orange" mmsc="http://mms.orange.re/" mmsproxy="192.168.010.200" mmsport="8080" type="mms" />
-  <apn carrier="Orange RE" mcc="647" mnc="00" apn="orangerun" user="orange" password="orange" type="default,supl" />
-  <apn carrier="Orange MMS Réunion" mcc="647" mnc="00" apn="orangerun.acte" user="orange" password="orange" mmsc="http://mms.orange.re" mmsproxy="192.168.10.200" mmsport="8080" type="mms" />
-  <apn carrier="Onlyplanet" mcc="647" mnc="02" apn="onlywap" proxy="10.4.85.50" port="8080" user="only" password="only" type="default,supl" />
-  <apn carrier="onlymms" mcc="647" mnc="02" apn="onlymms" proxy="" port="" mmsproxy="10.4.85.50" mmsport="8080" mmsc="http://10.4.85.50:8514" user="only" password="only" type="mms" />
-  <apn carrier="WAP GPRS SRR" mcc="647" mnc="10" apn="wapsfr" proxy="10.0.224.161" port="8080" mmsc="" user="wap" password="wap" type="default,supl" />
-  <apn carrier="MMS GPRS SRR" mcc="647" mnc="10" apn="mmssfr" proxy="" port="" mmsproxy="10.0.224.145" mmsport="8080" mmsc="http://mms" user="mms" password="mms" type="mms" />
-  <apn carrier="WEB GPRS SRR" mcc="647" mnc="10" apn="websfr" type="default,supl" />
-  <apn carrier="SFR MMS" mcc="647" mnc="10" apn="mmssfr" mmsc="http://mms" mmsproxy="10.0.224.145" mmsport="8080" type="mms" />
-  <apn carrier="SFR NET" mcc="647" mnc="10" apn="sl2sfr" type="default,supl" />
+    <apn
+        mcc="647"
+        mnc="00"
+        apn="orangerun"
+        carrier="Orange World"
+        password="orange"
+        port="8080"
+        proxy="192.168.010.100"
+        type="default,supl"
+        user="orange"
+    />
+    <apn
+        mcc="647"
+        mnc="00"
+        apn="orangerun.acte"
+        carrier="Orange MMS"
+        mmsc="http://mms.orange.re"
+        mmsport="8080"
+        mmsproxy="192.168.10.200"
+        password="orange"
+        port=""
+        proxy=""
+        type="mms"
+        user="orange"
+    />
+    <apn
+        mcc="647"
+        mnc="00"
+        apn="orangerun"
+        carrier="Internet"
+        password="orange"
+        type="default,supl"
+        user="orange"
+    />
+    <apn
+        mcc="647"
+        mnc="00"
+        apn="orangerun.acte"
+        carrier="Orange MMS"
+        mmsc="http://mms.orange.re/"
+        mmsport="8080"
+        mmsproxy="192.168.010.200"
+        password="orange"
+        type="mms"
+        user="orange"
+    />
+    <apn
+        mcc="647"
+        mnc="00"
+        apn="orangerun.acte"
+        carrier="Orange RE MMS"
+        mmsc="http://mms.orange.re/"
+        mmsport="8080"
+        mmsproxy="192.168.010.200"
+        password="orange"
+        type="mms"
+        user="orange"
+    />
+    <apn
+        mcc="647"
+        mnc="00"
+        apn="orangerun"
+        carrier="Orange RE"
+        password="orange"
+        type="default,supl"
+        user="orange"
+    />
+    <apn
+        mcc="647"
+        mnc="00"
+        apn="orangerun.acte"
+        carrier="Orange MMS Réunion"
+        mmsc="http://mms.orange.re"
+        mmsport="8080"
+        mmsproxy="192.168.10.200"
+        password="orange"
+        type="mms"
+        user="orange"
+    />
+    <apn
+        mcc="647"
+        mnc="02"
+        apn="onlywap"
+        carrier="Onlyplanet"
+        password="only"
+        port="8080"
+        proxy="10.4.85.50"
+        type="default,supl"
+        user="only"
+    />
+    <apn
+        mcc="647"
+        mnc="02"
+        apn="onlymms"
+        carrier="onlymms"
+        mmsc="http://10.4.85.50:8514"
+        mmsport="8080"
+        mmsproxy="10.4.85.50"
+        password="only"
+        port=""
+        proxy=""
+        type="mms"
+        user="only"
+    />
+    <apn
+        mcc="647"
+        mnc="10"
+        apn="wapsfr"
+        carrier="WAP GPRS SRR"
+        mmsc=""
+        password="wap"
+        port="8080"
+        proxy="10.0.224.161"
+        type="default,supl"
+        user="wap"
+    />
+    <apn
+        mcc="647"
+        mnc="10"
+        apn="mmssfr"
+        carrier="MMS GPRS SRR"
+        mmsc="http://mms"
+        mmsport="8080"
+        mmsproxy="10.0.224.145"
+        password="mms"
+        port=""
+        proxy=""
+        type="mms"
+        user="mms"
+    />
+    <apn
+        mcc="647"
+        mnc="10"
+        apn="websfr"
+        carrier="WEB GPRS SRR"
+        type="default,supl"
+    />
+    <apn
+        mcc="647"
+        mnc="10"
+        apn="mmssfr"
+        carrier="SFR MMS"
+        mmsc="http://mms"
+        mmsport="8080"
+        mmsproxy="10.0.224.145"
+        type="mms"
+    />
+    <apn
+        mcc="647"
+        mnc="10"
+        apn="sl2sfr"
+        carrier="SFR NET"
+        type="default,supl"
+    />
 </apns>

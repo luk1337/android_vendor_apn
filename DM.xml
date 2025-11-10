@@ -5,8 +5,52 @@
     SPDX-License-Identifier: Apache-2.0
 -->
 <apns version="8">
-  <apn carrier="LIME Prepaid Internet" mcc="366" mnc="110" apn="ppinternet" mmsc="" user="" password="" proxy="" port="8799" type="default,supl" />
-  <apn carrier="LIME Postpaid Internet" mcc="366" mnc="110" apn="internet" mmsc="" user="" password="" proxy="" port="8799" type="default,supl" />
-  <apn carrier="LIME Prepaid MMS" mcc="366" mnc="110" apn="ppmms" mmsc="http://mmsc" user="" password="" proxy="10.20.5.34" port="8799" type="mms" />
-  <apn carrier="LIME Postpaid MMS" mcc="366" mnc="110" apn="multimedia" mmsc="http://mmsc" user="" password="" proxy="10.20.5.34" port="8799" type="mms" />
+    <apn
+        mcc="366"
+        mnc="110"
+        apn="ppinternet"
+        carrier="LIME Prepaid Internet"
+        mmsc=""
+        password=""
+        port="8799"
+        proxy=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="366"
+        mnc="110"
+        apn="internet"
+        carrier="LIME Postpaid Internet"
+        mmsc=""
+        password=""
+        port="8799"
+        proxy=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="366"
+        mnc="110"
+        apn="ppmms"
+        carrier="LIME Prepaid MMS"
+        mmsc="http://mmsc"
+        password=""
+        port="8799"
+        proxy="10.20.5.34"
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="366"
+        mnc="110"
+        apn="multimedia"
+        carrier="LIME Postpaid MMS"
+        mmsc="http://mmsc"
+        password=""
+        port="8799"
+        proxy="10.20.5.34"
+        type="mms"
+        user=""
+    />
 </apns>

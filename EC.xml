@@ -5,11 +5,77 @@
     SPDX-License-Identifier: Apache-2.0
 -->
 <apns version="8">
-  <apn carrier="Movistar INTERNET" mcc="740" mnc="00" apn="internet.movistar.com.ec" user="movistar" password="movistar" type="default,supl" />
-  <apn carrier="Movistar MMS" mcc="740" mnc="00" apn="mms.movistar.com.ec" proxy="" port="" mmsproxy="10.3.5.50" mmsport="9001" mmsc="http://mms.movistar.com.ec:8088/mms/" user="movistar" password="movistar" type="mms" />
-  <apn carrier="Banda Acha M??vil" mcc="740" mnc="01" apn="ba.amx" user="" password="" type="default,supl" />
-  <apn carrier="MMS Claro" mcc="740" mnc="01" apn="mms.claro.com.ec" user="" password="" type="mms" />
-  <apn carrier="Movistar INTERNET" mcc="740" mnc="02" apn="internet.movistar.com.ec" user="movistar" password="movistar" authtype="3" type="default,supl" />
-  <apn carrier="Movistar MMS" mcc="740" mnc="02" apn="mms.movistar.com.ec" proxy="" port="" mmsproxy="10.3.5.50" mmsport="9001" mmsc="http://mms.movistar.com.ec:8088/mms/" user="movistar" password="movistar" authtype="3" type="mms" />
-  <apn carrier="Porta EC" mcc="740" mnc="010" apn="internet.porta.com.ec" type="default,supl" />
+    <apn
+        mcc="740"
+        mnc="00"
+        apn="internet.movistar.com.ec"
+        carrier="Movistar INTERNET"
+        password="movistar"
+        type="default,supl"
+        user="movistar"
+    />
+    <apn
+        mcc="740"
+        mnc="00"
+        apn="mms.movistar.com.ec"
+        carrier="Movistar MMS"
+        mmsc="http://mms.movistar.com.ec:8088/mms/"
+        mmsport="9001"
+        mmsproxy="10.3.5.50"
+        password="movistar"
+        port=""
+        proxy=""
+        type="mms"
+        user="movistar"
+    />
+    <apn
+        mcc="740"
+        mnc="01"
+        apn="ba.amx"
+        carrier="Banda Acha M??vil"
+        password=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="740"
+        mnc="01"
+        apn="mms.claro.com.ec"
+        carrier="MMS Claro"
+        password=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="740"
+        mnc="02"
+        apn="internet.movistar.com.ec"
+        authtype="3"
+        carrier="Movistar INTERNET"
+        password="movistar"
+        type="default,supl"
+        user="movistar"
+    />
+    <apn
+        mcc="740"
+        mnc="02"
+        apn="mms.movistar.com.ec"
+        authtype="3"
+        carrier="Movistar MMS"
+        mmsc="http://mms.movistar.com.ec:8088/mms/"
+        mmsport="9001"
+        mmsproxy="10.3.5.50"
+        password="movistar"
+        port=""
+        proxy=""
+        type="mms"
+        user="movistar"
+    />
+    <apn
+        mcc="740"
+        mnc="010"
+        apn="internet.porta.com.ec"
+        carrier="Porta EC"
+        type="default,supl"
+    />
 </apns>

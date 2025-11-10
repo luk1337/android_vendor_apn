@@ -5,6 +5,24 @@
     SPDX-License-Identifier: Apache-2.0
 -->
 <apns version="8">
-  <apn carrier="Vodacom CD" mcc="630" mnc="01" apn="vodanet" user="vodalive" type="default,supl" />
-  <apn carrier="Vodacom CD" mcc="630" mnc="01" apn="vodanet" proxy="" port="" user="vodalive" password="" mmsc="" type="default,supl" />
+    <apn
+        mcc="630"
+        mnc="01"
+        apn="vodanet"
+        carrier="Vodacom CD"
+        type="default,supl"
+        user="vodalive"
+    />
+    <apn
+        mcc="630"
+        mnc="01"
+        apn="vodanet"
+        carrier="Vodacom CD"
+        mmsc=""
+        password=""
+        port=""
+        proxy=""
+        type="default,supl"
+        user="vodalive"
+    />
 </apns>

@@ -5,8 +5,40 @@
     SPDX-License-Identifier: Apache-2.0
 -->
 <apns version="8">
-  <apn carrier="Libyana MMS" mcc="606" mnc="00" apn="mms" mmsc="http://62.240.62.180:80" mmsproxy="192.168.8.148" mmsport="8000" type="mms" />
-  <apn carrier="Libyana" mcc="606" mnc="00" apn="wap" proxy="192.168.8.148" port="8000" type="default,supl" />
-  <apn carrier="Al-Madar MMS" mcc="606" mnc="01" apn="almadar.mms" mmsc="http://almadar.mms/servlets/mms" mmsproxy="41.208.82.50" mmsport="8080" type="mms" />
-  <apn carrier="Al-Madar" mcc="606" mnc="01" apn="almadar.net" type="default,supl" />
+    <apn
+        mcc="606"
+        mnc="00"
+        apn="mms"
+        carrier="Libyana MMS"
+        mmsc="http://62.240.62.180:80"
+        mmsport="8000"
+        mmsproxy="192.168.8.148"
+        type="mms"
+    />
+    <apn
+        mcc="606"
+        mnc="00"
+        apn="wap"
+        carrier="Libyana"
+        port="8000"
+        proxy="192.168.8.148"
+        type="default,supl"
+    />
+    <apn
+        mcc="606"
+        mnc="01"
+        apn="almadar.mms"
+        carrier="Al-Madar MMS"
+        mmsc="http://almadar.mms/servlets/mms"
+        mmsport="8080"
+        mmsproxy="41.208.82.50"
+        type="mms"
+    />
+    <apn
+        mcc="606"
+        mnc="01"
+        apn="almadar.net"
+        carrier="Al-Madar"
+        type="default,supl"
+    />
 </apns>

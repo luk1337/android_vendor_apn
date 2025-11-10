@@ -5,7 +5,32 @@
     SPDX-License-Identifier: Apache-2.0
 -->
 <apns version="8">
-  <apn carrier="Orange World" mcc="617" mnc="01" apn="Orangeworld" proxy="10.20.3.9" port="8080" type="default,supl" />
-  <apn carrier="Orange MMS" mcc="617" mnc="01" apn="orangemms" user="mmsc" password="mmsc" mmsc="http://10.2.1.20:8514" mmsproxy="10.2.1.20" mmsport="8080" type="mms" />
-  <apn carrier="Orange Internet" mcc="617" mnc="01" apn="orange" type="default,supl" />
+    <apn
+        mcc="617"
+        mnc="01"
+        apn="Orangeworld"
+        carrier="Orange World"
+        port="8080"
+        proxy="10.20.3.9"
+        type="default,supl"
+    />
+    <apn
+        mcc="617"
+        mnc="01"
+        apn="orangemms"
+        carrier="Orange MMS"
+        mmsc="http://10.2.1.20:8514"
+        mmsport="8080"
+        mmsproxy="10.2.1.20"
+        password="mmsc"
+        type="mms"
+        user="mmsc"
+    />
+    <apn
+        mcc="617"
+        mnc="01"
+        apn="orange"
+        carrier="Orange Internet"
+        type="default,supl"
+    />
 </apns>

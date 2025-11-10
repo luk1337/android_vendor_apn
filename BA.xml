@@ -5,17 +5,161 @@
     SPDX-License-Identifier: Apache-2.0
 -->
 <apns version="8">
-  <apn carrier="ERONET START" mcc="218" mnc="03" apn="gprs.eronet.ba" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
-  <apn carrier="ERONET MI 50" mcc="218" mnc="03" apn="web.eronet.ba" proxy="" port="" user="" password="" mmsc="" type="supl" />
-  <apn carrier="ERONET MI 200" mcc="218" mnc="03" apn="web.eronet.ba" proxy="" port="" user="" password="" mmsc="" type="supl" />
-  <apn carrier="ERONET 512" mcc="218" mnc="03" apn="data1.eronet.ba" proxy="" port="" user="" password="" mmsc="" type="supl" />
-  <apn carrier="ERONET 1GB" mcc="218" mnc="03" apn="data4.eronet.ba" proxy="" port="" user="" password="" mmsc="" type="supl" />
-  <apn carrier="ERONET 4GB" mcc="218" mnc="03" apn="data2.eronet.ba" proxy="" port="" user="" password="" mmsc="" type="supl" />
-  <apn carrier="ERONET FLAT" mcc="218" mnc="03" apn="data3.eronet.ba" proxy="" port="" user="" password="" mmsc="" type="supl" />
-  <apn carrier="ERONET MMS" mcc="218" mnc="03" apn="mms.eronet.ba" proxy="" port="" user="" password="" mmsc="http://mms.gprs.eronet.ba/mms/wapenc" mmsproxy="10.12.3.11" mmsport="8080" type="mms" />
-  <apn carrier="M-tel" mcc="218" mnc="05" apn="3g1" proxy="192.168.61.10" port="80" type="default,supl" />
-  <apn carrier="M-tel Frend" mcc="218" mnc="05" apn="mtelfrend" proxy="" port="" user="" password="" mmsc="" type="default,supl" protocol="IP" roaming_protocol="IP" />
-  <apn carrier="M-tel mms" mcc="218" mnc="05" apn="mtelmms" mmsc="http://mmsc.mtel.ba/mms/wapenc" mmsproxy="192.168.61.11" mmsport="8080" type="mms" />
-  <apn carrier="BH Mobile" mcc="218" mnc="90" apn="active.bhmobile.ba" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
-  <apn carrier="BH Mobile MMS" mcc="218" mnc="90" apn="mms.bhmobile.ba" proxy="" port="" user="" password="" mmsc="http://mms.bhmobile.ba/cmmsc/post" mmsproxy="195.222.56.41" mmsport="8080" type="mms" />
+    <apn
+        mcc="218"
+        mnc="03"
+        apn="gprs.eronet.ba"
+        carrier="ERONET START"
+        mmsc=""
+        password=""
+        port=""
+        proxy=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="218"
+        mnc="03"
+        apn="web.eronet.ba"
+        carrier="ERONET MI 50"
+        mmsc=""
+        password=""
+        port=""
+        proxy=""
+        type="supl"
+        user=""
+    />
+    <apn
+        mcc="218"
+        mnc="03"
+        apn="web.eronet.ba"
+        carrier="ERONET MI 200"
+        mmsc=""
+        password=""
+        port=""
+        proxy=""
+        type="supl"
+        user=""
+    />
+    <apn
+        mcc="218"
+        mnc="03"
+        apn="data1.eronet.ba"
+        carrier="ERONET 512"
+        mmsc=""
+        password=""
+        port=""
+        proxy=""
+        type="supl"
+        user=""
+    />
+    <apn
+        mcc="218"
+        mnc="03"
+        apn="data4.eronet.ba"
+        carrier="ERONET 1GB"
+        mmsc=""
+        password=""
+        port=""
+        proxy=""
+        type="supl"
+        user=""
+    />
+    <apn
+        mcc="218"
+        mnc="03"
+        apn="data2.eronet.ba"
+        carrier="ERONET 4GB"
+        mmsc=""
+        password=""
+        port=""
+        proxy=""
+        type="supl"
+        user=""
+    />
+    <apn
+        mcc="218"
+        mnc="03"
+        apn="data3.eronet.ba"
+        carrier="ERONET FLAT"
+        mmsc=""
+        password=""
+        port=""
+        proxy=""
+        type="supl"
+        user=""
+    />
+    <apn
+        mcc="218"
+        mnc="03"
+        apn="mms.eronet.ba"
+        carrier="ERONET MMS"
+        mmsc="http://mms.gprs.eronet.ba/mms/wapenc"
+        mmsport="8080"
+        mmsproxy="10.12.3.11"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="218"
+        mnc="05"
+        apn="3g1"
+        carrier="M-tel"
+        port="80"
+        proxy="192.168.61.10"
+        type="default,supl"
+    />
+    <apn
+        mcc="218"
+        mnc="05"
+        apn="mtelfrend"
+        carrier="M-tel Frend"
+        mmsc=""
+        password=""
+        port=""
+        protocol="IP"
+        proxy=""
+        roaming_protocol="IP"
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="218"
+        mnc="05"
+        apn="mtelmms"
+        carrier="M-tel mms"
+        mmsc="http://mmsc.mtel.ba/mms/wapenc"
+        mmsport="8080"
+        mmsproxy="192.168.61.11"
+        type="mms"
+    />
+    <apn
+        mcc="218"
+        mnc="90"
+        apn="active.bhmobile.ba"
+        carrier="BH Mobile"
+        mmsc=""
+        password=""
+        port=""
+        proxy=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="218"
+        mnc="90"
+        apn="mms.bhmobile.ba"
+        carrier="BH Mobile MMS"
+        mmsc="http://mms.bhmobile.ba/cmmsc/post"
+        mmsport="8080"
+        mmsproxy="195.222.56.41"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
 </apns>

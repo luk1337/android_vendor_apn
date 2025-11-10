@@ -5,19 +5,137 @@
     SPDX-License-Identifier: Apache-2.0
 -->
 <apns version="8">
-  <apn carrier="Asiacell" mcc="418" mnc="05" apn="net.asiacell.com" type="default,supl" />
-  <apn carrier="Asiacell MMS" mcc="418" mnc="05" apn="wap.asiacell.com" mmsc="http://192.168.107.10:19090/was" mmsproxy="192.168.107.50" mmsport="8080" type="mms" />
-  <apn carrier="SanaTel" mcc="418" mnc="08" apn="default" type="default,supl" />
-  <apn carrier="Zain-GPRS" mcc="418" mnc="20" apn="internet" user="atheer" password="atheer" type="default,supl" />
-  <apn carrier="Zain-MMS" mcc="418" mnc="20" apn="MMS" user="atheer" password="atheer" mmsc="http://mms:8002/" mmsproxy="172.29.11.12" mmsport="8080" type="mms" />
-  <apn carrier="Zain-GPRS" mcc="418" mnc="30" apn="internet" user="atheer" password="atheer" type="default,supl" />
-  <apn carrier="Zain-MMS" mcc="418" mnc="30" apn="MMS" user="atheer" password="atheer" mmsc="http://mms:8002/" mmsproxy="172.29.11.12" mmsport="8080" type="mms" />
-  <apn carrier="net.korek.com" mcc="418" mnc="40" apn="net.korek.com" user="korek" password="korek" type="default,supl" />
-  <apn carrier="Korek" mcc="418" mnc="40" apn="internet.korek.com" type="default,supl" />
-  <apn carrier="Korek GPRS" mcc="418" mnc="40" apn="net.korek.com" user="korek" password="korek" type="default,supl" />
-  <apn carrier="Korek MMS" mcc="418" mnc="40" apn="mms.korek.com" user="korek" password="korek" mmsc="http://mms.korektel.com/mms/wapenc" mmsproxy="192.168.18.187" mmsport="8080" type="mms" />
-  <apn carrier="Mobitel IQ" mcc="418" mnc="45" apn="default" type="default,supl" />
-  <apn carrier="Itisaluna" mcc="418" mnc="62" apn="default" type="default,supl" />
-  <apn carrier="Newroz" mcc="418" mnc="66" apn="Newroz" user="reber" password="reber" type="default,supl" />
-  <apn carrier="Omnnea" mcc="418" mnc="92" apn="default" type="default,supl" />
+    <apn
+        mcc="418"
+        mnc="05"
+        apn="net.asiacell.com"
+        carrier="Asiacell"
+        type="default,supl"
+    />
+    <apn
+        mcc="418"
+        mnc="05"
+        apn="wap.asiacell.com"
+        carrier="Asiacell MMS"
+        mmsc="http://192.168.107.10:19090/was"
+        mmsport="8080"
+        mmsproxy="192.168.107.50"
+        type="mms"
+    />
+    <apn
+        mcc="418"
+        mnc="08"
+        apn="default"
+        carrier="SanaTel"
+        type="default,supl"
+    />
+    <apn
+        mcc="418"
+        mnc="20"
+        apn="internet"
+        carrier="Zain-GPRS"
+        password="atheer"
+        type="default,supl"
+        user="atheer"
+    />
+    <apn
+        mcc="418"
+        mnc="20"
+        apn="MMS"
+        carrier="Zain-MMS"
+        mmsc="http://mms:8002/"
+        mmsport="8080"
+        mmsproxy="172.29.11.12"
+        password="atheer"
+        type="mms"
+        user="atheer"
+    />
+    <apn
+        mcc="418"
+        mnc="30"
+        apn="internet"
+        carrier="Zain-GPRS"
+        password="atheer"
+        type="default,supl"
+        user="atheer"
+    />
+    <apn
+        mcc="418"
+        mnc="30"
+        apn="MMS"
+        carrier="Zain-MMS"
+        mmsc="http://mms:8002/"
+        mmsport="8080"
+        mmsproxy="172.29.11.12"
+        password="atheer"
+        type="mms"
+        user="atheer"
+    />
+    <apn
+        mcc="418"
+        mnc="40"
+        apn="net.korek.com"
+        carrier="net.korek.com"
+        password="korek"
+        type="default,supl"
+        user="korek"
+    />
+    <apn
+        mcc="418"
+        mnc="40"
+        apn="internet.korek.com"
+        carrier="Korek"
+        type="default,supl"
+    />
+    <apn
+        mcc="418"
+        mnc="40"
+        apn="net.korek.com"
+        carrier="Korek GPRS"
+        password="korek"
+        type="default,supl"
+        user="korek"
+    />
+    <apn
+        mcc="418"
+        mnc="40"
+        apn="mms.korek.com"
+        carrier="Korek MMS"
+        mmsc="http://mms.korektel.com/mms/wapenc"
+        mmsport="8080"
+        mmsproxy="192.168.18.187"
+        password="korek"
+        type="mms"
+        user="korek"
+    />
+    <apn
+        mcc="418"
+        mnc="45"
+        apn="default"
+        carrier="Mobitel IQ"
+        type="default,supl"
+    />
+    <apn
+        mcc="418"
+        mnc="62"
+        apn="default"
+        carrier="Itisaluna"
+        type="default,supl"
+    />
+    <apn
+        mcc="418"
+        mnc="66"
+        apn="Newroz"
+        carrier="Newroz"
+        password="reber"
+        type="default,supl"
+        user="reber"
+    />
+    <apn
+        mcc="418"
+        mnc="92"
+        apn="default"
+        carrier="Omnnea"
+        type="default,supl"
+    />
 </apns>

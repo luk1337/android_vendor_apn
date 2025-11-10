@@ -5,8 +5,50 @@
     SPDX-License-Identifier: Apache-2.0
 -->
 <apns version="8">
-  <apn carrier="MTN CM" mcc="624" mnc="01" apn="INTERNET" user="guest" password="guest" type="default,supl" />
-  <apn carrier="Orange CM WAP" mcc="624" mnc="02" apn="orangecmgprs" proxy="192.168.122.101" port="8080" user="orange" password="orange" type="default,supl" />
-  <apn carrier="Orange CM MMS" mcc="624" mnc="02" apn="orangecmgprs" user="orange" password="orange" mmsc="http://mms.orange.cm" mmsproxy="192.168.122.101" mmsport="8080" type="mms" />
-  <apn carrier="Orange CM" mcc="624" mnc="02" apn="orangecmgprs" user="orange" password="orange" proxy="192.168.122.101" port="8080" mmsc="http://mms.orange.cm" mmsproxy="192.168.122.101" mmsport="8080" type="default,mms" />
+    <apn
+        mcc="624"
+        mnc="01"
+        apn="INTERNET"
+        carrier="MTN CM"
+        password="guest"
+        type="default,supl"
+        user="guest"
+    />
+    <apn
+        mcc="624"
+        mnc="02"
+        apn="orangecmgprs"
+        carrier="Orange CM WAP"
+        password="orange"
+        port="8080"
+        proxy="192.168.122.101"
+        type="default,supl"
+        user="orange"
+    />
+    <apn
+        mcc="624"
+        mnc="02"
+        apn="orangecmgprs"
+        carrier="Orange CM MMS"
+        mmsc="http://mms.orange.cm"
+        mmsport="8080"
+        mmsproxy="192.168.122.101"
+        password="orange"
+        type="mms"
+        user="orange"
+    />
+    <apn
+        mcc="624"
+        mnc="02"
+        apn="orangecmgprs"
+        carrier="Orange CM"
+        mmsc="http://mms.orange.cm"
+        mmsport="8080"
+        mmsproxy="192.168.122.101"
+        password="orange"
+        port="8080"
+        proxy="192.168.122.101"
+        type="default,mms"
+        user="orange"
+    />
 </apns>

@@ -5,47 +5,473 @@
     SPDX-License-Identifier: Apache-2.0
 -->
 <apns version="8">
-  <apn carrier="Carrefour Mova" mcc="260" mnc="01" apn="www.mova.pl" type="default,supl" />
-  <apn carrier="Carrefour Mova MMS" mcc="260" mnc="01" apn="mms.mova.pl" mmsc="http://mms.mova.pl:8002/" mmsproxy="212.2.96.16" mmsport="8080" type="mms" />
-  <apn carrier="FM Group Mobile" mcc="260" mnc="01" apn="www.fmgmobie.pl" type="default,supl" />
-  <apn carrier="FM Group Mobile MMS" mcc="260" mnc="01" apn="mms.fmgmobile.pl" mmsc="http://mms.fmgmobile.pl:8002/" mmsproxy="212.2.96.16" mmsport="8080" type="mms" />
-  <apn carrier="GaduAIR" mcc="260" mnc="01" apn="internet.gadu-gadu.pl" type="default,supl" />
-  <apn carrier="GaduAIR MMS" mcc="260" mnc="01" apn="mms.gadu-gadu.pl" mmsc="http://mms.gadu-gadu.pl:8002/" mmsproxy="212.2.96.16" mmsport="8080" type="mms" />
-  <apn carrier="mBank mobile" mcc="260" mnc="01" apn="www.mobile.pl" type="default,supl" />
-  <apn carrier="mBank mobile MMS" mcc="260" mnc="01" apn="mms.mobile.pl" mmsc="http://mms.mobile.pl:8080" mmsproxy="212.2.96.16" mmsport="8080" type="mms" />
-  <apn carrier="Plus INTERNET" mcc="260" mnc="01" apn="plus" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
-  <apn carrier="Plus MMS" mcc="260" mnc="01" apn="mms" proxy="" port="" user="" password="" mmsc="http://mms.plusgsm.pl:8002" mmsproxy="212.2.96.16" mmsport="8080" type="mms" />
-  <apn carrier="PlusWAP" mcc="260" mnc="01" apn="wap" user="plusgsm" password="plusgsm" proxy="212.2.96.16" mmsport="8080" type="default,supl" />
-  <apn carrier="Era Internet" mcc="260" mnc="02" apn="erainternet" proxy="" port="" user="erainternet" password="erainternet" mmsc="" authtype="1" type="default,supl" />
-  <apn carrier="Era MMS" mcc="260" mnc="02" apn="eramms" proxy="" port="" user="eramms" password="eramms" mmsc="http://mms.era.pl/servlets/mms" mmsproxy="213.158.194.226" mmsport="8080" authtype="1" type="mms" />
-  <apn carrier="Era MMS" mcc="260" mnc="02" apn="eramms" user="eramms" password="eramms" server="*" mmsc="http://mms.era.pl/servlets/mms" mmsproxy="213.158.194.226" mmsport="8080" type="mms" />
-  <apn carrier="Era Internet" mcc="260" mnc="02" apn="erainternet" user="erainternet" password="erainternet" type="default,supl" />
-  <apn carrier="Tak-Tak" mcc="260" mnc="02" apn="erainternettt" user="erainternet" password="erainternet" type="default,supl" />
-  <apn carrier="Heyah" mcc="260" mnc="02" apn="heyah.pl" user="heyah" password="heyah" type="default,supl" />
-  <apn carrier="Heyah MMS" mcc="260" mnc="02" apn="heyahmms" user="heyah" password="heyah" mmsc="http:/mms.heyah.pl/servlets/mms" mmsproxy="213.158.194.057" mmsport="8080" type="mms" />
-  <apn carrier="Mobilking MMS" mcc="260" mnc="02" apn="mmsMOBILKING" user="mobilking" password="mobilking" mmsc="http://mms.mobilking.pl/servlets/mms" mmsproxy="213.158.194.226" mmsport="8080" type="mms" />
-  <apn carrier="Mobilking" mcc="260" mnc="02" apn="wapMOBILKING" user="mobilking" password="mobilking" type="default,supl" />
-  <apn carrier="tuBiedronka" mcc="260" mnc="02" apn="internet" user="internet" password="internet" type="default,supl" />
-  <apn carrier="tuBiedronka MMS" mcc="260" mnc="02" apn="tubiedronkamms" user="tubiedronka" password="tubiedronka" mmsc="http://mms.tubiedronka.pl/servlets.mmsl" mmsproxy="213.158.194.226" mmsport="8080" type="mms" />
-  <apn carrier="T-Mobile.pl INTERNET" mcc="260" mnc="02" apn="internet" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
-  <apn carrier="T-Mobile.pl MMS" mcc="260" mnc="02" apn="mms" proxy="" port="" user="" password="" mmsc="http://mms/servlets/mms" mmsproxy="213.158.194.226" mmsport="8080" type="mms" />
-  <apn carrier="Heyah INTERNET" mcc="260" mnc="02" apn="heyah.pl" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
-  <apn carrier="Heyah MMS" mcc="260" mnc="02" apn="heyahmms" proxy="" port="" user="" password="" mmsc="http://mms.heyah.pl/servlets/mms" mmsproxy="213.158.194.57" mmsport="8080" type="mms" />
-  <apn carrier="Internet Orange" mcc="260" mnc="03" apn="internet" user="internet" password="internet" authtype="3" type="default,supl" />
-  <apn carrier="MMS Orange" mcc="260" mnc="03" apn="mms" proxy="" port="" mmsproxy="192.168.006.104" mmsport="8080" mmsc="http://mms.orange.pl" user="mms" password="mms" authtype="3" type="mms" />
-  <apn carrier="ASTER" mcc="260" mnc="03" apn="aster.internet" user="internet" password="internet" type="default,supl" />
-  <apn carrier="ASTER MMS" mcc="260" mnc="03" apn="aster.mms" user="mms" password="mms" mmsc="http://mms.aster.pl" mmsproxy="192.168.006.138" mmsport="8080" type="mms" />
-  <apn carrier="Orange PL" mcc="260" mnc="03" apn="internet" user="internet" password="internet" type="default,supl" />
-  <apn carrier="MMS Orange" mcc="260" mnc="03" apn="mms" user="mms" password="mms" mmsc="http://mms.orange.pl" mmsproxy="192.168.6.104" mmsport="8080" type="mms" />
-  <apn carrier="MNI" mcc="260" mnc="03" apn="mni.internet" user="mni.internet" password="mni.internet" type="default,supl" />
-  <apn carrier="MNI MMS" mcc="260" mnc="03" apn="mni.mms" user="mni.mms" password="mni.mms" mmsc="http://mms.mni.pl/" mmsproxy="192.168.006.135" mmsport="8080" type="mms" />
-  <apn carrier="Internet" mcc="260" mnc="06" apn="Internet" user="" password="" authtype="3" type="default,supl" />
-  <apn carrier="MMS" mcc="260" mnc="06" apn="mms" proxy="" port="" mmsproxy="10.10.25.5" mmsport="8080" mmsc="http://10.10.28.164/mms/wapenc" user="" password="" authtype="3" type="mms" />
-  <apn carrier="Play INTERNET" mcc="260" mnc="06" apn="internet" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
-  <apn carrier="Play MMS" mcc="260" mnc="06" apn="mms" proxy="" port="" user="" password="" mmsc="http://mmsc.play.pl/mms/wapenc" mmsproxy="" mmsport="8080" type="mms" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Lycamobile PL" mcc="260" mnc="09" apn="data.lycamobile.pl" user="lmpl" password="plus" type="default,supl" />
-  <apn carrier="Cyfrowy Polsat INTERNET" mcc="260" mnc="12" apn="internet.cp" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
-  <apn carrier="Cyfrowy Polsat MMS" mcc="260" mnc="12" apn="mms.cyfrowypolsat.pl" proxy="" port="" user="" password="" mmsc="http://mms.cyfrowypolsat.pl:8002" mmsproxy="79.171.2.33" mmsport="8080" type="mms" />
-  <apn carrier="Aero2" mcc="260" mnc="17" apn="darmowy" type="default,supl" />
-  <apn carrier="Truphone PL" mcc="260" mnc="33" apn="truphone.com" type="default,supl" />
+    <apn
+        mcc="260"
+        mnc="01"
+        apn="www.mova.pl"
+        carrier="Carrefour Mova"
+        type="default,supl"
+    />
+    <apn
+        mcc="260"
+        mnc="01"
+        apn="mms.mova.pl"
+        carrier="Carrefour Mova MMS"
+        mmsc="http://mms.mova.pl:8002/"
+        mmsport="8080"
+        mmsproxy="212.2.96.16"
+        type="mms"
+    />
+    <apn
+        mcc="260"
+        mnc="01"
+        apn="www.fmgmobie.pl"
+        carrier="FM Group Mobile"
+        type="default,supl"
+    />
+    <apn
+        mcc="260"
+        mnc="01"
+        apn="mms.fmgmobile.pl"
+        carrier="FM Group Mobile MMS"
+        mmsc="http://mms.fmgmobile.pl:8002/"
+        mmsport="8080"
+        mmsproxy="212.2.96.16"
+        type="mms"
+    />
+    <apn
+        mcc="260"
+        mnc="01"
+        apn="internet.gadu-gadu.pl"
+        carrier="GaduAIR"
+        type="default,supl"
+    />
+    <apn
+        mcc="260"
+        mnc="01"
+        apn="mms.gadu-gadu.pl"
+        carrier="GaduAIR MMS"
+        mmsc="http://mms.gadu-gadu.pl:8002/"
+        mmsport="8080"
+        mmsproxy="212.2.96.16"
+        type="mms"
+    />
+    <apn
+        mcc="260"
+        mnc="01"
+        apn="www.mobile.pl"
+        carrier="mBank mobile"
+        type="default,supl"
+    />
+    <apn
+        mcc="260"
+        mnc="01"
+        apn="mms.mobile.pl"
+        carrier="mBank mobile MMS"
+        mmsc="http://mms.mobile.pl:8080"
+        mmsport="8080"
+        mmsproxy="212.2.96.16"
+        type="mms"
+    />
+    <apn
+        mcc="260"
+        mnc="01"
+        apn="plus"
+        carrier="Plus INTERNET"
+        mmsc=""
+        password=""
+        port=""
+        proxy=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="260"
+        mnc="01"
+        apn="mms"
+        carrier="Plus MMS"
+        mmsc="http://mms.plusgsm.pl:8002"
+        mmsport="8080"
+        mmsproxy="212.2.96.16"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="260"
+        mnc="01"
+        apn="wap"
+        carrier="PlusWAP"
+        mmsport="8080"
+        password="plusgsm"
+        proxy="212.2.96.16"
+        type="default,supl"
+        user="plusgsm"
+    />
+    <apn
+        mcc="260"
+        mnc="02"
+        apn="erainternet"
+        authtype="1"
+        carrier="Era Internet"
+        mmsc=""
+        password="erainternet"
+        port=""
+        proxy=""
+        type="default,supl"
+        user="erainternet"
+    />
+    <apn
+        mcc="260"
+        mnc="02"
+        apn="eramms"
+        authtype="1"
+        carrier="Era MMS"
+        mmsc="http://mms.era.pl/servlets/mms"
+        mmsport="8080"
+        mmsproxy="213.158.194.226"
+        password="eramms"
+        port=""
+        proxy=""
+        type="mms"
+        user="eramms"
+    />
+    <apn
+        mcc="260"
+        mnc="02"
+        apn="eramms"
+        carrier="Era MMS"
+        mmsc="http://mms.era.pl/servlets/mms"
+        mmsport="8080"
+        mmsproxy="213.158.194.226"
+        password="eramms"
+        server="*"
+        type="mms"
+        user="eramms"
+    />
+    <apn
+        mcc="260"
+        mnc="02"
+        apn="erainternet"
+        carrier="Era Internet"
+        password="erainternet"
+        type="default,supl"
+        user="erainternet"
+    />
+    <apn
+        mcc="260"
+        mnc="02"
+        apn="erainternettt"
+        carrier="Tak-Tak"
+        password="erainternet"
+        type="default,supl"
+        user="erainternet"
+    />
+    <apn
+        mcc="260"
+        mnc="02"
+        apn="heyah.pl"
+        carrier="Heyah"
+        password="heyah"
+        type="default,supl"
+        user="heyah"
+    />
+    <apn
+        mcc="260"
+        mnc="02"
+        apn="heyahmms"
+        carrier="Heyah MMS"
+        mmsc="http:/mms.heyah.pl/servlets/mms"
+        mmsport="8080"
+        mmsproxy="213.158.194.057"
+        password="heyah"
+        type="mms"
+        user="heyah"
+    />
+    <apn
+        mcc="260"
+        mnc="02"
+        apn="mmsMOBILKING"
+        carrier="Mobilking MMS"
+        mmsc="http://mms.mobilking.pl/servlets/mms"
+        mmsport="8080"
+        mmsproxy="213.158.194.226"
+        password="mobilking"
+        type="mms"
+        user="mobilking"
+    />
+    <apn
+        mcc="260"
+        mnc="02"
+        apn="wapMOBILKING"
+        carrier="Mobilking"
+        password="mobilking"
+        type="default,supl"
+        user="mobilking"
+    />
+    <apn
+        mcc="260"
+        mnc="02"
+        apn="internet"
+        carrier="tuBiedronka"
+        password="internet"
+        type="default,supl"
+        user="internet"
+    />
+    <apn
+        mcc="260"
+        mnc="02"
+        apn="tubiedronkamms"
+        carrier="tuBiedronka MMS"
+        mmsc="http://mms.tubiedronka.pl/servlets.mmsl"
+        mmsport="8080"
+        mmsproxy="213.158.194.226"
+        password="tubiedronka"
+        type="mms"
+        user="tubiedronka"
+    />
+    <apn
+        mcc="260"
+        mnc="02"
+        apn="internet"
+        carrier="T-Mobile.pl INTERNET"
+        mmsc=""
+        password=""
+        port=""
+        proxy=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="260"
+        mnc="02"
+        apn="mms"
+        carrier="T-Mobile.pl MMS"
+        mmsc="http://mms/servlets/mms"
+        mmsport="8080"
+        mmsproxy="213.158.194.226"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="260"
+        mnc="02"
+        apn="heyah.pl"
+        carrier="Heyah INTERNET"
+        mmsc=""
+        password=""
+        port=""
+        proxy=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="260"
+        mnc="02"
+        apn="heyahmms"
+        carrier="Heyah MMS"
+        mmsc="http://mms.heyah.pl/servlets/mms"
+        mmsport="8080"
+        mmsproxy="213.158.194.57"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="260"
+        mnc="03"
+        apn="internet"
+        authtype="3"
+        carrier="Internet Orange"
+        password="internet"
+        type="default,supl"
+        user="internet"
+    />
+    <apn
+        mcc="260"
+        mnc="03"
+        apn="mms"
+        authtype="3"
+        carrier="MMS Orange"
+        mmsc="http://mms.orange.pl"
+        mmsport="8080"
+        mmsproxy="192.168.006.104"
+        password="mms"
+        port=""
+        proxy=""
+        type="mms"
+        user="mms"
+    />
+    <apn
+        mcc="260"
+        mnc="03"
+        apn="aster.internet"
+        carrier="ASTER"
+        password="internet"
+        type="default,supl"
+        user="internet"
+    />
+    <apn
+        mcc="260"
+        mnc="03"
+        apn="aster.mms"
+        carrier="ASTER MMS"
+        mmsc="http://mms.aster.pl"
+        mmsport="8080"
+        mmsproxy="192.168.006.138"
+        password="mms"
+        type="mms"
+        user="mms"
+    />
+    <apn
+        mcc="260"
+        mnc="03"
+        apn="internet"
+        carrier="Orange PL"
+        password="internet"
+        type="default,supl"
+        user="internet"
+    />
+    <apn
+        mcc="260"
+        mnc="03"
+        apn="mms"
+        carrier="MMS Orange"
+        mmsc="http://mms.orange.pl"
+        mmsport="8080"
+        mmsproxy="192.168.6.104"
+        password="mms"
+        type="mms"
+        user="mms"
+    />
+    <apn
+        mcc="260"
+        mnc="03"
+        apn="mni.internet"
+        carrier="MNI"
+        password="mni.internet"
+        type="default,supl"
+        user="mni.internet"
+    />
+    <apn
+        mcc="260"
+        mnc="03"
+        apn="mni.mms"
+        carrier="MNI MMS"
+        mmsc="http://mms.mni.pl/"
+        mmsport="8080"
+        mmsproxy="192.168.006.135"
+        password="mni.mms"
+        type="mms"
+        user="mni.mms"
+    />
+    <apn
+        mcc="260"
+        mnc="06"
+        apn="Internet"
+        authtype="3"
+        carrier="Internet"
+        password=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="260"
+        mnc="06"
+        apn="mms"
+        authtype="3"
+        carrier="MMS"
+        mmsc="http://10.10.28.164/mms/wapenc"
+        mmsport="8080"
+        mmsproxy="10.10.25.5"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="260"
+        mnc="06"
+        apn="internet"
+        carrier="Play INTERNET"
+        mmsc=""
+        password=""
+        port=""
+        proxy=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="260"
+        mnc="06"
+        apn="mms"
+        carrier="Play MMS"
+        mmsc="http://mmsc.play.pl/mms/wapenc"
+        mmsport="8080"
+        mmsproxy=""
+        password=""
+        port=""
+        protocol="IPV4V6"
+        proxy=""
+        roaming_protocol="IPV4V6"
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="260"
+        mnc="09"
+        apn="data.lycamobile.pl"
+        carrier="Lycamobile PL"
+        password="plus"
+        type="default,supl"
+        user="lmpl"
+    />
+    <apn
+        mcc="260"
+        mnc="12"
+        apn="internet.cp"
+        carrier="Cyfrowy Polsat INTERNET"
+        mmsc=""
+        password=""
+        port=""
+        proxy=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="260"
+        mnc="12"
+        apn="mms.cyfrowypolsat.pl"
+        carrier="Cyfrowy Polsat MMS"
+        mmsc="http://mms.cyfrowypolsat.pl:8002"
+        mmsport="8080"
+        mmsproxy="79.171.2.33"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="260"
+        mnc="17"
+        apn="darmowy"
+        carrier="Aero2"
+        type="default,supl"
+    />
+    <apn
+        mcc="260"
+        mnc="33"
+        apn="truphone.com"
+        carrier="Truphone PL"
+        type="default,supl"
+    />
 </apns>

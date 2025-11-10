@@ -5,10 +5,73 @@
     SPDX-License-Identifier: Apache-2.0
 -->
 <apns version="8">
-  <apn carrier="INTERNET TIGO GT" mcc="704" mnc="02" apn="internet.tigo.gt" user="" password="" proxy="" port="" type="default,supl" />
-  <apn carrier="MMS TIGO GT" mcc="704" mnc="02" apn="mms.tigo.gt" user="" password="" mmsproxy="10.16.17.12" mmsport="8888" mmsc="http://mms" type="mms" />
-  <apn carrier="Movistar INTERNET" mcc="704" mnc="03" apn="internet.movistar.gt" user="movistargt" password="movistargt" type="default,supl" />
-  <apn carrier="Movistar MMS" mcc="704" mnc="03" apn="mms.movistar.gt" proxy="" port="" mmsproxy="10.12.22.1" mmsport="80" mmsc="http://mms.movistar.gt" user="movistargt" password="movistargt" type="mms" />
-  <apn carrier="Movistar INTERNET" mcc="704" mnc="030" apn="internet.movistar.gt" user="movistargt" password="movistargt" type="default,supl" />
-  <apn carrier="Movistar MMS" mcc="704" mnc="030" apn="mms.movistar.gt" proxy="" port="" mmsproxy="10.12.22.1" mmsport="80" mmsc="http://mms.movistar.gt" user="movistargt" password="movistargt" type="mms" />
+    <apn
+        mcc="704"
+        mnc="02"
+        apn="internet.tigo.gt"
+        carrier="INTERNET TIGO GT"
+        password=""
+        port=""
+        proxy=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="704"
+        mnc="02"
+        apn="mms.tigo.gt"
+        carrier="MMS TIGO GT"
+        mmsc="http://mms"
+        mmsport="8888"
+        mmsproxy="10.16.17.12"
+        password=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="704"
+        mnc="03"
+        apn="internet.movistar.gt"
+        carrier="Movistar INTERNET"
+        password="movistargt"
+        type="default,supl"
+        user="movistargt"
+    />
+    <apn
+        mcc="704"
+        mnc="03"
+        apn="mms.movistar.gt"
+        carrier="Movistar MMS"
+        mmsc="http://mms.movistar.gt"
+        mmsport="80"
+        mmsproxy="10.12.22.1"
+        password="movistargt"
+        port=""
+        proxy=""
+        type="mms"
+        user="movistargt"
+    />
+    <apn
+        mcc="704"
+        mnc="030"
+        apn="internet.movistar.gt"
+        carrier="Movistar INTERNET"
+        password="movistargt"
+        type="default,supl"
+        user="movistargt"
+    />
+    <apn
+        mcc="704"
+        mnc="030"
+        apn="mms.movistar.gt"
+        carrier="Movistar MMS"
+        mmsc="http://mms.movistar.gt"
+        mmsport="80"
+        mmsproxy="10.12.22.1"
+        password="movistargt"
+        port=""
+        proxy=""
+        type="mms"
+        user="movistargt"
+    />
 </apns>

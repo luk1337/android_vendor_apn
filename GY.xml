@@ -5,12 +5,96 @@
     SPDX-License-Identifier: Apache-2.0
 -->
 <apns version="8">
-  <apn carrier="Digicel Web" mcc="738" mnc="01" apn="web" user="" password="" type="default,supl" />
-  <apn carrier="Digicel MMS" mcc="738" mnc="01" apn="wap" proxy="" port="" mmsproxy="172.20.6.12" mmsport="8080" mmsc="http://mmc.digicelgy.com/servlets/mms" user="wap" password="wap" type="mms" />
-  <apn carrier="G TT WEB" mcc="738" mnc="002" apn="internet.cellinkgy.com" user="cellink" password="cellink" type="default,supl" />
-  <apn carrier="G TT MMS" mcc="738" mnc="002" apn="mms.cellinkgy.com" proxy="" port="" mmsproxy="10.0.1.99" mmsport="8080" mmsc="http://10.0.1.88/mms/wapenc" user="cellink" password="cellink" type="mms" />
-  <apn carrier="G TT WEB" mcc="738" mnc="02" apn="internet.cellinkgy.com" user="cellink" password="cellink" type="default,supl" />
-  <apn carrier="G TT MMS" mcc="738" mnc="02" apn="mms.cellinkgy.com" proxy="" port="" mmsproxy="10.0.1.99" mmsport="8080" mmsc="http://10.0.1.88/mms/wapenc" user="cellink" password="cellink" type="mms" />
-  <apn carrier="G TT WEB" mcc="738" mnc="020" apn="internet.cellinkgy.com" user="cellink" password="cellink" type="default,supl" />
-  <apn carrier="G TT MMS" mcc="738" mnc="020" apn="mms.cellinkgy.com" proxy="" port="" mmsproxy="10.0.1.99" mmsport="8080" mmsc="http://10.0.1.88/mms/wapenc" user="cellink" password="cellink" type="mms" />
+    <apn
+        mcc="738"
+        mnc="01"
+        apn="web"
+        carrier="Digicel Web"
+        password=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="738"
+        mnc="01"
+        apn="wap"
+        carrier="Digicel MMS"
+        mmsc="http://mmc.digicelgy.com/servlets/mms"
+        mmsport="8080"
+        mmsproxy="172.20.6.12"
+        password="wap"
+        port=""
+        proxy=""
+        type="mms"
+        user="wap"
+    />
+    <apn
+        mcc="738"
+        mnc="002"
+        apn="internet.cellinkgy.com"
+        carrier="G TT WEB"
+        password="cellink"
+        type="default,supl"
+        user="cellink"
+    />
+    <apn
+        mcc="738"
+        mnc="002"
+        apn="mms.cellinkgy.com"
+        carrier="G TT MMS"
+        mmsc="http://10.0.1.88/mms/wapenc"
+        mmsport="8080"
+        mmsproxy="10.0.1.99"
+        password="cellink"
+        port=""
+        proxy=""
+        type="mms"
+        user="cellink"
+    />
+    <apn
+        mcc="738"
+        mnc="02"
+        apn="internet.cellinkgy.com"
+        carrier="G TT WEB"
+        password="cellink"
+        type="default,supl"
+        user="cellink"
+    />
+    <apn
+        mcc="738"
+        mnc="02"
+        apn="mms.cellinkgy.com"
+        carrier="G TT MMS"
+        mmsc="http://10.0.1.88/mms/wapenc"
+        mmsport="8080"
+        mmsproxy="10.0.1.99"
+        password="cellink"
+        port=""
+        proxy=""
+        type="mms"
+        user="cellink"
+    />
+    <apn
+        mcc="738"
+        mnc="020"
+        apn="internet.cellinkgy.com"
+        carrier="G TT WEB"
+        password="cellink"
+        type="default,supl"
+        user="cellink"
+    />
+    <apn
+        mcc="738"
+        mnc="020"
+        apn="mms.cellinkgy.com"
+        carrier="G TT MMS"
+        mmsc="http://10.0.1.88/mms/wapenc"
+        mmsport="8080"
+        mmsproxy="10.0.1.99"
+        password="cellink"
+        port=""
+        proxy=""
+        type="mms"
+        user="cellink"
+    />
 </apns>

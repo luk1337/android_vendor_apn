@@ -5,8 +5,50 @@
     SPDX-License-Identifier: Apache-2.0
 -->
 <apns version="8">
-  <apn carrier="INTERNET TIGO HN" mcc="708" mnc="02" apn="internet.tigo.hn" user="" password="" proxy="" port="" type="default,supl" />
-  <apn carrier="MMS TIGO HN" mcc="708" mnc="02" apn="mms.tigo.hn" user="" password="" mmsproxy="10.16.17.12" mmsport="8888" mmsc="http://mms" type="mms" />
-  <apn carrier="INTERNET TIGO HN" mcc="708" mnc="020" apn="internet.tigo.hn" user="" password="" proxy="" port="" type="default,supl" />
-  <apn carrier="MMS TIGO HN" mcc="708" mnc="020" apn="mms.tigo.hn" user="" password="" mmsproxy="10.16.17.12" mmsport="8888" mmsc="http://mms" type="mms" />
+    <apn
+        mcc="708"
+        mnc="02"
+        apn="internet.tigo.hn"
+        carrier="INTERNET TIGO HN"
+        password=""
+        port=""
+        proxy=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="708"
+        mnc="02"
+        apn="mms.tigo.hn"
+        carrier="MMS TIGO HN"
+        mmsc="http://mms"
+        mmsport="8888"
+        mmsproxy="10.16.17.12"
+        password=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="708"
+        mnc="020"
+        apn="internet.tigo.hn"
+        carrier="INTERNET TIGO HN"
+        password=""
+        port=""
+        proxy=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="708"
+        mnc="020"
+        apn="mms.tigo.hn"
+        carrier="MMS TIGO HN"
+        mmsc="http://mms"
+        mmsport="8888"
+        mmsproxy="10.16.17.12"
+        password=""
+        type="mms"
+        user=""
+    />
 </apns>

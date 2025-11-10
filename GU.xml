@@ -5,271 +5,3134 @@
     SPDX-License-Identifier: Apache-2.0
 -->
 <apns version="8">
-  <apn carrier="Verizon Internet" mcc="310" mnc="00" apn="VZWINTERNET" type="default,dun,mms" mmsc="http://mms.vtext.com/servlets/mms" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Verizon FOTA" mcc="310" mnc="00" apn="VZWADMIN" type="fota" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Verizon IMS" mcc="310" mnc="00" apn="VZWIMS" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Verizon CBS" mcc="310" mnc="00" apn="VZWAPP" type="cbs,mms" mmsc="http://mms.vtext.com/servlets/mms" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Verizon Internet" mcc="310" mnc="002" apn="VZWINTERNET" type="default,dun,mms" mmsc="http://mms.vtext.com/servlets/mms" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Verizon FOTA" mcc="310" mnc="002" apn="VZWADMIN" type="fota" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Verizon IMS" mcc="310" mnc="002" apn="VZWIMS" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Verizon CBS" mcc="310" mnc="002" apn="VZWAPP" type="cbs,mms" mmsc="http://mms.vtext.com/servlets/mms" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Verizon Internet" mcc="310" mnc="003" apn="VZWINTERNET" type="default,dun,mms" mmsc="http://mms.vtext.com/servlets/mms" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Verizon FOTA" mcc="310" mnc="003" apn="VZWADMIN" type="fota" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Verizon IMS" mcc="310" mnc="003" apn="VZWIMS" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Verizon CBS" mcc="310" mnc="003" apn="VZWAPP" type="cbs,mms" mmsc="http://mms.vtext.com/servlets/mms" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Verizon Internet" mcc="310" mnc="004" apn="VZWINTERNET" type="default,dun,supl,mms" mmsc="http://mms.vtext.com/servlets/mms" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Verizon FOTA" mcc="310" mnc="004" apn="VZWADMIN" type="fota" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Verizon IMS" mcc="310" mnc="004" apn="VZWIMS" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" bearer_bitmask="13|14" profile_id="2" modem_cognitive="true" max_conns="1023" max_conns_time="300" />
-  <apn carrier="Verizon CBS" mcc="310" mnc="004" apn="VZWAPP" type="cbs,mms" mmsc="http://mms.vtext.com/servlets/mms" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Verizon" mcc="310" mnc="004" apn="internet" proxy="" port="" user="*" password="*" server="*" mmsc="http://mms.vtext.com/servlets/mms" type="default,supl,mms" />
-  <apn carrier="Verizon Internet" mcc="310" mnc="005" apn="VZWINTERNET" type="default,dun,mms" mmsc="http://mms.vtext.com/servlets/mms" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Verizon FOTA" mcc="310" mnc="005" apn="VZWADMIN" type="fota" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Verizon IMS" mcc="310" mnc="005" apn="VZWIMS" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Verizon CBS" mcc="310" mnc="005" apn="VZWAPP" type="cbs,mms" mmsc="http://mms.vtext.com/servlets/mms" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Verizon Internet" mcc="310" mnc="006" apn="VZWINTERNET" type="default,dun,mms" mmsc="http://mms.vtext.com/servlets/mms" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Verizon FOTA" mcc="310" mnc="006" apn="VZWADMIN" type="fota" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Verizon IMS" mcc="310" mnc="006" apn="VZWIMS" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Verizon CBS" mcc="310" mnc="006" apn="VZWAPP" type="cbs,mms" mmsc="http://mms.vtext.com/servlets/mms" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Verizon Internet" mcc="310" mnc="012" apn="VZWINTERNET" type="default,dun,mms" mmsc="http://mms.vtext.com/servlets/mms" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Verizon FOTA" mcc="310" mnc="012" apn="VZWADMIN" type="fota" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Verizon IMS" mcc="310" mnc="012" apn="VZWIMS" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Verizon CBS" mcc="310" mnc="012" apn="VZWAPP" type="cbs,mms" mmsc="http://mms.vtext.com/servlets/mms" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Cricket" mcc="310" mnc="16" apn="wap.mycricket.com" user="@mycricket.com" password="cricket" mmsc="http://mms.mycricket.com/servlets/mms" proxy="wap.mycricket.com" port="8080" authtype="2" type="*" />
-  <apn carrier="UNIONINTERNET" mcc="310" mnc="020" apn="SMART.COM" user="" password="" authtype="0" type="default,supl" />
-  <apn carrier="UNIONMMS" mcc="310" mnc="020" apn="union.mms.com" proxy="" port="" mmsc="http://mms.unionwireless.com" user="" password="" authtype="0" type="mms" />
-  <apn carrier="Cellular South" mcc="310" mnc="023" apn="internet" proxy="" port="" user="" password="" mmsc="http://pix.cellularsouth.com/servlets/mms" authtype="3" type="mms" />
-  <apn carrier="metropcs" mcc="310" mnc="027" apn="wap.metropcs.net" proxy="" port="" user="MDN@mymetropcs.com" password="metropcs" server="http://mms.metropcs.net/servlets/mmsc" mmsc="http://mms.metropcs.net/mmsc" mmsproxy="" mmsport="3128" type="default,supl,mms" />
-  <apn carrier="myBlue Pix" mcc="310" mnc="030" apn="mmswap.centennialwireless.com" proxy="" port="" user="" password="" mmsc="http://mms.myblue.com/servlets/mms" mmsproxy="63.99.231.135" mmsport="8080" type="mms" />
-  <apn carrier="Internet" mcc="310" mnc="030" apn="private.centennialwireless.com" proxy="" port="" user="privuser" password="priv" mmsc="" type="default,supl" />
-  <apn carrier="Truphone" mcc="310" mnc="030" apn="truphone.com" type="default,dun" />
-  <apn carrier="ATT WAP" mcc="310" mnc="70" apn="wap.cingular" proxy="wireless.cingular.com" port="80" mmsc="http://mmsc.cingular.com" mmsproxy="wireless.cingular.com" mmsport="80" type="default,mms" />
-  <apn carrier="ATT Broadband" mcc="310" mnc="70" apn="Broadband" type="default,supl" />
-  <apn carrier="CorrMMS" mcc="310" mnc="080" apn="corrmms" proxy="" port="" user="" password="" mmsc="http://mms.iot1.com/corr/mms.php" mmsproxy="66.255.55.23" mmsport="80" type="mms" />
-  <apn carrier="Internet" mcc="310" mnc="090" apn="isp" type="default,supl" />
-  <apn carrier="MMS" mcc="310" mnc="090" apn="mms" mmsc="http://mms.edgemobile.net/mmsc" mmsproxy="12.108.12.13" mmsport="3128" type="mms" />
-  <apn carrier="Edge MMS Prepay" mcc="310" mnc="090" apn="ppmms" mmsc="http://mms.edgemobile.net/mmsc" mmsproxy="12.108.12.13" mmsport="3128" type="mms" />
-  <apn carrier="LTE INTERNET" mcc="310" mnc="090" apn="4g.mycricket.com" user="" password="" type="default,dun,mms" authtype="0" mmsc="http://mms.mycricket.com/servlets/mms" protocol="IP" roaming_protocol="IP" bearer="14" />
-  <apn carrier="LTE ADMIN" mcc="310" mnc="090" apn="Apnota.4g.mycricket.com" user="" password="" type="fota" authtype="0" mmsc="http://mms.mycricket.com/servlets/mms" protocol="IP" roaming_protocol="IP" bearer="14" />
-  <apn carrier="LTE DNSADMIN" mcc="310" mnc="090" apn="apndnsota.4g.mycricket.com" user="" password="" type="fota" authtype="0" mmsc="http://mms.mycricket.com/servlets/mms" protocol="IP" roaming_protocol="IP" bearer="14" />
-  <apn carrier="Internet" mcc="310" mnc="090" apn="isp" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
-  <apn carrier="MMS" mcc="310" mnc="090" apn="mms" proxy="" port="" user="" password="" mmsc="http://mms.edgemobile.net/mmsc" mmsproxy="12.108.12.13" mmsport="3128" type="mms" />
-  <apn carrier="Edge MMS Prepay" mcc="310" mnc="090" apn="ppmms" proxy="" port="" user="" password="" mmsc="http://mms.edgemobile.net/mmsc" mmsproxy="12.108.12.13" mmsport="3128" type="mms" />
-  <apn carrier="ATT WAP" mcc="310" mnc="90" apn="wap.cingular" proxy="wireless.cingular.com" port="80" mmsc="http://mmsc.cingular.com" mmsproxy="wireless.cingular.com" mmsport="80" type="default,mms" />
-  <apn carrier="ATT Broadband" mcc="310" mnc="90" apn="Broadband" type="default,supl" />
-  <apn carrier="Verizon Internet" mcc="310" mnc="99" apn="VZWINTERNET" type="default,dun,mms" mmsc="http://mms.vtext.com/servlets/mms" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Verizon FOTA" mcc="310" mnc="99" apn="VZWADMIN" type="fota" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Verizon IMS" mcc="310" mnc="99" apn="VZWIMS" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Verizon CBS" mcc="310" mnc="99" apn="VZWAPP" type="cbs,mms" mmsc="http://mms.vtext.com/servlets/mms" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="PLATWEB" mcc="310" mnc="100" apn="plateauweb" type="default,supl" />
-  <apn carrier="PLAT-OTA-MMS" mcc="310" mnc="100" apn="plateaumms" proxy="" port="" user="" password="mmsc" mmsc="http://208.254.124.11:8514" mmsproxy="208.254.124.11" mmsport="8080" type="mms" />
-  <apn carrier="PLATWEB" mcc="310" mnc="100" apn="plateauweb" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
-  <apn carrier="Sprint MMS" mcc="310" mnc="120" apn="Sprint" user="Sprint" server="*" type="mms" password="*" mmsc="http://oap7.sprintpcs.com" mmsproxy="68.28.31.7" mmsport="80" authtype="3" />
-  <apn carrier="Sprint LTE ota" mcc="310" mnc="120" apn="otasn" type="fota" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Sprint EHRPD ota" mcc="310" mnc="120" apn="otasn" type="fota" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Sprint LTE internet" mcc="310" mnc="120" apn="n.ispsn" type="default,mms,supl,hipri,dun" mmsc="http://mms.sprintpcs.com" mmsproxy="68.28.31.7" mmsport="80" protocol="IPV4V6" roaming_protocol="IPV4V6" bearer="14" />
-  <apn carrier="Sprint EHRPD internet" mcc="310" mnc="120" apn="n.ispsn" type="default,mms,supl,hipri" mmsc="http://mms.sprintpcs.com" mmsproxy="68.28.31.7" mmsport="80" protocol="IPV4V6" roaming_protocol="IPV4V6" bearer="13" />
-  <apn carrier="Sprint internet" mcc="310" mnc="120" apn="n.ispsn" type="mms,supl,hipri" mmsc="http://mms.sprintpcs.com" mmsproxy="68.28.31.7" mmsport="80" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Credo Mobile" mcc="310" mnc="120" apn="n.w1.ispsn" type="mms" mmsc="http://mms.plspictures.com" mmsproxy="68.28.31.7" mmsport="80" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Ting" mcc="310" mnc="120" apn="n.t8.ispsn" type="default,supl,mms" mmsc="http://mms.plspictures.com" mmsproxy="68.28.31.7" mmsport="80" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Ringplus" mcc="310" mnc="120" apn="n.r5.ispsn" type="supl,mms" mmsc="http://mms.plspictures.com" mmsproxy="68.28.31.7" mmsport="80" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Virgin Mobile" mcc="310" mnc="120" apn="n.vmu.ispsn" user="Sprint" password="*" mmsproxy="68.28.31.7" mmsport="80" mmsc="http://mmsc.vmobl.com:8088/mms?" type="supl,mms,fota,dun" />
-  <apn carrier="FreedomPop LTE" mcc="310" mnc="120" apn="n.f6.ispsn" mmsproxy="68.28.31.7" mmsport="80" mmsc="http://mms.sprintpcs.com" type="supl,mms" bearer="14" />
-  <apn carrier="FreedomPop EHRPD" mcc="310" mnc="120" apn="n.f6.ispsn" mmsproxy="68.28.31.7" mmsport="80" mmsc="http://mms.sprintpcs.com" type="supl,mms" bearer="13" />
-  <apn carrier="Sprint" mcc="310" mnc="120" apn="sprint" type="default,supl,mms,ims,cbs" mmsc="http://mms.sprintpcs.com" mmsproxy="68.28.31.7" mmsport="80" bearer_bitmask="4|5|6|7|8|12" />
-  <apn carrier="Sprint" mcc="310" mnc="120" apn="sprint" type="default,supl,mms,ims,cbs,dun" mmsc="http://mms.sprintpcs.com" mmsproxy="68.28.31.7" mmsport="80" bearer_bitmask="4|5|6|7|8|12" profile_id="1" />
-  <apn carrier="USCC" mcc="310" mnc="120" apn="internet" proxy="" port="80" user="" password="" mmsc="http://mmsc1.uscc.net/mmsc/MMS" mmsproxy="" mmsport="80" authtype="3" type="mms" />
-  <apn carrier="SPCS Global" mcc="310" mnc="120" apn="cinet.spcs" mmsc="http://mms.sprintpcs.com" mmsproxy="68.28.31.7" mmsport="80" type="default,supl,mms,dun" bearer_bitmask="1|2|3|9|10|11|15|16" />
-  <apn carrier="My Multi Media" mcc="310" mnc="130" apn="mms.c1.ama" proxy="" port="" user="cell1mms" password="cell1" mmsc="http://mms.iot1.com/amarillo/mms.php" type="mms" />
-  <apn carrier="Cricket AIO" mcc="310" mnc="150" apn="ndo" mmsc="http://mmsc.aiowireless.net" mmsproxy="proxy.aiowireless.net" mmsport="80" type="default,mms,fota,hipri,supl" />
-  <apn carrier="ATT WAP" mcc="310" mnc="170" apn="wap.cingular" proxy="wireless.cingular.com" port="80" mmsc="http://mmsc.cingular.com" mmsproxy="wireless.cingular.com" mmsport="80" type="default,mms" />
-  <apn carrier="ATT Broadband" mcc="310" mnc="170" apn="Broadband" type="default,supl" />
-  <apn carrier="DataConnect" mcc="310" mnc="170" apn="isp.cingular" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
-  <apn carrier="Cingular MMS" mcc="310" mnc="170" apn="wap.cingular" proxy="" port="" user="WAP@CINGULARGPRS.COM" password="CINGULAR1" mmsc="http://mmsc.cingular.com" mmsproxy="66.209.11.32" mmsport="8080" type="mms" />
-  <apn carrier="FreedomPop" mcc="310" mnc="170" apn="fp.com.attz" />
-  <apn carrier="ATT WAP" mcc="310" mnc="180" apn="wap.cingular" proxy="wireless.cingular.com" port="80" mmsc="http://mmsc.cingular.com" mmsproxy="wireless.cingular.com" mmsport="80" type="default,mms" />
-  <apn carrier="ATT Broadband" mcc="310" mnc="180" apn="Broadband" type="default,supl" />
-  <apn carrier="WCW Internet" mcc="310" mnc="180" apn="internet.wcc.net" user="3257630000" password="mmsc" type="default,supl" authtype="0" />
-  <apn carrier="WCW-MMS" mcc="310" mnc="180" apn="mms.wcc.net" proxy="209.55.70.246" port="80" mmsc="http://mms.wcc.net" mmsproxy="209.55.70.246" mmsport="80" user="13257630000" password="mmsc" type="mms" authtype="3" />
-  <apn carrier="WCW-MMS only" mcc="310" mnc="180" apn="mms.wcc.net" proxy="209.55.70.244" port="80" mmsc="http://mms.wcc.net" mmsproxy="209.55.70.246" mmsport="80" user="3257630000" password="mmsc" type="default,mms" authtype="3" />
-  <apn carrier="Ting Data" carrier_id="2523" mcc="310" mnc="240" apn="wireless.dish.com" mmsc="http://wholesale.mmsmvno.com/mms/wapenc" protocol="IPV4V6" roaming_protocol="IPV4V6" type="default,fota,mms,supl,hipri,dun" mvno_type="gid" mvno_match_data="6430" />
-  <apn carrier="Mint" mcc="310" mnc="240" apn="Wholesale" type="default,supl,mms,ia" mmsc="http://wholesale.mmsmvno.com/mms/wapenc" mmsport="8080" protocol="IPV4V6" roaming_protocol="IPV4V6" mvno_type="gid" mvno_match_data="756D" />
-  <apn carrier="US Mobile" mcc="310" mnc="240" apn="pwg" mmsc="http://pwg.mmsmvno.com/mms/wapenc" type="default,supl,mms" protocol="IPV4V6" roaming_protocol="IP" mvno_match_data="6901" mvno_type="gid" />
-  <apn carrier="T-Mobile US IMS" carrier_id="1" mcc="310" mnc="260" apn="ims" type="ims" protocol="IPV6" roaming_protocol="IPV4V6" bearer_bitmask="14|18|20" mtu="1440" user_visible="false" />
-  <apn carrier="T-Mobile MMS" carrier_id="1" mcc="310" mnc="260" apn="TMUS" mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc" type="mms,xcap" protocol="IPV6" roaming_protocol="IPV6" bearer_bitmask="18" user_visible="false" />
-  <apn carrier="T-Mobile US" carrier_id="1" mcc="310" mnc="260" apn="fast.t-mobile.com" mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc" type="default,supl,ia,mms,xcap" protocol="IPV6" bearer_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|17|20" mtu="1440" />
-  <apn carrier="T-Mobile Tethering" carrier_id="1" mcc="310" mnc="260" apn="pcweb.tmobile.com" type="dun" protocol="IPV6" user_visible="false" />
-  <apn carrier="T-Mobile Emergency" carrier_id="1" mcc="310" mnc="260" apn="sos" type="emergency" protocol="IPV6" roaming_protocol="IPV4V6" user_visible="false" />
-  <apn carrier="Project Fi - T" mcc="310" mnc="260" apn="h2g2" type="ia" protocol="IPV4V6" roaming_protocol="IPV4V6" mvno_match_data="31026097" mvno_type="imsi" />
-  <apn carrier="Project Fi - T" mcc="310" mnc="260" apn="h2g2" user="none" server="*" password="none" mmsc="http://mmsc1.g-mms.com/mms/wapenc" protocol="IPV6" roaming_protocol="IP" mvno_match_data="31026097" mvno_type="imsi" />
-  <apn carrier="MetroPCS 260" mcc="310" mnc="260" apn="fast.metropcs.com" protocol="IPV6" roaming_protocol="IPV4V6" mvno_match_data="6D" mvno_type="gid" type="ia" mtu="1440" />
-  <apn carrier="MetroPCS 260" mcc="310" mnc="260" apn="fast.metropcs.com" mmsc="http://metropcs.mmsmvno.com/mms/wapenc" protocol="IPV6" roaming_protocol="IP" mvno_match_data="6D" mvno_type="gid" type="default,supl,mms,dun" mtu="1440" />
-  <apn carrier="MetroPCS 260 IMS" mcc="310" mnc="260" apn="ims" type="ims" mvno_match_data="6D" mvno_type="gid" protocol="IPV6" roaming_protocol="IPV6" mtu="1440" />
-  <apn carrier="Family Mobile" carrier_id="2063" mcc="310" mnc="260" apn="web.omwtoday.com" port="" mmsc="http://wirelessfour.mmsmvno.com/mms/wapenc" mvno_type="gid" mvno_match_data="4D4B" type="default,mms,supl" />
-  <apn carrier="Ultra" mcc="310" mnc="260" apn="Wholesale" port="8080" mmsc="http://wholesale.mmsmvno.com/mms/wapenc" mvno_type="gid" mvno_match_data="6132" type="default,mms,supl,dun" />
-  <apn carrier="Consumer Cellular" carrier_id="10023" mcc="310" mnc="260" apn="wholesale" proxy="" port="" mmsc="http://wholesale.mmsmvno.com/mms/wapenc" mmsproxy="" mmsport="80" user="" password="" type="default,mms,supl,hipri" mvno_type="gid" mvno_match_data="2AC9" />
-  <apn carrier="Red Pocket Mobile" carrier_id="10011" mcc="310" mnc="260" apn="wholesale" mmsc="http://wholesale.mmsmvno.com/mms/wapenc" type="default,mms,supl" mvno_type="gid" mvno_match_data="4201" />
-  <apn carrier="ZIP SIM" carrier_id="2071" mcc="310" mnc="260" apn="wholesale" mmsc="http://wholesale.mmsmvno.com/mms/wapenc" type="default,mms,supl" mvno_type="gid" mvno_match_data="7031" />
-  <apn carrier="Univision Mobile" mcc="310" mnc="260" apn="multibrand" port="" mmsc="http://uvm.mmsmvno.com/mms/wapenc" mvno_type="gid" mvno_match_data="554d" type="default,mms,supl" />
-  <apn carrier="GoSmart" carrier_id="2064" mcc="310" mnc="260" apn="multibrand" port="" mmsc="http://gsmt.mmsmvno.com/mms/wapenc" mvno_type="gid" mvno_match_data="4753" type="default,mms,supl" />
-  <apn carrier="SIMPLE" carrier_id="2078" mcc="310" mnc="260" apn="simple" mmsc="http://smpl.mms.msg.eng.t-mobile.com/mms/wapenc" type="default,mms,supl,hipri,fota" mvno_type="gid" mvno_match_data="534D" />
-  <apn carrier="SIMPLE IMS" carrier_id="2078" mcc="310" mnc="260" apn="ims" type="ims" protocol="IPV6" bearer_bitmask="14|20" mtu="1440" mvno_type="gid" mvno_match_data="534D" user_visible="false" />
-  <apn carrier="SIMPLE IMS" carrier_id="2078" mcc="310" mnc="260" apn="ims" type="ims" protocol="IPV6" roaming_protocol="IPV6" bearer_bitmask="18" mtu="1440" mvno_type="gid" mvno_match_data="534D" user_visible="false" />
-  <apn carrier="Ting Data" carrier_id="2080" mcc="310" mnc="260" apn="wholesale" mvno_type="gid" mvno_match_data="6135" type="default,fota,mms,supl,hipri,dun" protocol="IPV6" roaming_protocol="IPV6" />
-  <apn carrier="Ting Data" carrier_id="2080" mcc="310" mnc="260" apn="wholesale" mvno_type="gid" mvno_match_data="6135" type="default,fota,mms,supl,hipri,dun" protocol="IPV6" roaming_protocol="IPV6" />
-  <apn carrier="Ting MMS" carrier_id="2080" mcc="310" mnc="260" apn="wholesale" mvno_type="gid" mvno_match_data="6135" mmsc="http://wholesale.mmsmvno.com/mms/wapenc" type="mms" protocol="IP" roaming_protocol="IP" />
-  <apn carrier="US Mobile" mcc="310" mnc="260" apn="pwg" mmsc="http://pwg.mmsmvno.com/mms/wapenc" type="default,supl,mms" protocol="IPV4V6" roaming_protocol="IP" mvno_match_data="4358" mvno_type="gid" />
-  <apn carrier="TFWAP" carrier_id="10001" mcc="310" mnc="260" apn="wap.tracfone" mmsc="http://TF.mmsmvno.com/mms/wapenc" type="default,mms,supl" bearer_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|17|20" mvno_type="gid" mvno_match_data="DDFF" />
-  <apn carrier="TFWAP IMS" carrier_id="10001" mcc="310" mnc="260" apn="ims" type="ims" protocol="IPV6" bearer_bitmask="14|20" mtu="1440" mvno_type="gid" mvno_match_data="DDFF" user_visible="false" />
-  <apn carrier="TFWAP IMS" carrier_id="10001" mcc="310" mnc="260" apn="ims" type="ims" protocol="IPV6" roaming_protocol="IPV6" bearer_bitmask="18" mtu="1440" mvno_type="gid" mvno_match_data="DDFF" user_visible="false" />
-  <apn carrier="TFWAP" carrier_id="10001" mcc="310" mnc="260" apn="wap.tracfone" mmsc="http://TF.mmsmvno.com/mms/wapenc" type="default,mms,supl" bearer_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|17|20" mvno_type="gid" mvno_match_data="DEFF" />
-  <apn carrier="TFWAP IMS" carrier_id="10001" mcc="310" mnc="260" apn="ims" type="ims" protocol="IPV6" bearer_bitmask="14|20" mtu="1440" mvno_type="gid" mvno_match_data="DEFF" user_visible="false" />
-  <apn carrier="TFWAP IMS" carrier_id="10001" mcc="310" mnc="260" apn="ims" type="ims" protocol="IPV6" roaming_protocol="IPV6" bearer_bitmask="18" mtu="1440" mvno_type="gid" mvno_match_data="DEFF" user_visible="false" />
-  <apn carrier="service" carrier_id="10001" mcc="310" mnc="260" apn="service" mmsc="http://TF.mmsmvno.com/mms/wapenc" type="mms" bearer_bitmask="18" mvno_type="gid" mvno_match_data="DDFF" user_visible="false" />
-  <apn carrier="service" carrier_id="10001" mcc="310" mnc="260" apn="service" mmsc="http://TF.mmsmvno.com/mms/wapenc" type="mms" bearer_bitmask="18" mvno_type="gid" mvno_match_data="DEFF" user_visible="false" />
-  <apn carrier="ATT Nextgenphone" carrier_id="2028" mcc="310" mnc="280" apn="nxtgenphone" mmsc="http://mmsc.mobile.att.net" mmsproxy="proxy.mobile.att.net" mmsport="80" type="default,mms,supl,hipri,fota" protocol="IPV4V6" roaming_protocol="IPV4V6" mtu="1410" mvno_type="gid" mvno_match_data="4102" />
-  <apn carrier="ATT WAP" carrier_id="2028" mcc="310" mnc="280" apn="wap.cingular" proxy="wireless.cingular.com" port="80" mmsc="http://mmsc.cingular.com/" mmsproxy="wireless.cingular.com" server="cingulargprs.com" type="default,mms,supl" protocol="IPV4V6" roaming_protocol="IPV4V6" mvno_type="gid" mvno_match_data="4102" />
-  <apn carrier="ATT IMS" carrier_id="2028" mcc="310" mnc="280" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" mvno_type="gid" mvno_match_data="4102" user_visible="false" />
-  <apn carrier="Red Pocket Mobile" carrier_id="2026" mcc="310" mnc="280" apn="RESELLER" mmsc="http://mmsc.mobile.att.net" mmsproxy="proxy.mobile.att.net" mmsport="80" type="default,mms,supl" mvno_type="gid" mvno_match_data="4201" />
-  <apn carrier="ATT Nextgenphone" carrier_id="2027" mcc="310" mnc="280" apn="nxtgenphone" mmsc="http://mmsc.mobile.att.net" mmsproxy="proxy.mobile.att.net" mmsport="80" type="default,mms,supl,hipri,fota" protocol="IPV4V6" roaming_protocol="IPV4V6" mtu="1410" mvno_type="gid" mvno_match_data="44FF" />
-  <apn carrier="ATT WAP" carrier_id="2027" mcc="310" mnc="280" apn="wap.cingular" proxy="wireless.cingular.com" port="80" mmsc="http://mmsc.cingular.com/" mmsproxy="wireless.cingular.com" server="cingulargprs.com" type="default,mms,supl" protocol="IPV4V6" roaming_protocol="IPV4V6" mvno_type="gid" mvno_match_data="44FF" />
-  <apn carrier="ATT IMS" carrier_id="2027" mcc="310" mnc="280" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" mvno_type="gid" mvno_match_data="44FF" user_visible="false" />
-  <apn carrier="ATT Nextgenphone" carrier_id="2024" mcc="310" mnc="280" apn="nxtgenphone" mmsc="http://mmsc.mobile.att.net" mmsproxy="proxy.mobile.att.net" mmsport="80" type="default,mms,supl,hipri,fota" protocol="IPV4V6" roaming_protocol="IPV4V6" mtu="1410" mvno_type="gid" mvno_match_data="49FF" />
-  <apn carrier="ATT WAP" carrier_id="2024" mcc="310" mnc="280" apn="wap.cingular" proxy="wireless.cingular.com" port="80" mmsc="http://mmsc.cingular.com/" mmsproxy="wireless.cingular.com" server="cingulargprs.com" type="default,mms,supl" protocol="IPV4V6" roaming_protocol="IPV4V6" mvno_type="gid" mvno_match_data="49FF" />
-  <apn carrier="ATT IMS" carrier_id="2024" mcc="310" mnc="280" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" mvno_type="gid" mvno_match_data="49FF" user_visible="false" />
-  <apn carrier="ATT Enhancedphone" carrier_id="10021" mcc="310" mnc="280" apn="enhancedphone" mmsc="http://mmsc.mobile.att.net" mmsproxy="proxy.mobile.att.net" mmsport="80" type="default,mms,supl,fota" protocol="IPV4V6" roaming_protocol="IPV4V6" mvno_type="gid" mvno_match_data="53FF" />
-  <apn carrier="ATT WAP" carrier_id="10021" mcc="310" mnc="280" apn="wap.cingular" proxy="wireless.cingular.com" port="80" mmsc="http://mmsc.cingular.com/" mmsproxy="wireless.cingular.com" server="cingulargprs.com" type="default,mms,supl" protocol="IPV4V6" roaming_protocol="IPV4V6" mvno_type="gid" mvno_match_data="53FF" />
-  <apn carrier="ATT IMS" carrier_id="10021" mcc="310" mnc="280" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" mvno_type="gid" mvno_match_data="53FF" user_visible="false" />
-  <apn carrier="ATT Hotspot" carrier_id="10021" mcc="310" mnc="280" apn="hotspot" type="dun" protocol="IPV4V6" roaming_protocol="IPV4V6" mvno_type="gid" mvno_match_data="53FF" user_visible="false" />
-  <apn carrier="Defense Mobile" mcc="310" mnc="280" apn="PRODATA" mmsc="http://mmsc.mobile.att.net" mmsproxy="proxy.mobile.att.net" mmsport="80" type="default,mms,supl" protocol="IP" mvno_type="gid" mvno_match_data="60FF" />
-  <apn carrier="ATT Nextgenphone" carrier_id="2025" mcc="310" mnc="280" apn="nxtgenphone" mmsc="http://mmsc.mobile.att.net" mmsproxy="proxy.mobile.att.net" mmsport="80" type="default,mms,supl,hipri,fota" protocol="IPV4V6" roaming_protocol="IPV4V6" mtu="1410" mvno_type="gid" mvno_match_data="62FF" />
-  <apn carrier="ATT WAP" carrier_id="2025" mcc="310" mnc="280" apn="wap.cingular" proxy="wireless.cingular.com" port="80" mmsc="http://mmsc.cingular.com/" mmsproxy="wireless.cingular.com" server="cingulargprs.com" type="default,mms,supl" protocol="IPV4V6" roaming_protocol="IPV4V6" mvno_type="gid" mvno_match_data="62FF" />
-  <apn carrier="ATT IMS" carrier_id="2025" mcc="310" mnc="280" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" mvno_type="gid" mvno_match_data="62FF" user_visible="false" />
-  <apn carrier="ATT Nextgenphone" carrier_id="2031" mcc="310" mnc="280" apn="nxtgenphone" mmsc="http://mmsc.mobile.att.net" mmsproxy="proxy.mobile.att.net" mmsport="80" type="default,mms,supl,hipri,fota" protocol="IPV4V6" roaming_protocol="IPV4V6" mtu="1410" mvno_type="gid" mvno_match_data="69FF" />
-  <apn carrier="ATT WAP" carrier_id="2031" mcc="310" mnc="280" apn="wap.cingular" proxy="wireless.cingular.com" port="80" mmsc="http://mmsc.cingular.com/" mmsproxy="wireless.cingular.com" server="cingulargprs.com" type="default,mms,supl" protocol="IPV4V6" roaming_protocol="IPV4V6" mvno_type="gid" mvno_match_data="69FF" />
-  <apn carrier="ATT IMS" carrier_id="2031" mcc="310" mnc="280" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" mvno_type="gid" mvno_match_data="69FF" user_visible="false" />
-  <apn carrier="TRACFONE" carrier_id="10000" mcc="310" mnc="280" apn="reseller" mmsc="http://mmsc.mobile.att.net" mmsproxy="proxy.mobile.att.net" mmsport="80" type="default,mms,supl,hipri,fota" protocol="IP" roaming_protocol="IP" mvno_type="gid" mvno_match_data="DDFF" />
-  <apn carrier="ATT IMS" carrier_id="10000" mcc="310" mnc="280" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" mvno_type="gid" mvno_match_data="DDFF" user_visible="false" />
-  <apn carrier="TRACFONE" carrier_id="10000" mcc="310" mnc="280" apn="reseller" mmsc="http://mmsc.mobile.att.net" mmsproxy="proxy.mobile.att.net" mmsport="80" type="default,mms,supl,hipri,fota" protocol="IP" roaming_protocol="IP" mvno_type="gid" mvno_match_data="DEFF" />
-  <apn carrier="ATT IMS" carrier_id="10000" mcc="310" mnc="280" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" mvno_type="gid" mvno_match_data="DEFF" user_visible="false" />
-  <apn carrier="ATT Nextgenphone" carrier_id="1187" mcc="310" mnc="280" apn="nxtgenphone" mmsc="http://mmsc.mobile.att.net" mmsproxy="proxy.mobile.att.net" mmsport="80" type="default,mms,supl,fota" protocol="IPV4V6" roaming_protocol="IPV4V6" mtu="1410" />
-  <apn carrier="ATT WAP" carrier_id="1187" mcc="310" mnc="280" apn="wap.cingular" proxy="wireless.cingular.com" port="80" mmsc="http://mmsc.cingular.com/" mmsproxy="wireless.cingular.com" server="cingulargprs.com" type="default,mms,supl" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="ATT IMS" carrier_id="1187" mcc="310" mnc="280" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" />
-  <apn carrier="ATT Hotspot" carrier_id="1187" mcc="310" mnc="280" apn="hotspot" type="dun" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" />
-  <apn carrier="nep.data" mcc="310" mnc="290" apn="nep.data" proxy="" port="" type="default,supl" authtype="0" />
-  <apn carrier="nep.mms" mcc="310" mnc="290" apn="nep.mms" mmsc="http://mmsgprs.com" mmsproxy="" mmsport="80" type="mms" authtype="0" />
-  <apn carrier="Truphone" mcc="310" mnc="300" apn="truphone.com" type="default,dun" />
-  <apn carrier="Cellular One NEAZ ISP" carrier_id="1796" mcc="310" mnc="320" apn="isp.cellularoneaz.net" type="default,supl" />
-  <apn carrier="Cellular One ClearSky MMS" carrier_id="1796" mcc="310" mnc="320" apn="wap.c1csky.net" mmsc="http://mmsc.c1neaz.csky.us:6672" mmsproxy="209.4.229.94" mmsport="9401" type="mms" />
-  <apn carrier="Westlink Internet" mcc="310" mnc="340" apn="internet.westlink" type="default,supl" authtype="0" />
-  <apn carrier="Westlink MMS" mcc="310" mnc="340" apn="mms.westlink" mmsc="http://mms2.westlinkcom.com/mms/" mmsproxy="199.221.134.43" mmsport="8080" type="mms" authtype="0" />
-  <apn carrier="ATT WAP" mcc="310" mnc="380" apn="wap.cingular" proxy="wireless.cingular.com" port="80" mmsc="http://mmsc.cingular.com" mmsproxy="wireless.cingular.com" mmsport="80" type="default,mms" />
-  <apn carrier="ATT Broadband" mcc="310" mnc="380" apn="Broadband" type="default,supl" />
-  <apn carrier="Cingular 380 ATT" mcc="310" mnc="380" apn="proxy" proxy="wireless.cingular.com" port="80" user="" password="" mmsc="http://mmsc.cingular.com/" mmsproxy="wireless.cingular.com" mmsport="" type="default,supl,mms" />
-  <apn carrier="AWS MMS" mcc="310" mnc="380" apn="proxy" proxy="" port="" user="" password="" mmsc="http://mmsc.mymmode.com" mmsproxy="10.250.250.55" mmsport="8080" type="mms" />
-  <apn carrier="COET Web" apn="web.celloneet.com" user="user1@web.celloneet.com" password="celloneet" server="http://192.168.100.14" mmsc="http://192.168.100.14" mmsproxy="209.4.229.81" mmsport="9201" mcc="310" mnc="390" type="default,supl,mms" authtype="1" />
-  <apn carrier="Celloneet MMS" mcc="310" mnc="390" apn="mms.celloneet.com" proxy="" port="" user="user1@mms.celloneet.com" password="celloneet" mmsc="http://mms.celloneet.com/servlets/mms" mmsproxy="63.99.231.135" mmsport="8080" type="mms" />
-  <apn carrier="Boost Mobile" mcc="310" mnc="410" apn="ereseller" mmsc="http://mmsc.mobile.att.net" mmsproxy="proxy.mobile.att.net" mmsport="80" type="default,mms,supl,fota,xcap" protocol="IPV4V6" roaming_protocol="IPV4V6" mvno_match_data="3432" mvno_type="gid" />
-  <apn carrier="US Mobile" mcc="310" mnc="410" apn="ereseller" mmsc="http://mmsc.mobile.att.net" mmsproxy="proxy.mobile.att.net" mmsport="80" type="default,supl,mms,fota" protocol="IPV4V6" mvno_match_data="20FF" mvno_type="gid" />
-  <apn carrier="ATT" mcc="310" mnc="410" apn="phone" mmsc="http://mmsc.mobile.att.net/" mmsproxy="proxy.mobile.att.net" mmsport="80" type="default,mms,supl" />
-  <apn carrier="Net 10" mcc="310" mnc="410" apn="tfdata" type="default,supl,mms" protocol="IP" roaming_protocol="IP" mmsc="http://mms-tf.net" mmsproxy="mms3.tracfone.com" mmsport="80" />
-  <apn carrier="Straight Talk" mcc="310" mnc="410" apn="tfdata" port="80" mmsc="http://mms-tf.net" mmsproxy="mms3.tracfone.com" mmsport="80" mvno_type="gid" mvno_match_data="deff" type="default,mms,supl" />
-  <apn carrier="Red Pocket" mcc="310" mnc="410" apn="PRODATA" port="" mmsc="http://mmsc.mobile.att.net" mmsproxy="proxy.mobile.att.net" mmsport="80" mvno_type="gid" mvno_match_data="4201" type="default,mms,supl" />
-  <apn carrier="Black Wireless" mcc="310" mnc="410" apn="att.mvno" proxy="66.209.11.33" port="80" mmsc="http://mmsc.cingular.com" mmsproxy="66.209.11.33" mmsport="80" type="default,mms,supl,fota" authtype="1" />
-  <apn carrier="H2O Wireless" mcc="310" mnc="410" apn="PRODATA" mmsc="http://mmsc.mobile.att.net" mmsproxy="proxy.mobile.att.net" mmsport="80" type="default,mms,supl" />
-  <apn carrier="Pure Talk USA" mcc="310" mnc="410" apn="att.mvno" proxy="" port="" mmsc="http://mmsc.cingular.com" mmsproxy="proxy.mvno.telrite.com" mmsport="80" type="default,mms,supl" />
-  <apn carrier="AirVoice Wireless" mcc="310" mnc="410" apn="att.mvno" proxy="66.209.11.33" port="80" mmsc="http://mmsc.cingular.com" mmsproxy="66.209.11.33" mmsport="80" type="default,mms,supl" />
-  <apn carrier="Jolt Mobile" mcc="310" mnc="410" apn="att.mvno" proxy="66.209.11.33" port="80" mmsc="http://mmsc.cingular.com" mmsproxy="66.209.11.33" mmsport="80" type="default,mms,supl" />
-  <apn carrier="Consumer Cellular 3G" mcc="310" mnc="410" apn="att.mvno" proxy="66.209.11.32" port="80" mmsc="http://mmsc.cingular.com" mmsproxy="66.209.11.32" mmsport="80" type="default,mms,supl,fota" />
-  <apn carrier="Consumer Cellular LTE" mcc="310" mnc="410" apn="ccdata" proxy="" port="" mmsc="http://mmsc.mobile.att.net" mmsproxy="proxy.mobile.att.net" mmsport="80" type="default,mms,supl,fota" />
-  <apn carrier="Good 2Go Mobile" mcc="310" mnc="410" apn="att.mvno" proxy="proxy.mvno.att.ztarmobile.com" port="80" mmsc="http://mmsc.cingular.com" mmsproxy="proxy.mvno.att.ztarmobile.com" mmsport="80" type="default,mms,supl,hipri" />
-  <apn carrier="ATT Enhancedphone" carrier_id="1187" mcc="310" mnc="410" apn="enhancedphone" mmsc="http://mmsc.mobile.att.net" mmsproxy="proxy.mobile.att.net" mmsport="80" type="default,fota,mms,supl" protocol="IPV4V6" roaming_protocol="IPV4V6" mvno_type="gid" mvno_match_data="53FF" />
-  <apn carrier="ATT WAP" carrier_id="1187" mcc="310" mnc="410" apn="wap.cingular" server="cingulargprs.com" proxy="wireless.cingular.com" port="80" type="default,supl" protocol="IPV4V6" roaming_protocol="IPV4V6" mvno_type="gid" mvno_match_data="53FF" user_visible="false" />
-  <apn carrier="ATT IMS" carrier_id="1187" mcc="310" mnc="410" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" bearer_bitmask="3|9|10|11|14|15|18|20" mvno_type="gid" mvno_match_data="53FF" user_visible="false" />
-  <apn carrier="ATT XCAP" carrier_id="1187" mcc="310" mnc="410" apn="enhancedphone" type="xcap" protocol="IPV4V6" roaming_protocol="IPV4V6" mvno_type="gid" mvno_match_data="53FF" user_visible="false" />
-  <apn carrier="ATT Nrphone" carrier_id="1187" mcc="310" mnc="410" apn="nrphone" mmsc="http://mmsc.mobile.att.net" mmsproxy="proxy.mobile.att.net" mmsport="80" type="default,fota,mms,supl" protocol="IPV4V6" roaming_protocol="IPV4V6" always_on="true" mvno_type="gid" mvno_match_data="52FF" />
-  <apn carrier="ATT IMS" carrier_id="1187" mcc="310" mnc="410" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" bearer_bitmask="3|9|10|11|14|15|18|20" always_on="true" mvno_type="gid" mvno_match_data="52FF" user_visible="false" />
-  <apn carrier="ATT XCAP" carrier_id="1187" mcc="310" mnc="410" apn="nrphone" type="xcap" protocol="IPV4V6" roaming_protocol="IPV4V6" always_on="true" mvno_type="gid" mvno_match_data="52FF" user_visible="false" />
-  <apn carrier="ATT IMS" mcc="310" mnc="410" apn="ims" type="ims" modem_cognitive="true" protocol="IPV4V6" />
-  <apn carrier="ATT Nextgenphone" mcc="310" mnc="410" apn="nxtgenphone" mmsc="http://mmsc.mobile.att.net" mmsproxy="proxy.mobile.att.net" mmsport="80" type="default,mms,supl,fota,hipri" protocol="IPV4V6" roaming_protocol="IPV4V6" mtu="1410" />
-  <apn carrier="ATT Phone" mcc="310" mnc="410" apn="phone" mmsc="http://mmsc.mobile.att.net" mmsproxy="proxy.mobile.att.net" mmsport="80" type="default,mms,supl,fota,hipri" protocol="IPV4V6" roaming_protocol="IPV4V6" mtu="1410" />
-  <apn carrier="ATT" mcc="310" mnc="410" apn="wap.cingular" proxy="" port="" user="WAP@CINGULARGPRS.COM" password="" mmsc="http://mmsc.cingular.com" mmsproxy="wireless.cingular.com" mmsport="80" type="default,supl,mms" />
-  <apn carrier="ATT LTE" mcc="310" mnc="410" apn="pta" proxy="" port="" user="" password="" mmsc="http://mmsc.mobile.att.net" mmsproxy="proxy.mobile.att.net" mmsport="80" type="default,supl,mms" />
-  <apn carrier="ATT Broadband" mcc="310" mnc="410" apn="broadband" user="" password="" mmsc="" type="default,supl" />
-  <apn carrier="ATT Activation" mcc="310" mnc="410" apn="lwaactivate" user="" password="" mmsc="" protocol="IP" />
-  <apn carrier="StraightTalk ATT" mcc="310" mnc="410" apn="tfdata" port="80" mmsc="http://mms-tf.net" mmsproxy="mms3.tracfone.com" mmsport="80" type="default,supl,mms" />
-  <apn carrier="StraightTalk ATT.mvno" mcc="310" mnc="410" apn="att.mvno" port="80" mmsc="http://mmsc.cingular.com" mmsproxy="66.209.11.33" mmsport="80" type="default,supl,mms" />
-  <apn carrier="StraightTalk ATT" mcc="310" mnc="410" apn="att.mvno" proxy="" port="" user="" password="" mmsc="http://mmsc.cingular.com" mmsproxy="66.209.11.33" mmsport="80" type="default,supl,mms" />
-  <apn carrier="ATT GoPhone" mcc="310" mnc="410" apn="pta" port="" mmsc="http://mmsc.mobile.att.net" mmsproxy="proxy.mobile.att.net" mmsport="80" type="default,mms,supl" />
-  <apn carrier="CBW Wap" mcc="310" mnc="420" apn="wap.gocbw.com" user="cbw" server="*" password="*" mmsc="http://mms.gocbw.com:8088/mms" mmsproxy="216.68.79.202" mmsport="80" proxy="216.68.79.202" port="80" type="default,supl,mms" />
-  <apn carrier="CBW Internet" mcc="310" mnc="420" apn="wap.gocbw.com" proxy="" port="" user="cbw" password="" server="216.68.79.199" mmsc="http://mms.gocbw.com:8088/mms" mmsproxy="216.68.79.202" mmsport="80" type="default,supl,mms" />
-  <apn carrier="Viero" mcc="310" mnc="450" apn="internet.vedge.com" proxy="10.168.3.23" port="9401" user="" password="" mmsc="" type="default,supl" />
-  <apn carrier="Viero MMS" mcc="310" mnc="450" apn="mms" proxy="" port="" user="" password="" mmsc="http://mms.viero.com" mmsproxy="10.168.3.23" mmsport="9401" type="mms" />
-  <apn carrier="WAP" mcc="310" mnc="460" apn="wap" proxy="10.1.20.10" port="8080" type="default,supl" authtype="0" />
-  <apn carrier="MMS" mmsc="http://10.1.20.11:8514" mmsproxy="10.1.20.10" mmsport="8080" mcc="310" mnc="460" apn="mms" type="mms" authtype="0" />
-  <apn carrier="Docomo Pacific" mcc="310" mnc="470" apn="internet" user="" password="" />
-  <apn carrier="Docomo Pacific MMS" mcc="310" mnc="470" apn="gcpos" mmsc="http://mmsc.guamcell.csky.us:6672/" user="" password="" proxy="209.004.229.082" port="9201" type="mms" />
-  <apn carrier="DataConnect" mcc="310" mnc="470" apn="isp.cingular" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
-  <apn carrier="MediaNet" mcc="310" mnc="470" apn="wap.cingular" proxy="" port="" user="WAP@CINGULARGPRS.COM" password="CINGULAR1" mmsc="http://mmsc.cingular.com" mmsproxy="66.209.11.32" mmsport="8080" type="default,supl,mms" />
-  <apn carrier="Verizon Internet" mcc="310" mnc="480" apn="VZWINTERNET" type="default,dun,mms" mmsc="http://mms.vtext.com/servlets/mms" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Verizon FOTA" mcc="310" mnc="480" apn="VZWADMIN" type="fota" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Verizon IMS" mcc="310" mnc="480" apn="VZWIMS" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Verizon CBS" mcc="310" mnc="480" apn="VZWAPP" type="cbs,mms" mmsc="http://mms.vtext.com/servlets/mms" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="DataConnect" mcc="310" mnc="480" apn="isp.cingular" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
-  <apn carrier="MediaNet" mcc="310" mnc="480" apn="wap.cingular" proxy="" port="" user="WAP@CINGULARGPRS.COM" password="CINGULAR1" mmsc="http://mmsc.cingular.com" mmsproxy="66.209.11.32" mmsport="8080" type="default,supl,mms" />
-  <apn carrier="Verizon Internet" mcc="310" mnc="481" apn="VZWINTERNET" type="default,dun,mms" mmsc="http://mms.vtext.com/servlets/mms" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Verizon FOTA" mcc="310" mnc="481" apn="VZWADMIN" type="fota" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Verizon IMS" mcc="310" mnc="481" apn="VZWIMS" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Verizon CBS" mcc="310" mnc="481" apn="VZWAPP" type="cbs,mms" mmsc="http://mms.vtext.com/servlets/mms" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Verizon Internet" mcc="310" mnc="483" apn="VZWINTERNET" type="default,dun,mms" mmsc="http://mms.vtext.com/servlets/mms" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Verizon FOTA" mcc="310" mnc="483" apn="VZWADMIN" type="fota" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Verizon IMS" mcc="310" mnc="483" apn="VZWIMS" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Verizon CBS" mcc="310" mnc="483" apn="VZWAPP" type="cbs,mms" mmsc="http://mms.vtext.com/servlets/mms" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Verizon Internet" mcc="310" mnc="486" apn="VZWINTERNET" type="default,dun,mms" mmsc="http://mms.vtext.com/servlets/mms" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Verizon FOTA" mcc="310" mnc="486" apn="VZWADMIN" type="fota" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Verizon IMS" mcc="310" mnc="486" apn="VZWIMS" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Verizon CBS" mcc="310" mnc="486" apn="VZWAPP" type="cbs,mms" mmsc="http://mms.vtext.com/servlets/mms" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Verizon Internet" mcc="310" mnc="489" apn="VZWINTERNET" type="default,dun,mms" mmsc="http://mms.vtext.com/servlets/mms" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Verizon FOTA" mcc="310" mnc="489" apn="VZWADMIN" type="fota" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Verizon IMS" mcc="310" mnc="489" apn="VZWIMS" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Verizon CBS" mcc="310" mnc="489" apn="VZWAPP" type="cbs,mms" mmsc="http://mms.vtext.com/servlets/mms" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="GoodCall Picture Message" mcc="310" mnc="490" apn="good.call" proxy="" port="" user="" password="" mmsc="http://mms.suncom.net:8088/mms" mmsproxy="66.150.33.125" mmsport="8080" type="mms" />
-  <apn carrier="Suncom MMS" mcc="310" mnc="490" apn="mms" proxy="" port="" user="" password="" mmsc="http://mms.suncom.net:8088/mms" mmsproxy="66.150.33.125" mmsport="8080" type="mms" />
-  <apn carrier="ATT WAP" mcc="310" mnc="560" apn="wap.cingular" proxy="wireless.cingular.com" port="80" mmsc="http://mmsc.cingular.com" mmsproxy="wireless.cingular.com" mmsport="80" type="default,mms" />
-  <apn carrier="ATT Broadband" mcc="310" mnc="560" apn="Broadband" type="default,supl" />
-  <apn carrier="DobsonMMS" mcc="310" mnc="560" apn="dobsoncellularwap" proxy="" port="" user="" password="" mmsc="http://mmsc" mmsproxy="172.23.1.252" mmsport="8799" type="mms" />
-  <apn carrier="Cellular One Smartphone" carrier_id="1800" mcc="310" mnc="570" apn="internet" type="default,supl" />
-  <apn carrier="Cellular One MMS" carrier_id="1800" mcc="310" mnc="570" apn="clearsky" mmsc="http://mmsc.mtpcs.csky.us:6672/" mmsproxy="209.4.229.229" mmsport="9201" type="mms" />
-  <apn carrier="ChinookMMS" mcc="310" mnc="570" apn="wapgw.chinookwireless.net" proxy="" port="" user="" password="" mmsc="http://mms.cellonenation.net/mms/" mmsproxy="204.181.155.195" mmsport="8080" type="mms" />
-  <apn carrier="Inland Cellular" mcc="310" mnc="580" apn="internet.inland.com" type="default,mms" authtype="3" mmsc="http://mms.inland3g.com/inland/mms.php" />
-  <apn carrier="Inland Cellular FOTA" mcc="310" mnc="580" apn="ota.inland.com" type="fota" bearer="14" protocol="IPV4V6" roaming_protocol="IPV4V6" />
-  <apn carrier="Inland Cellular LTE" mcc="310" mnc="580" apn="internet.inland.com" type="default,mms,supl" bearer="14" protocol="IPV4V6" roaming_protocol="IPV4V6" mmsc="http://mms.inland3g.com/inland/mms.php" />
-  <apn carrier="Inland Cellular Tether" mcc="310" mnc="580" apn="modem.inland.com" type="dun" bearer="14" protocol="IPV4V6" roaming_protocol="IPV4V6" mmsc="http://mms.inland3g.com/inland/mms.php" />
-  <apn carrier="CellularOne MMS" mcc="310" mnc="590" apn="cellular1wap" proxy="" port="" user="" password="" mmsc="http://mmsc" mmsproxy="172.23.1.252" mmsport="8799" type="mms" />
-  <apn carrier="EpicINT" mcc="310" mnc="610" apn="internet.epictouch" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
-  <apn carrier="EpicMMS" mcc="310" mnc="610" apn="mms.epictouch" proxy="" port="" user="" password="" mmsc="http://mmsc.westlinkcom.com/servlets/mms" mmsproxy="63.99.231.135" mmsport="8080" type="mms" />
-  <apn carrier="Epic Internet" mcc="310" mnc="610" apn="internet.epictouch" type="default,supl" authtype="0" />
-  <apn carrier="Epic Mms" mcc="310" mnc="610" apn="mms.epictouch" proxy="199.221.134.46" port="8080" mmsc="http://mms.epicpcs.com/mms/" mmsproxy="199.221.134.46" mmsport="8080" type="mms" authtype="0" />
-  <apn carrier="Airfire GPRS" mcc="310" mnc="640" apn="internet.air.net" type="default,supl" authtype="0" />
-  <apn carrier="Airfire MMS" mcc="310" mnc="640" apn="internet.air.net" mmsc="http://mms.airfiremobile.com/+1" type="mms" authtype="0" />
-  <apn carrier="ATT Broadband" mcc="310" mnc="680" apn="Broadband" type="default,supl" />
-  <apn carrier="ATT WAP" mcc="310" mnc="680" apn="wap.cingular" proxy="wireless.cingular.com" port="80" mmsc="http://mmsc.cingular.com" mmsproxy="wireless.cingular.com" mmsport="80" type="default,mms" />
-  <apn carrier="ADAT" mcc="310" mnc="690" apn="biz.immix.com" proxy="209.4.229.79" port="9401" mmsc="http://mms.immix.csky.us:6672/" mmsproxy="209.4.229.79" mmsport="9401" type="default,supl,mms" authtype="0" />
-  <apn carrier="ASTAC" mcc="310" mnc="710" apn="ningiq" type="default,supl" authtype="0" />
-  <apn carrier="Internet" mcc="310" mnc="770" apn="i2.iwireless.com" type="default,supl" authtype="0" />
-  <apn carrier="MMS" proxy="209.4.229.31" port="9201" mmsc="http://mmsc.iwireless.dataonair.net:6672" mmsproxy="209.4.229.31" mmsport="9201" mcc="310" mnc="770" apn="wap1.iwireless.com" type="mms" authtype="0" />
-  <apn carrier="iWireless" mcc="310" mnc="770" apn="i2.iwireless.com" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
-  <apn carrier="iWireless MMS" mcc="310" mnc="770" apn="wap1.iwireless.com" proxy="" port="" user="" password="" mmsc="http://mmsc.iwireless.dataonair.net:6672" mmsproxy="209.4.229.32" mmsport="9201" type="mms" />
-  <apn carrier="IWS WAP" mcc="310" mnc="770" apn="wap1.iwireless.com" mmsc="http://mmsc.iwireless.dataonair.net:6672" mmsproxy="209.4.229.31" mmsport="9401" type="default,supl" />
-  <apn carrier="PIAPicture Messaging" mcc="310" mnc="770" apn="wap9.iwireless.com" proxy="" port="" user="" password="" mmsc="http://mmsc.iwireless.dataonair.net:6672" mmsproxy="209.4.229.32" mmsport="9401" type="mms" />
-  <apn carrier="Internet" mcc="310" mnc="840" apn="isp" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
-  <apn carrier="MMS" mcc="310" mnc="840" apn="mms" proxy="" port="" user="" password="" mmsc="http://mms.edgemobile.net/mmsc" mmsproxy="12.108.12.13" mmsport="3128" type="mms" />
-  <apn carrier="Edge MMS Prepay" mcc="310" mnc="840" apn="ppmms" proxy="" port="" user="" password="" mmsc="http://mms.edgemobile.net/mmsc" mmsproxy="12.108.12.13" mmsport="3128" type="mms" />
-  <apn carrier="Pace Net" mcc="310" mnc="870" apn="data.kaplan" type="default,supl" authtype="0" />
-  <apn carrier="Pace Pic" mcc="310" mnc="870" apn="mms.kaplan" mmsc="http://mms.iot1.com/kaplan/mms.php" mmsproxy="10.10.0.97" mmsport="9201" type="mms" authtype="0" />
-  <apn carrier="DTC WAP" mcc="310" mnc="880" apn="wapdtcw.com" proxy="204.181.155.218" port="8080" type="default,supl" authtype="0" />
-  <apn carrier="DTC MMS" mcc="310" mnc="880" apn="mmsdtcw.com" mmsc="http://mmsdtcw.com" proxy="192.168.20.42" port="80" mmsproxy="192.168.20.42" mmsport="80" type="mms" authtype="0" />
-  <apn carrier="DTC MMS" mcc="310" mnc="880" apn="mms.adv.com" proxy="" port="" user="" password="" mmsc="http://mms.iot1.com/advantage/mms.php" type="mms" />
-  <apn carrier="WOW_WAP" mcc="310" mnc="910" apn="wap.firstcellular.com" proxy="" port="" user="" password="" mmsc="mms.firstcellular.net/mmsc" mmsproxy="10.101.1.5" mmsport="3128" type="default,supl,mms" />
-  <apn carrier="ATT WAP" mcc="310" mnc="980" apn="wap.cingular" proxy="wireless.cingular.com" port="80" mmsc="http://mmsc.cingular.com" mmsproxy="wireless.cingular.com" mmsport="80" type="default,mms" />
-  <apn carrier="ATT Broadband" mcc="310" mnc="980" apn="Broadband" type="default,supl" />
+    <apn
+        mcc="310"
+        mnc="00"
+        apn="VZWINTERNET"
+        carrier="Verizon Internet"
+        mmsc="http://mms.vtext.com/servlets/mms"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,dun,mms"
+    />
+    <apn
+        mcc="310"
+        mnc="00"
+        apn="VZWADMIN"
+        carrier="Verizon FOTA"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="fota"
+    />
+    <apn
+        mcc="310"
+        mnc="00"
+        apn="VZWIMS"
+        carrier="Verizon IMS"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="310"
+        mnc="00"
+        apn="VZWAPP"
+        carrier="Verizon CBS"
+        mmsc="http://mms.vtext.com/servlets/mms"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="cbs,mms"
+    />
+    <apn
+        mcc="310"
+        mnc="002"
+        apn="VZWINTERNET"
+        carrier="Verizon Internet"
+        mmsc="http://mms.vtext.com/servlets/mms"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,dun,mms"
+    />
+    <apn
+        mcc="310"
+        mnc="002"
+        apn="VZWADMIN"
+        carrier="Verizon FOTA"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="fota"
+    />
+    <apn
+        mcc="310"
+        mnc="002"
+        apn="VZWIMS"
+        carrier="Verizon IMS"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="310"
+        mnc="002"
+        apn="VZWAPP"
+        carrier="Verizon CBS"
+        mmsc="http://mms.vtext.com/servlets/mms"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="cbs,mms"
+    />
+    <apn
+        mcc="310"
+        mnc="003"
+        apn="VZWINTERNET"
+        carrier="Verizon Internet"
+        mmsc="http://mms.vtext.com/servlets/mms"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,dun,mms"
+    />
+    <apn
+        mcc="310"
+        mnc="003"
+        apn="VZWADMIN"
+        carrier="Verizon FOTA"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="fota"
+    />
+    <apn
+        mcc="310"
+        mnc="003"
+        apn="VZWIMS"
+        carrier="Verizon IMS"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="310"
+        mnc="003"
+        apn="VZWAPP"
+        carrier="Verizon CBS"
+        mmsc="http://mms.vtext.com/servlets/mms"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="cbs,mms"
+    />
+    <apn
+        mcc="310"
+        mnc="004"
+        apn="VZWINTERNET"
+        carrier="Verizon Internet"
+        mmsc="http://mms.vtext.com/servlets/mms"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,dun,supl,mms"
+    />
+    <apn
+        mcc="310"
+        mnc="004"
+        apn="VZWADMIN"
+        carrier="Verizon FOTA"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="fota"
+    />
+    <apn
+        mcc="310"
+        mnc="004"
+        apn="VZWIMS"
+        bearer_bitmask="13|14"
+        carrier="Verizon IMS"
+        max_conns="1023"
+        max_conns_time="300"
+        modem_cognitive="true"
+        profile_id="2"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="310"
+        mnc="004"
+        apn="VZWAPP"
+        carrier="Verizon CBS"
+        mmsc="http://mms.vtext.com/servlets/mms"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="cbs,mms"
+    />
+    <apn
+        mcc="310"
+        mnc="004"
+        apn="internet"
+        carrier="Verizon"
+        mmsc="http://mms.vtext.com/servlets/mms"
+        password="*"
+        port=""
+        proxy=""
+        server="*"
+        type="default,supl,mms"
+        user="*"
+    />
+    <apn
+        mcc="310"
+        mnc="005"
+        apn="VZWINTERNET"
+        carrier="Verizon Internet"
+        mmsc="http://mms.vtext.com/servlets/mms"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,dun,mms"
+    />
+    <apn
+        mcc="310"
+        mnc="005"
+        apn="VZWADMIN"
+        carrier="Verizon FOTA"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="fota"
+    />
+    <apn
+        mcc="310"
+        mnc="005"
+        apn="VZWIMS"
+        carrier="Verizon IMS"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="310"
+        mnc="005"
+        apn="VZWAPP"
+        carrier="Verizon CBS"
+        mmsc="http://mms.vtext.com/servlets/mms"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="cbs,mms"
+    />
+    <apn
+        mcc="310"
+        mnc="006"
+        apn="VZWINTERNET"
+        carrier="Verizon Internet"
+        mmsc="http://mms.vtext.com/servlets/mms"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,dun,mms"
+    />
+    <apn
+        mcc="310"
+        mnc="006"
+        apn="VZWADMIN"
+        carrier="Verizon FOTA"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="fota"
+    />
+    <apn
+        mcc="310"
+        mnc="006"
+        apn="VZWIMS"
+        carrier="Verizon IMS"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="310"
+        mnc="006"
+        apn="VZWAPP"
+        carrier="Verizon CBS"
+        mmsc="http://mms.vtext.com/servlets/mms"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="cbs,mms"
+    />
+    <apn
+        mcc="310"
+        mnc="012"
+        apn="VZWINTERNET"
+        carrier="Verizon Internet"
+        mmsc="http://mms.vtext.com/servlets/mms"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,dun,mms"
+    />
+    <apn
+        mcc="310"
+        mnc="012"
+        apn="VZWADMIN"
+        carrier="Verizon FOTA"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="fota"
+    />
+    <apn
+        mcc="310"
+        mnc="012"
+        apn="VZWIMS"
+        carrier="Verizon IMS"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="310"
+        mnc="012"
+        apn="VZWAPP"
+        carrier="Verizon CBS"
+        mmsc="http://mms.vtext.com/servlets/mms"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="cbs,mms"
+    />
+    <apn
+        mcc="310"
+        mnc="16"
+        apn="wap.mycricket.com"
+        authtype="2"
+        carrier="Cricket"
+        mmsc="http://mms.mycricket.com/servlets/mms"
+        password="cricket"
+        port="8080"
+        proxy="wap.mycricket.com"
+        type="*"
+        user="@mycricket.com"
+    />
+    <apn
+        mcc="310"
+        mnc="020"
+        apn="SMART.COM"
+        authtype="0"
+        carrier="UNIONINTERNET"
+        password=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="310"
+        mnc="020"
+        apn="union.mms.com"
+        authtype="0"
+        carrier="UNIONMMS"
+        mmsc="http://mms.unionwireless.com"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="310"
+        mnc="023"
+        apn="internet"
+        authtype="3"
+        carrier="Cellular South"
+        mmsc="http://pix.cellularsouth.com/servlets/mms"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="310"
+        mnc="027"
+        apn="wap.metropcs.net"
+        carrier="metropcs"
+        mmsc="http://mms.metropcs.net/mmsc"
+        mmsport="3128"
+        mmsproxy=""
+        password="metropcs"
+        port=""
+        proxy=""
+        server="http://mms.metropcs.net/servlets/mmsc"
+        type="default,supl,mms"
+        user="MDN@mymetropcs.com"
+    />
+    <apn
+        mcc="310"
+        mnc="030"
+        apn="mmswap.centennialwireless.com"
+        carrier="myBlue Pix"
+        mmsc="http://mms.myblue.com/servlets/mms"
+        mmsport="8080"
+        mmsproxy="63.99.231.135"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="310"
+        mnc="030"
+        apn="private.centennialwireless.com"
+        carrier="Internet"
+        mmsc=""
+        password="priv"
+        port=""
+        proxy=""
+        type="default,supl"
+        user="privuser"
+    />
+    <apn
+        mcc="310"
+        mnc="030"
+        apn="truphone.com"
+        carrier="Truphone"
+        type="default,dun"
+    />
+    <apn
+        mcc="310"
+        mnc="70"
+        apn="wap.cingular"
+        carrier="ATT WAP"
+        mmsc="http://mmsc.cingular.com"
+        mmsport="80"
+        mmsproxy="wireless.cingular.com"
+        port="80"
+        proxy="wireless.cingular.com"
+        type="default,mms"
+    />
+    <apn
+        mcc="310"
+        mnc="70"
+        apn="Broadband"
+        carrier="ATT Broadband"
+        type="default,supl"
+    />
+    <apn
+        mcc="310"
+        mnc="080"
+        apn="corrmms"
+        carrier="CorrMMS"
+        mmsc="http://mms.iot1.com/corr/mms.php"
+        mmsport="80"
+        mmsproxy="66.255.55.23"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="310"
+        mnc="090"
+        apn="isp"
+        carrier="Internet"
+        type="default,supl"
+    />
+    <apn
+        mcc="310"
+        mnc="090"
+        apn="mms"
+        carrier="MMS"
+        mmsc="http://mms.edgemobile.net/mmsc"
+        mmsport="3128"
+        mmsproxy="12.108.12.13"
+        type="mms"
+    />
+    <apn
+        mcc="310"
+        mnc="090"
+        apn="ppmms"
+        carrier="Edge MMS Prepay"
+        mmsc="http://mms.edgemobile.net/mmsc"
+        mmsport="3128"
+        mmsproxy="12.108.12.13"
+        type="mms"
+    />
+    <apn
+        mcc="310"
+        mnc="090"
+        apn="4g.mycricket.com"
+        authtype="0"
+        bearer="14"
+        carrier="LTE INTERNET"
+        mmsc="http://mms.mycricket.com/servlets/mms"
+        password=""
+        protocol="IP"
+        roaming_protocol="IP"
+        type="default,dun,mms"
+        user=""
+    />
+    <apn
+        mcc="310"
+        mnc="090"
+        apn="Apnota.4g.mycricket.com"
+        authtype="0"
+        bearer="14"
+        carrier="LTE ADMIN"
+        mmsc="http://mms.mycricket.com/servlets/mms"
+        password=""
+        protocol="IP"
+        roaming_protocol="IP"
+        type="fota"
+        user=""
+    />
+    <apn
+        mcc="310"
+        mnc="090"
+        apn="apndnsota.4g.mycricket.com"
+        authtype="0"
+        bearer="14"
+        carrier="LTE DNSADMIN"
+        mmsc="http://mms.mycricket.com/servlets/mms"
+        password=""
+        protocol="IP"
+        roaming_protocol="IP"
+        type="fota"
+        user=""
+    />
+    <apn
+        mcc="310"
+        mnc="090"
+        apn="isp"
+        carrier="Internet"
+        mmsc=""
+        password=""
+        port=""
+        proxy=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="310"
+        mnc="090"
+        apn="mms"
+        carrier="MMS"
+        mmsc="http://mms.edgemobile.net/mmsc"
+        mmsport="3128"
+        mmsproxy="12.108.12.13"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="310"
+        mnc="090"
+        apn="ppmms"
+        carrier="Edge MMS Prepay"
+        mmsc="http://mms.edgemobile.net/mmsc"
+        mmsport="3128"
+        mmsproxy="12.108.12.13"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="310"
+        mnc="90"
+        apn="wap.cingular"
+        carrier="ATT WAP"
+        mmsc="http://mmsc.cingular.com"
+        mmsport="80"
+        mmsproxy="wireless.cingular.com"
+        port="80"
+        proxy="wireless.cingular.com"
+        type="default,mms"
+    />
+    <apn
+        mcc="310"
+        mnc="90"
+        apn="Broadband"
+        carrier="ATT Broadband"
+        type="default,supl"
+    />
+    <apn
+        mcc="310"
+        mnc="99"
+        apn="VZWINTERNET"
+        carrier="Verizon Internet"
+        mmsc="http://mms.vtext.com/servlets/mms"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,dun,mms"
+    />
+    <apn
+        mcc="310"
+        mnc="99"
+        apn="VZWADMIN"
+        carrier="Verizon FOTA"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="fota"
+    />
+    <apn
+        mcc="310"
+        mnc="99"
+        apn="VZWIMS"
+        carrier="Verizon IMS"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="310"
+        mnc="99"
+        apn="VZWAPP"
+        carrier="Verizon CBS"
+        mmsc="http://mms.vtext.com/servlets/mms"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="cbs,mms"
+    />
+    <apn
+        mcc="310"
+        mnc="100"
+        apn="plateauweb"
+        carrier="PLATWEB"
+        type="default,supl"
+    />
+    <apn
+        mcc="310"
+        mnc="100"
+        apn="plateaumms"
+        carrier="PLAT-OTA-MMS"
+        mmsc="http://208.254.124.11:8514"
+        mmsport="8080"
+        mmsproxy="208.254.124.11"
+        password="mmsc"
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="310"
+        mnc="100"
+        apn="plateauweb"
+        carrier="PLATWEB"
+        mmsc=""
+        password=""
+        port=""
+        proxy=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="310"
+        mnc="120"
+        apn="Sprint"
+        authtype="3"
+        carrier="Sprint MMS"
+        mmsc="http://oap7.sprintpcs.com"
+        mmsport="80"
+        mmsproxy="68.28.31.7"
+        password="*"
+        server="*"
+        type="mms"
+        user="Sprint"
+    />
+    <apn
+        mcc="310"
+        mnc="120"
+        apn="otasn"
+        carrier="Sprint LTE ota"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="fota"
+    />
+    <apn
+        mcc="310"
+        mnc="120"
+        apn="otasn"
+        carrier="Sprint EHRPD ota"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="fota"
+    />
+    <apn
+        mcc="310"
+        mnc="120"
+        apn="n.ispsn"
+        bearer="14"
+        carrier="Sprint LTE internet"
+        mmsc="http://mms.sprintpcs.com"
+        mmsport="80"
+        mmsproxy="68.28.31.7"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,mms,supl,hipri,dun"
+    />
+    <apn
+        mcc="310"
+        mnc="120"
+        apn="n.ispsn"
+        bearer="13"
+        carrier="Sprint EHRPD internet"
+        mmsc="http://mms.sprintpcs.com"
+        mmsport="80"
+        mmsproxy="68.28.31.7"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,mms,supl,hipri"
+    />
+    <apn
+        mcc="310"
+        mnc="120"
+        apn="n.ispsn"
+        carrier="Sprint internet"
+        mmsc="http://mms.sprintpcs.com"
+        mmsport="80"
+        mmsproxy="68.28.31.7"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="mms,supl,hipri"
+    />
+    <apn
+        mcc="310"
+        mnc="120"
+        apn="n.w1.ispsn"
+        carrier="Credo Mobile"
+        mmsc="http://mms.plspictures.com"
+        mmsport="80"
+        mmsproxy="68.28.31.7"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="mms"
+    />
+    <apn
+        mcc="310"
+        mnc="120"
+        apn="n.t8.ispsn"
+        carrier="Ting"
+        mmsc="http://mms.plspictures.com"
+        mmsport="80"
+        mmsproxy="68.28.31.7"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,supl,mms"
+    />
+    <apn
+        mcc="310"
+        mnc="120"
+        apn="n.r5.ispsn"
+        carrier="Ringplus"
+        mmsc="http://mms.plspictures.com"
+        mmsport="80"
+        mmsproxy="68.28.31.7"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="supl,mms"
+    />
+    <apn
+        mcc="310"
+        mnc="120"
+        apn="n.vmu.ispsn"
+        carrier="Virgin Mobile"
+        mmsc="http://mmsc.vmobl.com:8088/mms?"
+        mmsport="80"
+        mmsproxy="68.28.31.7"
+        password="*"
+        type="supl,mms,fota,dun"
+        user="Sprint"
+    />
+    <apn
+        mcc="310"
+        mnc="120"
+        apn="n.f6.ispsn"
+        bearer="14"
+        carrier="FreedomPop LTE"
+        mmsc="http://mms.sprintpcs.com"
+        mmsport="80"
+        mmsproxy="68.28.31.7"
+        type="supl,mms"
+    />
+    <apn
+        mcc="310"
+        mnc="120"
+        apn="n.f6.ispsn"
+        bearer="13"
+        carrier="FreedomPop EHRPD"
+        mmsc="http://mms.sprintpcs.com"
+        mmsport="80"
+        mmsproxy="68.28.31.7"
+        type="supl,mms"
+    />
+    <apn
+        mcc="310"
+        mnc="120"
+        apn="sprint"
+        bearer_bitmask="4|5|6|7|8|12"
+        carrier="Sprint"
+        mmsc="http://mms.sprintpcs.com"
+        mmsport="80"
+        mmsproxy="68.28.31.7"
+        type="default,supl,mms,ims,cbs"
+    />
+    <apn
+        mcc="310"
+        mnc="120"
+        apn="sprint"
+        bearer_bitmask="4|5|6|7|8|12"
+        carrier="Sprint"
+        mmsc="http://mms.sprintpcs.com"
+        mmsport="80"
+        mmsproxy="68.28.31.7"
+        profile_id="1"
+        type="default,supl,mms,ims,cbs,dun"
+    />
+    <apn
+        mcc="310"
+        mnc="120"
+        apn="internet"
+        authtype="3"
+        carrier="USCC"
+        mmsc="http://mmsc1.uscc.net/mmsc/MMS"
+        mmsport="80"
+        mmsproxy=""
+        password=""
+        port="80"
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="310"
+        mnc="120"
+        apn="cinet.spcs"
+        bearer_bitmask="1|2|3|9|10|11|15|16"
+        carrier="SPCS Global"
+        mmsc="http://mms.sprintpcs.com"
+        mmsport="80"
+        mmsproxy="68.28.31.7"
+        type="default,supl,mms,dun"
+    />
+    <apn
+        mcc="310"
+        mnc="130"
+        apn="mms.c1.ama"
+        carrier="My Multi Media"
+        mmsc="http://mms.iot1.com/amarillo/mms.php"
+        password="cell1"
+        port=""
+        proxy=""
+        type="mms"
+        user="cell1mms"
+    />
+    <apn
+        mcc="310"
+        mnc="150"
+        apn="ndo"
+        carrier="Cricket AIO"
+        mmsc="http://mmsc.aiowireless.net"
+        mmsport="80"
+        mmsproxy="proxy.aiowireless.net"
+        type="default,mms,fota,hipri,supl"
+    />
+    <apn
+        mcc="310"
+        mnc="170"
+        apn="wap.cingular"
+        carrier="ATT WAP"
+        mmsc="http://mmsc.cingular.com"
+        mmsport="80"
+        mmsproxy="wireless.cingular.com"
+        port="80"
+        proxy="wireless.cingular.com"
+        type="default,mms"
+    />
+    <apn
+        mcc="310"
+        mnc="170"
+        apn="Broadband"
+        carrier="ATT Broadband"
+        type="default,supl"
+    />
+    <apn
+        mcc="310"
+        mnc="170"
+        apn="isp.cingular"
+        carrier="DataConnect"
+        mmsc=""
+        password=""
+        port=""
+        proxy=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="310"
+        mnc="170"
+        apn="wap.cingular"
+        carrier="Cingular MMS"
+        mmsc="http://mmsc.cingular.com"
+        mmsport="8080"
+        mmsproxy="66.209.11.32"
+        password="CINGULAR1"
+        port=""
+        proxy=""
+        type="mms"
+        user="WAP@CINGULARGPRS.COM"
+    />
+    <apn
+        mcc="310"
+        mnc="170"
+        apn="fp.com.attz"
+        carrier="FreedomPop"
+    />
+    <apn
+        mcc="310"
+        mnc="180"
+        apn="wap.cingular"
+        carrier="ATT WAP"
+        mmsc="http://mmsc.cingular.com"
+        mmsport="80"
+        mmsproxy="wireless.cingular.com"
+        port="80"
+        proxy="wireless.cingular.com"
+        type="default,mms"
+    />
+    <apn
+        mcc="310"
+        mnc="180"
+        apn="Broadband"
+        carrier="ATT Broadband"
+        type="default,supl"
+    />
+    <apn
+        mcc="310"
+        mnc="180"
+        apn="internet.wcc.net"
+        authtype="0"
+        carrier="WCW Internet"
+        password="mmsc"
+        type="default,supl"
+        user="3257630000"
+    />
+    <apn
+        mcc="310"
+        mnc="180"
+        apn="mms.wcc.net"
+        authtype="3"
+        carrier="WCW-MMS"
+        mmsc="http://mms.wcc.net"
+        mmsport="80"
+        mmsproxy="209.55.70.246"
+        password="mmsc"
+        port="80"
+        proxy="209.55.70.246"
+        type="mms"
+        user="13257630000"
+    />
+    <apn
+        mcc="310"
+        mnc="180"
+        apn="mms.wcc.net"
+        authtype="3"
+        carrier="WCW-MMS only"
+        mmsc="http://mms.wcc.net"
+        mmsport="80"
+        mmsproxy="209.55.70.246"
+        password="mmsc"
+        port="80"
+        proxy="209.55.70.244"
+        type="default,mms"
+        user="3257630000"
+    />
+    <apn
+        mcc="310"
+        mnc="240"
+        apn="wireless.dish.com"
+        carrier="Ting Data"
+        carrier_id="2523"
+        mmsc="http://wholesale.mmsmvno.com/mms/wapenc"
+        mvno_match_data="6430"
+        mvno_type="gid"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,fota,mms,supl,hipri,dun"
+    />
+    <apn
+        mcc="310"
+        mnc="240"
+        apn="Wholesale"
+        carrier="Mint"
+        mmsc="http://wholesale.mmsmvno.com/mms/wapenc"
+        mmsport="8080"
+        mvno_match_data="756D"
+        mvno_type="gid"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,supl,mms,ia"
+    />
+    <apn
+        mcc="310"
+        mnc="240"
+        apn="pwg"
+        carrier="US Mobile"
+        mmsc="http://pwg.mmsmvno.com/mms/wapenc"
+        mvno_match_data="6901"
+        mvno_type="gid"
+        protocol="IPV4V6"
+        roaming_protocol="IP"
+        type="default,supl,mms"
+    />
+    <apn
+        mcc="310"
+        mnc="260"
+        apn="ims"
+        bearer_bitmask="14|18|20"
+        carrier="T-Mobile US IMS"
+        carrier_id="1"
+        mtu="1440"
+        protocol="IPV6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="310"
+        mnc="260"
+        apn="TMUS"
+        bearer_bitmask="18"
+        carrier="T-Mobile MMS"
+        carrier_id="1"
+        mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc"
+        protocol="IPV6"
+        roaming_protocol="IPV6"
+        type="mms,xcap"
+        user_visible="false"
+    />
+    <apn
+        mcc="310"
+        mnc="260"
+        apn="fast.t-mobile.com"
+        bearer_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|17|20"
+        carrier="T-Mobile US"
+        carrier_id="1"
+        mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc"
+        mtu="1440"
+        protocol="IPV6"
+        type="default,supl,ia,mms,xcap"
+    />
+    <apn
+        mcc="310"
+        mnc="260"
+        apn="pcweb.tmobile.com"
+        carrier="T-Mobile Tethering"
+        carrier_id="1"
+        protocol="IPV6"
+        type="dun"
+        user_visible="false"
+    />
+    <apn
+        mcc="310"
+        mnc="260"
+        apn="sos"
+        carrier="T-Mobile Emergency"
+        carrier_id="1"
+        protocol="IPV6"
+        roaming_protocol="IPV4V6"
+        type="emergency"
+        user_visible="false"
+    />
+    <apn
+        mcc="310"
+        mnc="260"
+        apn="h2g2"
+        carrier="Project Fi - T"
+        mvno_match_data="31026097"
+        mvno_type="imsi"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ia"
+    />
+    <apn
+        mcc="310"
+        mnc="260"
+        apn="h2g2"
+        carrier="Project Fi - T"
+        mmsc="http://mmsc1.g-mms.com/mms/wapenc"
+        mvno_match_data="31026097"
+        mvno_type="imsi"
+        password="none"
+        protocol="IPV6"
+        roaming_protocol="IP"
+        server="*"
+        user="none"
+    />
+    <apn
+        mcc="310"
+        mnc="260"
+        apn="fast.metropcs.com"
+        carrier="MetroPCS 260"
+        mtu="1440"
+        mvno_match_data="6D"
+        mvno_type="gid"
+        protocol="IPV6"
+        roaming_protocol="IPV4V6"
+        type="ia"
+    />
+    <apn
+        mcc="310"
+        mnc="260"
+        apn="fast.metropcs.com"
+        carrier="MetroPCS 260"
+        mmsc="http://metropcs.mmsmvno.com/mms/wapenc"
+        mtu="1440"
+        mvno_match_data="6D"
+        mvno_type="gid"
+        protocol="IPV6"
+        roaming_protocol="IP"
+        type="default,supl,mms,dun"
+    />
+    <apn
+        mcc="310"
+        mnc="260"
+        apn="ims"
+        carrier="MetroPCS 260 IMS"
+        mtu="1440"
+        mvno_match_data="6D"
+        mvno_type="gid"
+        protocol="IPV6"
+        roaming_protocol="IPV6"
+        type="ims"
+    />
+    <apn
+        mcc="310"
+        mnc="260"
+        apn="web.omwtoday.com"
+        carrier="Family Mobile"
+        carrier_id="2063"
+        mmsc="http://wirelessfour.mmsmvno.com/mms/wapenc"
+        mvno_match_data="4D4B"
+        mvno_type="gid"
+        port=""
+        type="default,mms,supl"
+    />
+    <apn
+        mcc="310"
+        mnc="260"
+        apn="Wholesale"
+        carrier="Ultra"
+        mmsc="http://wholesale.mmsmvno.com/mms/wapenc"
+        mvno_match_data="6132"
+        mvno_type="gid"
+        port="8080"
+        type="default,mms,supl,dun"
+    />
+    <apn
+        mcc="310"
+        mnc="260"
+        apn="wholesale"
+        carrier="Consumer Cellular"
+        carrier_id="10023"
+        mmsc="http://wholesale.mmsmvno.com/mms/wapenc"
+        mmsport="80"
+        mmsproxy=""
+        mvno_match_data="2AC9"
+        mvno_type="gid"
+        password=""
+        port=""
+        proxy=""
+        type="default,mms,supl,hipri"
+        user=""
+    />
+    <apn
+        mcc="310"
+        mnc="260"
+        apn="wholesale"
+        carrier="Red Pocket Mobile"
+        carrier_id="10011"
+        mmsc="http://wholesale.mmsmvno.com/mms/wapenc"
+        mvno_match_data="4201"
+        mvno_type="gid"
+        type="default,mms,supl"
+    />
+    <apn
+        mcc="310"
+        mnc="260"
+        apn="wholesale"
+        carrier="ZIP SIM"
+        carrier_id="2071"
+        mmsc="http://wholesale.mmsmvno.com/mms/wapenc"
+        mvno_match_data="7031"
+        mvno_type="gid"
+        type="default,mms,supl"
+    />
+    <apn
+        mcc="310"
+        mnc="260"
+        apn="multibrand"
+        carrier="Univision Mobile"
+        mmsc="http://uvm.mmsmvno.com/mms/wapenc"
+        mvno_match_data="554d"
+        mvno_type="gid"
+        port=""
+        type="default,mms,supl"
+    />
+    <apn
+        mcc="310"
+        mnc="260"
+        apn="multibrand"
+        carrier="GoSmart"
+        carrier_id="2064"
+        mmsc="http://gsmt.mmsmvno.com/mms/wapenc"
+        mvno_match_data="4753"
+        mvno_type="gid"
+        port=""
+        type="default,mms,supl"
+    />
+    <apn
+        mcc="310"
+        mnc="260"
+        apn="simple"
+        carrier="SIMPLE"
+        carrier_id="2078"
+        mmsc="http://smpl.mms.msg.eng.t-mobile.com/mms/wapenc"
+        mvno_match_data="534D"
+        mvno_type="gid"
+        type="default,mms,supl,hipri,fota"
+    />
+    <apn
+        mcc="310"
+        mnc="260"
+        apn="ims"
+        bearer_bitmask="14|20"
+        carrier="SIMPLE IMS"
+        carrier_id="2078"
+        mtu="1440"
+        mvno_match_data="534D"
+        mvno_type="gid"
+        protocol="IPV6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="310"
+        mnc="260"
+        apn="ims"
+        bearer_bitmask="18"
+        carrier="SIMPLE IMS"
+        carrier_id="2078"
+        mtu="1440"
+        mvno_match_data="534D"
+        mvno_type="gid"
+        protocol="IPV6"
+        roaming_protocol="IPV6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="310"
+        mnc="260"
+        apn="wholesale"
+        carrier="Ting Data"
+        carrier_id="2080"
+        mvno_match_data="6135"
+        mvno_type="gid"
+        protocol="IPV6"
+        roaming_protocol="IPV6"
+        type="default,fota,mms,supl,hipri,dun"
+    />
+    <apn
+        mcc="310"
+        mnc="260"
+        apn="wholesale"
+        carrier="Ting Data"
+        carrier_id="2080"
+        mvno_match_data="6135"
+        mvno_type="gid"
+        protocol="IPV6"
+        roaming_protocol="IPV6"
+        type="default,fota,mms,supl,hipri,dun"
+    />
+    <apn
+        mcc="310"
+        mnc="260"
+        apn="wholesale"
+        carrier="Ting MMS"
+        carrier_id="2080"
+        mmsc="http://wholesale.mmsmvno.com/mms/wapenc"
+        mvno_match_data="6135"
+        mvno_type="gid"
+        protocol="IP"
+        roaming_protocol="IP"
+        type="mms"
+    />
+    <apn
+        mcc="310"
+        mnc="260"
+        apn="pwg"
+        carrier="US Mobile"
+        mmsc="http://pwg.mmsmvno.com/mms/wapenc"
+        mvno_match_data="4358"
+        mvno_type="gid"
+        protocol="IPV4V6"
+        roaming_protocol="IP"
+        type="default,supl,mms"
+    />
+    <apn
+        mcc="310"
+        mnc="260"
+        apn="wap.tracfone"
+        bearer_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|17|20"
+        carrier="TFWAP"
+        carrier_id="10001"
+        mmsc="http://TF.mmsmvno.com/mms/wapenc"
+        mvno_match_data="DDFF"
+        mvno_type="gid"
+        type="default,mms,supl"
+    />
+    <apn
+        mcc="310"
+        mnc="260"
+        apn="ims"
+        bearer_bitmask="14|20"
+        carrier="TFWAP IMS"
+        carrier_id="10001"
+        mtu="1440"
+        mvno_match_data="DDFF"
+        mvno_type="gid"
+        protocol="IPV6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="310"
+        mnc="260"
+        apn="ims"
+        bearer_bitmask="18"
+        carrier="TFWAP IMS"
+        carrier_id="10001"
+        mtu="1440"
+        mvno_match_data="DDFF"
+        mvno_type="gid"
+        protocol="IPV6"
+        roaming_protocol="IPV6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="310"
+        mnc="260"
+        apn="wap.tracfone"
+        bearer_bitmask="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|17|20"
+        carrier="TFWAP"
+        carrier_id="10001"
+        mmsc="http://TF.mmsmvno.com/mms/wapenc"
+        mvno_match_data="DEFF"
+        mvno_type="gid"
+        type="default,mms,supl"
+    />
+    <apn
+        mcc="310"
+        mnc="260"
+        apn="ims"
+        bearer_bitmask="14|20"
+        carrier="TFWAP IMS"
+        carrier_id="10001"
+        mtu="1440"
+        mvno_match_data="DEFF"
+        mvno_type="gid"
+        protocol="IPV6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="310"
+        mnc="260"
+        apn="ims"
+        bearer_bitmask="18"
+        carrier="TFWAP IMS"
+        carrier_id="10001"
+        mtu="1440"
+        mvno_match_data="DEFF"
+        mvno_type="gid"
+        protocol="IPV6"
+        roaming_protocol="IPV6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="310"
+        mnc="260"
+        apn="service"
+        bearer_bitmask="18"
+        carrier="service"
+        carrier_id="10001"
+        mmsc="http://TF.mmsmvno.com/mms/wapenc"
+        mvno_match_data="DDFF"
+        mvno_type="gid"
+        type="mms"
+        user_visible="false"
+    />
+    <apn
+        mcc="310"
+        mnc="260"
+        apn="service"
+        bearer_bitmask="18"
+        carrier="service"
+        carrier_id="10001"
+        mmsc="http://TF.mmsmvno.com/mms/wapenc"
+        mvno_match_data="DEFF"
+        mvno_type="gid"
+        type="mms"
+        user_visible="false"
+    />
+    <apn
+        mcc="310"
+        mnc="280"
+        apn="nxtgenphone"
+        carrier="ATT Nextgenphone"
+        carrier_id="2028"
+        mmsc="http://mmsc.mobile.att.net"
+        mmsport="80"
+        mmsproxy="proxy.mobile.att.net"
+        mtu="1410"
+        mvno_match_data="4102"
+        mvno_type="gid"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,mms,supl,hipri,fota"
+    />
+    <apn
+        mcc="310"
+        mnc="280"
+        apn="wap.cingular"
+        carrier="ATT WAP"
+        carrier_id="2028"
+        mmsc="http://mmsc.cingular.com/"
+        mmsproxy="wireless.cingular.com"
+        mvno_match_data="4102"
+        mvno_type="gid"
+        port="80"
+        protocol="IPV4V6"
+        proxy="wireless.cingular.com"
+        roaming_protocol="IPV4V6"
+        server="cingulargprs.com"
+        type="default,mms,supl"
+    />
+    <apn
+        mcc="310"
+        mnc="280"
+        apn="ims"
+        carrier="ATT IMS"
+        carrier_id="2028"
+        mvno_match_data="4102"
+        mvno_type="gid"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="310"
+        mnc="280"
+        apn="RESELLER"
+        carrier="Red Pocket Mobile"
+        carrier_id="2026"
+        mmsc="http://mmsc.mobile.att.net"
+        mmsport="80"
+        mmsproxy="proxy.mobile.att.net"
+        mvno_match_data="4201"
+        mvno_type="gid"
+        type="default,mms,supl"
+    />
+    <apn
+        mcc="310"
+        mnc="280"
+        apn="nxtgenphone"
+        carrier="ATT Nextgenphone"
+        carrier_id="2027"
+        mmsc="http://mmsc.mobile.att.net"
+        mmsport="80"
+        mmsproxy="proxy.mobile.att.net"
+        mtu="1410"
+        mvno_match_data="44FF"
+        mvno_type="gid"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,mms,supl,hipri,fota"
+    />
+    <apn
+        mcc="310"
+        mnc="280"
+        apn="wap.cingular"
+        carrier="ATT WAP"
+        carrier_id="2027"
+        mmsc="http://mmsc.cingular.com/"
+        mmsproxy="wireless.cingular.com"
+        mvno_match_data="44FF"
+        mvno_type="gid"
+        port="80"
+        protocol="IPV4V6"
+        proxy="wireless.cingular.com"
+        roaming_protocol="IPV4V6"
+        server="cingulargprs.com"
+        type="default,mms,supl"
+    />
+    <apn
+        mcc="310"
+        mnc="280"
+        apn="ims"
+        carrier="ATT IMS"
+        carrier_id="2027"
+        mvno_match_data="44FF"
+        mvno_type="gid"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="310"
+        mnc="280"
+        apn="nxtgenphone"
+        carrier="ATT Nextgenphone"
+        carrier_id="2024"
+        mmsc="http://mmsc.mobile.att.net"
+        mmsport="80"
+        mmsproxy="proxy.mobile.att.net"
+        mtu="1410"
+        mvno_match_data="49FF"
+        mvno_type="gid"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,mms,supl,hipri,fota"
+    />
+    <apn
+        mcc="310"
+        mnc="280"
+        apn="wap.cingular"
+        carrier="ATT WAP"
+        carrier_id="2024"
+        mmsc="http://mmsc.cingular.com/"
+        mmsproxy="wireless.cingular.com"
+        mvno_match_data="49FF"
+        mvno_type="gid"
+        port="80"
+        protocol="IPV4V6"
+        proxy="wireless.cingular.com"
+        roaming_protocol="IPV4V6"
+        server="cingulargprs.com"
+        type="default,mms,supl"
+    />
+    <apn
+        mcc="310"
+        mnc="280"
+        apn="ims"
+        carrier="ATT IMS"
+        carrier_id="2024"
+        mvno_match_data="49FF"
+        mvno_type="gid"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="310"
+        mnc="280"
+        apn="enhancedphone"
+        carrier="ATT Enhancedphone"
+        carrier_id="10021"
+        mmsc="http://mmsc.mobile.att.net"
+        mmsport="80"
+        mmsproxy="proxy.mobile.att.net"
+        mvno_match_data="53FF"
+        mvno_type="gid"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,mms,supl,fota"
+    />
+    <apn
+        mcc="310"
+        mnc="280"
+        apn="wap.cingular"
+        carrier="ATT WAP"
+        carrier_id="10021"
+        mmsc="http://mmsc.cingular.com/"
+        mmsproxy="wireless.cingular.com"
+        mvno_match_data="53FF"
+        mvno_type="gid"
+        port="80"
+        protocol="IPV4V6"
+        proxy="wireless.cingular.com"
+        roaming_protocol="IPV4V6"
+        server="cingulargprs.com"
+        type="default,mms,supl"
+    />
+    <apn
+        mcc="310"
+        mnc="280"
+        apn="ims"
+        carrier="ATT IMS"
+        carrier_id="10021"
+        mvno_match_data="53FF"
+        mvno_type="gid"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="310"
+        mnc="280"
+        apn="hotspot"
+        carrier="ATT Hotspot"
+        carrier_id="10021"
+        mvno_match_data="53FF"
+        mvno_type="gid"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="dun"
+        user_visible="false"
+    />
+    <apn
+        mcc="310"
+        mnc="280"
+        apn="PRODATA"
+        carrier="Defense Mobile"
+        mmsc="http://mmsc.mobile.att.net"
+        mmsport="80"
+        mmsproxy="proxy.mobile.att.net"
+        mvno_match_data="60FF"
+        mvno_type="gid"
+        protocol="IP"
+        type="default,mms,supl"
+    />
+    <apn
+        mcc="310"
+        mnc="280"
+        apn="nxtgenphone"
+        carrier="ATT Nextgenphone"
+        carrier_id="2025"
+        mmsc="http://mmsc.mobile.att.net"
+        mmsport="80"
+        mmsproxy="proxy.mobile.att.net"
+        mtu="1410"
+        mvno_match_data="62FF"
+        mvno_type="gid"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,mms,supl,hipri,fota"
+    />
+    <apn
+        mcc="310"
+        mnc="280"
+        apn="wap.cingular"
+        carrier="ATT WAP"
+        carrier_id="2025"
+        mmsc="http://mmsc.cingular.com/"
+        mmsproxy="wireless.cingular.com"
+        mvno_match_data="62FF"
+        mvno_type="gid"
+        port="80"
+        protocol="IPV4V6"
+        proxy="wireless.cingular.com"
+        roaming_protocol="IPV4V6"
+        server="cingulargprs.com"
+        type="default,mms,supl"
+    />
+    <apn
+        mcc="310"
+        mnc="280"
+        apn="ims"
+        carrier="ATT IMS"
+        carrier_id="2025"
+        mvno_match_data="62FF"
+        mvno_type="gid"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="310"
+        mnc="280"
+        apn="nxtgenphone"
+        carrier="ATT Nextgenphone"
+        carrier_id="2031"
+        mmsc="http://mmsc.mobile.att.net"
+        mmsport="80"
+        mmsproxy="proxy.mobile.att.net"
+        mtu="1410"
+        mvno_match_data="69FF"
+        mvno_type="gid"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,mms,supl,hipri,fota"
+    />
+    <apn
+        mcc="310"
+        mnc="280"
+        apn="wap.cingular"
+        carrier="ATT WAP"
+        carrier_id="2031"
+        mmsc="http://mmsc.cingular.com/"
+        mmsproxy="wireless.cingular.com"
+        mvno_match_data="69FF"
+        mvno_type="gid"
+        port="80"
+        protocol="IPV4V6"
+        proxy="wireless.cingular.com"
+        roaming_protocol="IPV4V6"
+        server="cingulargprs.com"
+        type="default,mms,supl"
+    />
+    <apn
+        mcc="310"
+        mnc="280"
+        apn="ims"
+        carrier="ATT IMS"
+        carrier_id="2031"
+        mvno_match_data="69FF"
+        mvno_type="gid"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="310"
+        mnc="280"
+        apn="reseller"
+        carrier="TRACFONE"
+        carrier_id="10000"
+        mmsc="http://mmsc.mobile.att.net"
+        mmsport="80"
+        mmsproxy="proxy.mobile.att.net"
+        mvno_match_data="DDFF"
+        mvno_type="gid"
+        protocol="IP"
+        roaming_protocol="IP"
+        type="default,mms,supl,hipri,fota"
+    />
+    <apn
+        mcc="310"
+        mnc="280"
+        apn="ims"
+        carrier="ATT IMS"
+        carrier_id="10000"
+        mvno_match_data="DDFF"
+        mvno_type="gid"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="310"
+        mnc="280"
+        apn="reseller"
+        carrier="TRACFONE"
+        carrier_id="10000"
+        mmsc="http://mmsc.mobile.att.net"
+        mmsport="80"
+        mmsproxy="proxy.mobile.att.net"
+        mvno_match_data="DEFF"
+        mvno_type="gid"
+        protocol="IP"
+        roaming_protocol="IP"
+        type="default,mms,supl,hipri,fota"
+    />
+    <apn
+        mcc="310"
+        mnc="280"
+        apn="ims"
+        carrier="ATT IMS"
+        carrier_id="10000"
+        mvno_match_data="DEFF"
+        mvno_type="gid"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="310"
+        mnc="280"
+        apn="nxtgenphone"
+        carrier="ATT Nextgenphone"
+        carrier_id="1187"
+        mmsc="http://mmsc.mobile.att.net"
+        mmsport="80"
+        mmsproxy="proxy.mobile.att.net"
+        mtu="1410"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,mms,supl,fota"
+    />
+    <apn
+        mcc="310"
+        mnc="280"
+        apn="wap.cingular"
+        carrier="ATT WAP"
+        carrier_id="1187"
+        mmsc="http://mmsc.cingular.com/"
+        mmsproxy="wireless.cingular.com"
+        port="80"
+        protocol="IPV4V6"
+        proxy="wireless.cingular.com"
+        roaming_protocol="IPV4V6"
+        server="cingulargprs.com"
+        type="default,mms,supl"
+    />
+    <apn
+        mcc="310"
+        mnc="280"
+        apn="ims"
+        carrier="ATT IMS"
+        carrier_id="1187"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="310"
+        mnc="280"
+        apn="hotspot"
+        carrier="ATT Hotspot"
+        carrier_id="1187"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="dun"
+        user_visible="false"
+    />
+    <apn
+        mcc="310"
+        mnc="290"
+        apn="nep.data"
+        authtype="0"
+        carrier="nep.data"
+        port=""
+        proxy=""
+        type="default,supl"
+    />
+    <apn
+        mcc="310"
+        mnc="290"
+        apn="nep.mms"
+        authtype="0"
+        carrier="nep.mms"
+        mmsc="http://mmsgprs.com"
+        mmsport="80"
+        mmsproxy=""
+        type="mms"
+    />
+    <apn
+        mcc="310"
+        mnc="300"
+        apn="truphone.com"
+        carrier="Truphone"
+        type="default,dun"
+    />
+    <apn
+        mcc="310"
+        mnc="320"
+        apn="isp.cellularoneaz.net"
+        carrier="Cellular One NEAZ ISP"
+        carrier_id="1796"
+        type="default,supl"
+    />
+    <apn
+        mcc="310"
+        mnc="320"
+        apn="wap.c1csky.net"
+        carrier="Cellular One ClearSky MMS"
+        carrier_id="1796"
+        mmsc="http://mmsc.c1neaz.csky.us:6672"
+        mmsport="9401"
+        mmsproxy="209.4.229.94"
+        type="mms"
+    />
+    <apn
+        mcc="310"
+        mnc="340"
+        apn="internet.westlink"
+        authtype="0"
+        carrier="Westlink Internet"
+        type="default,supl"
+    />
+    <apn
+        mcc="310"
+        mnc="340"
+        apn="mms.westlink"
+        authtype="0"
+        carrier="Westlink MMS"
+        mmsc="http://mms2.westlinkcom.com/mms/"
+        mmsport="8080"
+        mmsproxy="199.221.134.43"
+        type="mms"
+    />
+    <apn
+        mcc="310"
+        mnc="380"
+        apn="wap.cingular"
+        carrier="ATT WAP"
+        mmsc="http://mmsc.cingular.com"
+        mmsport="80"
+        mmsproxy="wireless.cingular.com"
+        port="80"
+        proxy="wireless.cingular.com"
+        type="default,mms"
+    />
+    <apn
+        mcc="310"
+        mnc="380"
+        apn="Broadband"
+        carrier="ATT Broadband"
+        type="default,supl"
+    />
+    <apn
+        mcc="310"
+        mnc="380"
+        apn="proxy"
+        carrier="Cingular 380 ATT"
+        mmsc="http://mmsc.cingular.com/"
+        mmsport=""
+        mmsproxy="wireless.cingular.com"
+        password=""
+        port="80"
+        proxy="wireless.cingular.com"
+        type="default,supl,mms"
+        user=""
+    />
+    <apn
+        mcc="310"
+        mnc="380"
+        apn="proxy"
+        carrier="AWS MMS"
+        mmsc="http://mmsc.mymmode.com"
+        mmsport="8080"
+        mmsproxy="10.250.250.55"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="310"
+        mnc="390"
+        apn="web.celloneet.com"
+        authtype="1"
+        carrier="COET Web"
+        mmsc="http://192.168.100.14"
+        mmsport="9201"
+        mmsproxy="209.4.229.81"
+        password="celloneet"
+        server="http://192.168.100.14"
+        type="default,supl,mms"
+        user="user1@web.celloneet.com"
+    />
+    <apn
+        mcc="310"
+        mnc="390"
+        apn="mms.celloneet.com"
+        carrier="Celloneet MMS"
+        mmsc="http://mms.celloneet.com/servlets/mms"
+        mmsport="8080"
+        mmsproxy="63.99.231.135"
+        password="celloneet"
+        port=""
+        proxy=""
+        type="mms"
+        user="user1@mms.celloneet.com"
+    />
+    <apn
+        mcc="310"
+        mnc="410"
+        apn="ereseller"
+        carrier="Boost Mobile"
+        mmsc="http://mmsc.mobile.att.net"
+        mmsport="80"
+        mmsproxy="proxy.mobile.att.net"
+        mvno_match_data="3432"
+        mvno_type="gid"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,mms,supl,fota,xcap"
+    />
+    <apn
+        mcc="310"
+        mnc="410"
+        apn="ereseller"
+        carrier="US Mobile"
+        mmsc="http://mmsc.mobile.att.net"
+        mmsport="80"
+        mmsproxy="proxy.mobile.att.net"
+        mvno_match_data="20FF"
+        mvno_type="gid"
+        protocol="IPV4V6"
+        type="default,supl,mms,fota"
+    />
+    <apn
+        mcc="310"
+        mnc="410"
+        apn="phone"
+        carrier="ATT"
+        mmsc="http://mmsc.mobile.att.net/"
+        mmsport="80"
+        mmsproxy="proxy.mobile.att.net"
+        type="default,mms,supl"
+    />
+    <apn
+        mcc="310"
+        mnc="410"
+        apn="tfdata"
+        carrier="Net 10"
+        mmsc="http://mms-tf.net"
+        mmsport="80"
+        mmsproxy="mms3.tracfone.com"
+        protocol="IP"
+        roaming_protocol="IP"
+        type="default,supl,mms"
+    />
+    <apn
+        mcc="310"
+        mnc="410"
+        apn="tfdata"
+        carrier="Straight Talk"
+        mmsc="http://mms-tf.net"
+        mmsport="80"
+        mmsproxy="mms3.tracfone.com"
+        mvno_match_data="deff"
+        mvno_type="gid"
+        port="80"
+        type="default,mms,supl"
+    />
+    <apn
+        mcc="310"
+        mnc="410"
+        apn="PRODATA"
+        carrier="Red Pocket"
+        mmsc="http://mmsc.mobile.att.net"
+        mmsport="80"
+        mmsproxy="proxy.mobile.att.net"
+        mvno_match_data="4201"
+        mvno_type="gid"
+        port=""
+        type="default,mms,supl"
+    />
+    <apn
+        mcc="310"
+        mnc="410"
+        apn="att.mvno"
+        authtype="1"
+        carrier="Black Wireless"
+        mmsc="http://mmsc.cingular.com"
+        mmsport="80"
+        mmsproxy="66.209.11.33"
+        port="80"
+        proxy="66.209.11.33"
+        type="default,mms,supl,fota"
+    />
+    <apn
+        mcc="310"
+        mnc="410"
+        apn="PRODATA"
+        carrier="H2O Wireless"
+        mmsc="http://mmsc.mobile.att.net"
+        mmsport="80"
+        mmsproxy="proxy.mobile.att.net"
+        type="default,mms,supl"
+    />
+    <apn
+        mcc="310"
+        mnc="410"
+        apn="att.mvno"
+        carrier="Pure Talk USA"
+        mmsc="http://mmsc.cingular.com"
+        mmsport="80"
+        mmsproxy="proxy.mvno.telrite.com"
+        port=""
+        proxy=""
+        type="default,mms,supl"
+    />
+    <apn
+        mcc="310"
+        mnc="410"
+        apn="att.mvno"
+        carrier="AirVoice Wireless"
+        mmsc="http://mmsc.cingular.com"
+        mmsport="80"
+        mmsproxy="66.209.11.33"
+        port="80"
+        proxy="66.209.11.33"
+        type="default,mms,supl"
+    />
+    <apn
+        mcc="310"
+        mnc="410"
+        apn="att.mvno"
+        carrier="Jolt Mobile"
+        mmsc="http://mmsc.cingular.com"
+        mmsport="80"
+        mmsproxy="66.209.11.33"
+        port="80"
+        proxy="66.209.11.33"
+        type="default,mms,supl"
+    />
+    <apn
+        mcc="310"
+        mnc="410"
+        apn="att.mvno"
+        carrier="Consumer Cellular 3G"
+        mmsc="http://mmsc.cingular.com"
+        mmsport="80"
+        mmsproxy="66.209.11.32"
+        port="80"
+        proxy="66.209.11.32"
+        type="default,mms,supl,fota"
+    />
+    <apn
+        mcc="310"
+        mnc="410"
+        apn="ccdata"
+        carrier="Consumer Cellular LTE"
+        mmsc="http://mmsc.mobile.att.net"
+        mmsport="80"
+        mmsproxy="proxy.mobile.att.net"
+        port=""
+        proxy=""
+        type="default,mms,supl,fota"
+    />
+    <apn
+        mcc="310"
+        mnc="410"
+        apn="att.mvno"
+        carrier="Good 2Go Mobile"
+        mmsc="http://mmsc.cingular.com"
+        mmsport="80"
+        mmsproxy="proxy.mvno.att.ztarmobile.com"
+        port="80"
+        proxy="proxy.mvno.att.ztarmobile.com"
+        type="default,mms,supl,hipri"
+    />
+    <apn
+        mcc="310"
+        mnc="410"
+        apn="enhancedphone"
+        carrier="ATT Enhancedphone"
+        carrier_id="1187"
+        mmsc="http://mmsc.mobile.att.net"
+        mmsport="80"
+        mmsproxy="proxy.mobile.att.net"
+        mvno_match_data="53FF"
+        mvno_type="gid"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,fota,mms,supl"
+    />
+    <apn
+        mcc="310"
+        mnc="410"
+        apn="wap.cingular"
+        carrier="ATT WAP"
+        carrier_id="1187"
+        mvno_match_data="53FF"
+        mvno_type="gid"
+        port="80"
+        protocol="IPV4V6"
+        proxy="wireless.cingular.com"
+        roaming_protocol="IPV4V6"
+        server="cingulargprs.com"
+        type="default,supl"
+        user_visible="false"
+    />
+    <apn
+        mcc="310"
+        mnc="410"
+        apn="ims"
+        bearer_bitmask="3|9|10|11|14|15|18|20"
+        carrier="ATT IMS"
+        carrier_id="1187"
+        mvno_match_data="53FF"
+        mvno_type="gid"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="310"
+        mnc="410"
+        apn="enhancedphone"
+        carrier="ATT XCAP"
+        carrier_id="1187"
+        mvno_match_data="53FF"
+        mvno_type="gid"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="xcap"
+        user_visible="false"
+    />
+    <apn
+        mcc="310"
+        mnc="410"
+        always_on="true"
+        apn="nrphone"
+        carrier="ATT Nrphone"
+        carrier_id="1187"
+        mmsc="http://mmsc.mobile.att.net"
+        mmsport="80"
+        mmsproxy="proxy.mobile.att.net"
+        mvno_match_data="52FF"
+        mvno_type="gid"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,fota,mms,supl"
+    />
+    <apn
+        mcc="310"
+        mnc="410"
+        always_on="true"
+        apn="ims"
+        bearer_bitmask="3|9|10|11|14|15|18|20"
+        carrier="ATT IMS"
+        carrier_id="1187"
+        mvno_match_data="52FF"
+        mvno_type="gid"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+        user_visible="false"
+    />
+    <apn
+        mcc="310"
+        mnc="410"
+        always_on="true"
+        apn="nrphone"
+        carrier="ATT XCAP"
+        carrier_id="1187"
+        mvno_match_data="52FF"
+        mvno_type="gid"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="xcap"
+        user_visible="false"
+    />
+    <apn
+        mcc="310"
+        mnc="410"
+        apn="ims"
+        carrier="ATT IMS"
+        modem_cognitive="true"
+        protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="310"
+        mnc="410"
+        apn="nxtgenphone"
+        carrier="ATT Nextgenphone"
+        mmsc="http://mmsc.mobile.att.net"
+        mmsport="80"
+        mmsproxy="proxy.mobile.att.net"
+        mtu="1410"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,mms,supl,fota,hipri"
+    />
+    <apn
+        mcc="310"
+        mnc="410"
+        apn="phone"
+        carrier="ATT Phone"
+        mmsc="http://mmsc.mobile.att.net"
+        mmsport="80"
+        mmsproxy="proxy.mobile.att.net"
+        mtu="1410"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,mms,supl,fota,hipri"
+    />
+    <apn
+        mcc="310"
+        mnc="410"
+        apn="wap.cingular"
+        carrier="ATT"
+        mmsc="http://mmsc.cingular.com"
+        mmsport="80"
+        mmsproxy="wireless.cingular.com"
+        password=""
+        port=""
+        proxy=""
+        type="default,supl,mms"
+        user="WAP@CINGULARGPRS.COM"
+    />
+    <apn
+        mcc="310"
+        mnc="410"
+        apn="pta"
+        carrier="ATT LTE"
+        mmsc="http://mmsc.mobile.att.net"
+        mmsport="80"
+        mmsproxy="proxy.mobile.att.net"
+        password=""
+        port=""
+        proxy=""
+        type="default,supl,mms"
+        user=""
+    />
+    <apn
+        mcc="310"
+        mnc="410"
+        apn="broadband"
+        carrier="ATT Broadband"
+        mmsc=""
+        password=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="310"
+        mnc="410"
+        apn="lwaactivate"
+        carrier="ATT Activation"
+        mmsc=""
+        password=""
+        protocol="IP"
+        user=""
+    />
+    <apn
+        mcc="310"
+        mnc="410"
+        apn="tfdata"
+        carrier="StraightTalk ATT"
+        mmsc="http://mms-tf.net"
+        mmsport="80"
+        mmsproxy="mms3.tracfone.com"
+        port="80"
+        type="default,supl,mms"
+    />
+    <apn
+        mcc="310"
+        mnc="410"
+        apn="att.mvno"
+        carrier="StraightTalk ATT.mvno"
+        mmsc="http://mmsc.cingular.com"
+        mmsport="80"
+        mmsproxy="66.209.11.33"
+        port="80"
+        type="default,supl,mms"
+    />
+    <apn
+        mcc="310"
+        mnc="410"
+        apn="att.mvno"
+        carrier="StraightTalk ATT"
+        mmsc="http://mmsc.cingular.com"
+        mmsport="80"
+        mmsproxy="66.209.11.33"
+        password=""
+        port=""
+        proxy=""
+        type="default,supl,mms"
+        user=""
+    />
+    <apn
+        mcc="310"
+        mnc="410"
+        apn="pta"
+        carrier="ATT GoPhone"
+        mmsc="http://mmsc.mobile.att.net"
+        mmsport="80"
+        mmsproxy="proxy.mobile.att.net"
+        port=""
+        type="default,mms,supl"
+    />
+    <apn
+        mcc="310"
+        mnc="420"
+        apn="wap.gocbw.com"
+        carrier="CBW Wap"
+        mmsc="http://mms.gocbw.com:8088/mms"
+        mmsport="80"
+        mmsproxy="216.68.79.202"
+        password="*"
+        port="80"
+        proxy="216.68.79.202"
+        server="*"
+        type="default,supl,mms"
+        user="cbw"
+    />
+    <apn
+        mcc="310"
+        mnc="420"
+        apn="wap.gocbw.com"
+        carrier="CBW Internet"
+        mmsc="http://mms.gocbw.com:8088/mms"
+        mmsport="80"
+        mmsproxy="216.68.79.202"
+        password=""
+        port=""
+        proxy=""
+        server="216.68.79.199"
+        type="default,supl,mms"
+        user="cbw"
+    />
+    <apn
+        mcc="310"
+        mnc="450"
+        apn="internet.vedge.com"
+        carrier="Viero"
+        mmsc=""
+        password=""
+        port="9401"
+        proxy="10.168.3.23"
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="310"
+        mnc="450"
+        apn="mms"
+        carrier="Viero MMS"
+        mmsc="http://mms.viero.com"
+        mmsport="9401"
+        mmsproxy="10.168.3.23"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="310"
+        mnc="460"
+        apn="wap"
+        authtype="0"
+        carrier="WAP"
+        port="8080"
+        proxy="10.1.20.10"
+        type="default,supl"
+    />
+    <apn
+        mcc="310"
+        mnc="460"
+        apn="mms"
+        authtype="0"
+        carrier="MMS"
+        mmsc="http://10.1.20.11:8514"
+        mmsport="8080"
+        mmsproxy="10.1.20.10"
+        type="mms"
+    />
+    <apn
+        mcc="310"
+        mnc="470"
+        apn="internet"
+        carrier="Docomo Pacific"
+        password=""
+        user=""
+    />
+    <apn
+        mcc="310"
+        mnc="470"
+        apn="gcpos"
+        carrier="Docomo Pacific MMS"
+        mmsc="http://mmsc.guamcell.csky.us:6672/"
+        password=""
+        port="9201"
+        proxy="209.004.229.082"
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="310"
+        mnc="470"
+        apn="isp.cingular"
+        carrier="DataConnect"
+        mmsc=""
+        password=""
+        port=""
+        proxy=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="310"
+        mnc="470"
+        apn="wap.cingular"
+        carrier="MediaNet"
+        mmsc="http://mmsc.cingular.com"
+        mmsport="8080"
+        mmsproxy="66.209.11.32"
+        password="CINGULAR1"
+        port=""
+        proxy=""
+        type="default,supl,mms"
+        user="WAP@CINGULARGPRS.COM"
+    />
+    <apn
+        mcc="310"
+        mnc="480"
+        apn="VZWINTERNET"
+        carrier="Verizon Internet"
+        mmsc="http://mms.vtext.com/servlets/mms"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,dun,mms"
+    />
+    <apn
+        mcc="310"
+        mnc="480"
+        apn="VZWADMIN"
+        carrier="Verizon FOTA"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="fota"
+    />
+    <apn
+        mcc="310"
+        mnc="480"
+        apn="VZWIMS"
+        carrier="Verizon IMS"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="310"
+        mnc="480"
+        apn="VZWAPP"
+        carrier="Verizon CBS"
+        mmsc="http://mms.vtext.com/servlets/mms"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="cbs,mms"
+    />
+    <apn
+        mcc="310"
+        mnc="480"
+        apn="isp.cingular"
+        carrier="DataConnect"
+        mmsc=""
+        password=""
+        port=""
+        proxy=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="310"
+        mnc="480"
+        apn="wap.cingular"
+        carrier="MediaNet"
+        mmsc="http://mmsc.cingular.com"
+        mmsport="8080"
+        mmsproxy="66.209.11.32"
+        password="CINGULAR1"
+        port=""
+        proxy=""
+        type="default,supl,mms"
+        user="WAP@CINGULARGPRS.COM"
+    />
+    <apn
+        mcc="310"
+        mnc="481"
+        apn="VZWINTERNET"
+        carrier="Verizon Internet"
+        mmsc="http://mms.vtext.com/servlets/mms"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,dun,mms"
+    />
+    <apn
+        mcc="310"
+        mnc="481"
+        apn="VZWADMIN"
+        carrier="Verizon FOTA"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="fota"
+    />
+    <apn
+        mcc="310"
+        mnc="481"
+        apn="VZWIMS"
+        carrier="Verizon IMS"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="310"
+        mnc="481"
+        apn="VZWAPP"
+        carrier="Verizon CBS"
+        mmsc="http://mms.vtext.com/servlets/mms"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="cbs,mms"
+    />
+    <apn
+        mcc="310"
+        mnc="483"
+        apn="VZWINTERNET"
+        carrier="Verizon Internet"
+        mmsc="http://mms.vtext.com/servlets/mms"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,dun,mms"
+    />
+    <apn
+        mcc="310"
+        mnc="483"
+        apn="VZWADMIN"
+        carrier="Verizon FOTA"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="fota"
+    />
+    <apn
+        mcc="310"
+        mnc="483"
+        apn="VZWIMS"
+        carrier="Verizon IMS"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="310"
+        mnc="483"
+        apn="VZWAPP"
+        carrier="Verizon CBS"
+        mmsc="http://mms.vtext.com/servlets/mms"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="cbs,mms"
+    />
+    <apn
+        mcc="310"
+        mnc="486"
+        apn="VZWINTERNET"
+        carrier="Verizon Internet"
+        mmsc="http://mms.vtext.com/servlets/mms"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,dun,mms"
+    />
+    <apn
+        mcc="310"
+        mnc="486"
+        apn="VZWADMIN"
+        carrier="Verizon FOTA"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="fota"
+    />
+    <apn
+        mcc="310"
+        mnc="486"
+        apn="VZWIMS"
+        carrier="Verizon IMS"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="310"
+        mnc="486"
+        apn="VZWAPP"
+        carrier="Verizon CBS"
+        mmsc="http://mms.vtext.com/servlets/mms"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="cbs,mms"
+    />
+    <apn
+        mcc="310"
+        mnc="489"
+        apn="VZWINTERNET"
+        carrier="Verizon Internet"
+        mmsc="http://mms.vtext.com/servlets/mms"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,dun,mms"
+    />
+    <apn
+        mcc="310"
+        mnc="489"
+        apn="VZWADMIN"
+        carrier="Verizon FOTA"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="fota"
+    />
+    <apn
+        mcc="310"
+        mnc="489"
+        apn="VZWIMS"
+        carrier="Verizon IMS"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="ims"
+    />
+    <apn
+        mcc="310"
+        mnc="489"
+        apn="VZWAPP"
+        carrier="Verizon CBS"
+        mmsc="http://mms.vtext.com/servlets/mms"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="cbs,mms"
+    />
+    <apn
+        mcc="310"
+        mnc="490"
+        apn="good.call"
+        carrier="GoodCall Picture Message"
+        mmsc="http://mms.suncom.net:8088/mms"
+        mmsport="8080"
+        mmsproxy="66.150.33.125"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="310"
+        mnc="490"
+        apn="mms"
+        carrier="Suncom MMS"
+        mmsc="http://mms.suncom.net:8088/mms"
+        mmsport="8080"
+        mmsproxy="66.150.33.125"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="310"
+        mnc="560"
+        apn="wap.cingular"
+        carrier="ATT WAP"
+        mmsc="http://mmsc.cingular.com"
+        mmsport="80"
+        mmsproxy="wireless.cingular.com"
+        port="80"
+        proxy="wireless.cingular.com"
+        type="default,mms"
+    />
+    <apn
+        mcc="310"
+        mnc="560"
+        apn="Broadband"
+        carrier="ATT Broadband"
+        type="default,supl"
+    />
+    <apn
+        mcc="310"
+        mnc="560"
+        apn="dobsoncellularwap"
+        carrier="DobsonMMS"
+        mmsc="http://mmsc"
+        mmsport="8799"
+        mmsproxy="172.23.1.252"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="310"
+        mnc="570"
+        apn="internet"
+        carrier="Cellular One Smartphone"
+        carrier_id="1800"
+        type="default,supl"
+    />
+    <apn
+        mcc="310"
+        mnc="570"
+        apn="clearsky"
+        carrier="Cellular One MMS"
+        carrier_id="1800"
+        mmsc="http://mmsc.mtpcs.csky.us:6672/"
+        mmsport="9201"
+        mmsproxy="209.4.229.229"
+        type="mms"
+    />
+    <apn
+        mcc="310"
+        mnc="570"
+        apn="wapgw.chinookwireless.net"
+        carrier="ChinookMMS"
+        mmsc="http://mms.cellonenation.net/mms/"
+        mmsport="8080"
+        mmsproxy="204.181.155.195"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="310"
+        mnc="580"
+        apn="internet.inland.com"
+        authtype="3"
+        carrier="Inland Cellular"
+        mmsc="http://mms.inland3g.com/inland/mms.php"
+        type="default,mms"
+    />
+    <apn
+        mcc="310"
+        mnc="580"
+        apn="ota.inland.com"
+        bearer="14"
+        carrier="Inland Cellular FOTA"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="fota"
+    />
+    <apn
+        mcc="310"
+        mnc="580"
+        apn="internet.inland.com"
+        bearer="14"
+        carrier="Inland Cellular LTE"
+        mmsc="http://mms.inland3g.com/inland/mms.php"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="default,mms,supl"
+    />
+    <apn
+        mcc="310"
+        mnc="580"
+        apn="modem.inland.com"
+        bearer="14"
+        carrier="Inland Cellular Tether"
+        mmsc="http://mms.inland3g.com/inland/mms.php"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        type="dun"
+    />
+    <apn
+        mcc="310"
+        mnc="590"
+        apn="cellular1wap"
+        carrier="CellularOne MMS"
+        mmsc="http://mmsc"
+        mmsport="8799"
+        mmsproxy="172.23.1.252"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="310"
+        mnc="610"
+        apn="internet.epictouch"
+        carrier="EpicINT"
+        mmsc=""
+        password=""
+        port=""
+        proxy=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="310"
+        mnc="610"
+        apn="mms.epictouch"
+        carrier="EpicMMS"
+        mmsc="http://mmsc.westlinkcom.com/servlets/mms"
+        mmsport="8080"
+        mmsproxy="63.99.231.135"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="310"
+        mnc="610"
+        apn="internet.epictouch"
+        authtype="0"
+        carrier="Epic Internet"
+        type="default,supl"
+    />
+    <apn
+        mcc="310"
+        mnc="610"
+        apn="mms.epictouch"
+        authtype="0"
+        carrier="Epic Mms"
+        mmsc="http://mms.epicpcs.com/mms/"
+        mmsport="8080"
+        mmsproxy="199.221.134.46"
+        port="8080"
+        proxy="199.221.134.46"
+        type="mms"
+    />
+    <apn
+        mcc="310"
+        mnc="640"
+        apn="internet.air.net"
+        authtype="0"
+        carrier="Airfire GPRS"
+        type="default,supl"
+    />
+    <apn
+        mcc="310"
+        mnc="640"
+        apn="internet.air.net"
+        authtype="0"
+        carrier="Airfire MMS"
+        mmsc="http://mms.airfiremobile.com/+1"
+        type="mms"
+    />
+    <apn
+        mcc="310"
+        mnc="680"
+        apn="Broadband"
+        carrier="ATT Broadband"
+        type="default,supl"
+    />
+    <apn
+        mcc="310"
+        mnc="680"
+        apn="wap.cingular"
+        carrier="ATT WAP"
+        mmsc="http://mmsc.cingular.com"
+        mmsport="80"
+        mmsproxy="wireless.cingular.com"
+        port="80"
+        proxy="wireless.cingular.com"
+        type="default,mms"
+    />
+    <apn
+        mcc="310"
+        mnc="690"
+        apn="biz.immix.com"
+        authtype="0"
+        carrier="ADAT"
+        mmsc="http://mms.immix.csky.us:6672/"
+        mmsport="9401"
+        mmsproxy="209.4.229.79"
+        port="9401"
+        proxy="209.4.229.79"
+        type="default,supl,mms"
+    />
+    <apn
+        mcc="310"
+        mnc="710"
+        apn="ningiq"
+        authtype="0"
+        carrier="ASTAC"
+        type="default,supl"
+    />
+    <apn
+        mcc="310"
+        mnc="770"
+        apn="i2.iwireless.com"
+        authtype="0"
+        carrier="Internet"
+        type="default,supl"
+    />
+    <apn
+        mcc="310"
+        mnc="770"
+        apn="wap1.iwireless.com"
+        authtype="0"
+        carrier="MMS"
+        mmsc="http://mmsc.iwireless.dataonair.net:6672"
+        mmsport="9201"
+        mmsproxy="209.4.229.31"
+        port="9201"
+        proxy="209.4.229.31"
+        type="mms"
+    />
+    <apn
+        mcc="310"
+        mnc="770"
+        apn="i2.iwireless.com"
+        carrier="iWireless"
+        mmsc=""
+        password=""
+        port=""
+        proxy=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="310"
+        mnc="770"
+        apn="wap1.iwireless.com"
+        carrier="iWireless MMS"
+        mmsc="http://mmsc.iwireless.dataonair.net:6672"
+        mmsport="9201"
+        mmsproxy="209.4.229.32"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="310"
+        mnc="770"
+        apn="wap1.iwireless.com"
+        carrier="IWS WAP"
+        mmsc="http://mmsc.iwireless.dataonair.net:6672"
+        mmsport="9401"
+        mmsproxy="209.4.229.31"
+        type="default,supl"
+    />
+    <apn
+        mcc="310"
+        mnc="770"
+        apn="wap9.iwireless.com"
+        carrier="PIAPicture Messaging"
+        mmsc="http://mmsc.iwireless.dataonair.net:6672"
+        mmsport="9401"
+        mmsproxy="209.4.229.32"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="310"
+        mnc="840"
+        apn="isp"
+        carrier="Internet"
+        mmsc=""
+        password=""
+        port=""
+        proxy=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="310"
+        mnc="840"
+        apn="mms"
+        carrier="MMS"
+        mmsc="http://mms.edgemobile.net/mmsc"
+        mmsport="3128"
+        mmsproxy="12.108.12.13"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="310"
+        mnc="840"
+        apn="ppmms"
+        carrier="Edge MMS Prepay"
+        mmsc="http://mms.edgemobile.net/mmsc"
+        mmsport="3128"
+        mmsproxy="12.108.12.13"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="310"
+        mnc="870"
+        apn="data.kaplan"
+        authtype="0"
+        carrier="Pace Net"
+        type="default,supl"
+    />
+    <apn
+        mcc="310"
+        mnc="870"
+        apn="mms.kaplan"
+        authtype="0"
+        carrier="Pace Pic"
+        mmsc="http://mms.iot1.com/kaplan/mms.php"
+        mmsport="9201"
+        mmsproxy="10.10.0.97"
+        type="mms"
+    />
+    <apn
+        mcc="310"
+        mnc="880"
+        apn="wapdtcw.com"
+        authtype="0"
+        carrier="DTC WAP"
+        port="8080"
+        proxy="204.181.155.218"
+        type="default,supl"
+    />
+    <apn
+        mcc="310"
+        mnc="880"
+        apn="mmsdtcw.com"
+        authtype="0"
+        carrier="DTC MMS"
+        mmsc="http://mmsdtcw.com"
+        mmsport="80"
+        mmsproxy="192.168.20.42"
+        port="80"
+        proxy="192.168.20.42"
+        type="mms"
+    />
+    <apn
+        mcc="310"
+        mnc="880"
+        apn="mms.adv.com"
+        carrier="DTC MMS"
+        mmsc="http://mms.iot1.com/advantage/mms.php"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="310"
+        mnc="910"
+        apn="wap.firstcellular.com"
+        carrier="WOW_WAP"
+        mmsc="mms.firstcellular.net/mmsc"
+        mmsport="3128"
+        mmsproxy="10.101.1.5"
+        password=""
+        port=""
+        proxy=""
+        type="default,supl,mms"
+        user=""
+    />
+    <apn
+        mcc="310"
+        mnc="980"
+        apn="wap.cingular"
+        carrier="ATT WAP"
+        mmsc="http://mmsc.cingular.com"
+        mmsport="80"
+        mmsproxy="wireless.cingular.com"
+        port="80"
+        proxy="wireless.cingular.com"
+        type="default,mms"
+    />
+    <apn
+        mcc="310"
+        mnc="980"
+        apn="Broadband"
+        carrier="ATT Broadband"
+        type="default,supl"
+    />
 </apns>

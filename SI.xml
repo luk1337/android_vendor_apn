@@ -5,12 +5,108 @@
     SPDX-License-Identifier: Apache-2.0
 -->
 <apns version="8">
-  <apn carrier="Si.mobil Internet" mcc="293" mnc="40" apn="internet.simobil.si" proxy="" port="" user="simobil" password="internet" mmsc="" type="default,supl" />
-  <apn carrier="Si.mobil MMS" mcc="293" mnc="40" apn="mms.simobil.si" proxy="" port="" user="simobil" password="internet" mmsc="http://mmc" mmsproxy="80.95.224.46" mmsport="9201" type="mms" />
-  <apn carrier="Mobitel Internet" mcc="293" mnc="41" apn="internet" proxy="213.229.249.40" port="8080" user="mobitel" password="internet" mmsc="" type="default,supl,mms" />
-  <apn carrier="Mobitel MMS" mcc="293" mnc="41" apn="internet" proxy="" port="" user="mobitel" password="internet" mmsc="http://mms.mobitel.si/servlets/mms" mmsproxy="213.229.249.40" mmsport="8080" type="mms" />
-  <apn carrier="T-2 Internet" mcc="293" mnc="64" apn="internet.t-2.net" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
-  <apn carrier="T-2 Mms" mcc="293" mnc="64" apn="mms.t-2.net" proxy="" port="" user="" password="" mmsc="http://www.mms.t-2.net:8002" mmsproxy="172.20.18.137" mmsport="8080" type="mms" />
-  <apn carrier="Tusmobil Internet" mcc="293" mnc="70" apn="internet.tusmobil.si" proxy="" port="" user="tusmobil" password="internet" mmsc="" type="default,supl" />
-  <apn carrier="Tusmobil MMS" mcc="293" mnc="70" apn="mms.tusmobil.si" proxy="" port="" user="tusmobil" password="mms" mmsc="http://mms.tusmobil.si:8002" mmsproxy="91.185.221.85" mmsport="8080" type="mms" />
+    <apn
+        mcc="293"
+        mnc="40"
+        apn="internet.simobil.si"
+        carrier="Si.mobil Internet"
+        mmsc=""
+        password="internet"
+        port=""
+        proxy=""
+        type="default,supl"
+        user="simobil"
+    />
+    <apn
+        mcc="293"
+        mnc="40"
+        apn="mms.simobil.si"
+        carrier="Si.mobil MMS"
+        mmsc="http://mmc"
+        mmsport="9201"
+        mmsproxy="80.95.224.46"
+        password="internet"
+        port=""
+        proxy=""
+        type="mms"
+        user="simobil"
+    />
+    <apn
+        mcc="293"
+        mnc="41"
+        apn="internet"
+        carrier="Mobitel Internet"
+        mmsc=""
+        password="internet"
+        port="8080"
+        proxy="213.229.249.40"
+        type="default,supl,mms"
+        user="mobitel"
+    />
+    <apn
+        mcc="293"
+        mnc="41"
+        apn="internet"
+        carrier="Mobitel MMS"
+        mmsc="http://mms.mobitel.si/servlets/mms"
+        mmsport="8080"
+        mmsproxy="213.229.249.40"
+        password="internet"
+        port=""
+        proxy=""
+        type="mms"
+        user="mobitel"
+    />
+    <apn
+        mcc="293"
+        mnc="64"
+        apn="internet.t-2.net"
+        carrier="T-2 Internet"
+        mmsc=""
+        password=""
+        port=""
+        proxy=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="293"
+        mnc="64"
+        apn="mms.t-2.net"
+        carrier="T-2 Mms"
+        mmsc="http://www.mms.t-2.net:8002"
+        mmsport="8080"
+        mmsproxy="172.20.18.137"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="293"
+        mnc="70"
+        apn="internet.tusmobil.si"
+        carrier="Tusmobil Internet"
+        mmsc=""
+        password="internet"
+        port=""
+        proxy=""
+        type="default,supl"
+        user="tusmobil"
+    />
+    <apn
+        mcc="293"
+        mnc="70"
+        apn="mms.tusmobil.si"
+        carrier="Tusmobil MMS"
+        mmsc="http://mms.tusmobil.si:8002"
+        mmsport="8080"
+        mmsproxy="91.185.221.85"
+        password="mms"
+        port=""
+        proxy=""
+        type="mms"
+        user="tusmobil"
+    />
 </apns>

@@ -5,11 +5,85 @@
     SPDX-License-Identifier: Apache-2.0
 -->
 <apns version="8">
-  <apn carrier="Beeline UZ" mcc="434" mnc="04" apn="internet.beeline.uz" user="beeline" password="beeline" type="default,supl" />
-  <apn carrier="Beeline UZ MMS" mcc="434" mnc="04" apn="mms.beeline.uz" user="beeline" password="beeline" mmsc="http://mms" mmsproxy="172.30.30.166" mmsport="8080" type="mms" />
-  <apn carrier="Ucell Internet" mcc="434" mnc="05" apn="internet" proxy="10.64.164.10" port="8080" mmsc="" user="" password="" type="default,supl" />
-  <apn carrier="Ucell MMS" mcc="434" mnc="05" apn="mms" proxy="" port="" mmsproxy="10.64.164.10" mmsport="8080" mmsc="http://mmsc:8002/" user="" password="" type="mms" />
-  <apn carrier="Perfectum" mcc="434" mnc="06" apn="default" user="perfectum@perfectum.com" password="a" type="default,supl" />
-  <apn carrier="MTS Internet" mcc="434" mnc="07" apn="net.mts.uz" user="mts" password="mts" authtype="1" type="default,supl" />
-  <apn carrier="MTS MMS" mcc="434" mnc="07" apn="mms.mts.uz" proxy="" port="" mmsproxy="10.10.0.10" mmsport="8080" mmsc="http://mmsc/was" user="mts" password="mts" authtype="1" type="mms" />
+    <apn
+        mcc="434"
+        mnc="04"
+        apn="internet.beeline.uz"
+        carrier="Beeline UZ"
+        password="beeline"
+        type="default,supl"
+        user="beeline"
+    />
+    <apn
+        mcc="434"
+        mnc="04"
+        apn="mms.beeline.uz"
+        carrier="Beeline UZ MMS"
+        mmsc="http://mms"
+        mmsport="8080"
+        mmsproxy="172.30.30.166"
+        password="beeline"
+        type="mms"
+        user="beeline"
+    />
+    <apn
+        mcc="434"
+        mnc="05"
+        apn="internet"
+        carrier="Ucell Internet"
+        mmsc=""
+        password=""
+        port="8080"
+        proxy="10.64.164.10"
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="434"
+        mnc="05"
+        apn="mms"
+        carrier="Ucell MMS"
+        mmsc="http://mmsc:8002/"
+        mmsport="8080"
+        mmsproxy="10.64.164.10"
+        password=""
+        port=""
+        proxy=""
+        type="mms"
+        user=""
+    />
+    <apn
+        mcc="434"
+        mnc="06"
+        apn="default"
+        carrier="Perfectum"
+        password="a"
+        type="default,supl"
+        user="perfectum@perfectum.com"
+    />
+    <apn
+        mcc="434"
+        mnc="07"
+        apn="net.mts.uz"
+        authtype="1"
+        carrier="MTS Internet"
+        password="mts"
+        type="default,supl"
+        user="mts"
+    />
+    <apn
+        mcc="434"
+        mnc="07"
+        apn="mms.mts.uz"
+        authtype="1"
+        carrier="MTS MMS"
+        mmsc="http://mmsc/was"
+        mmsport="8080"
+        mmsproxy="10.10.0.10"
+        password="mts"
+        port=""
+        proxy=""
+        type="mms"
+        user="mts"
+    />
 </apns>

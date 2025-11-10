@@ -5,10 +5,66 @@
     SPDX-License-Identifier: Apache-2.0
 -->
 <apns version="8">
-  <apn carrier="Orange WAP" apn="wap" proxy="172.16.30.9" port="8080" user="wap" password="wap" mcc="608" mnc="01" type="default,supl" />
-  <apn carrier="Orange MMS" apn="mms" user="mms" password="mms" mmsc="http://mmsalize/servlets/mms" mmsproxy="172.16.30.9" mmsport="8080" mcc="608" mnc="01" type="mms" />
-  <apn carrier="Orange GPRS" mcc="608" mnc="01" apn="internet" type="default,supl" />
-  <apn carrier="Orange MMS SN" mcc="608" mnc="01" apn="mms" user="mms" password="mms" mmsc="http://mmsalize/servlets/mms" mmsproxy="172.16.30.9" mmsport="8080" type="mms" />
-  <apn carrier="Orange Wap SN" mcc="608" mnc="01" apn="wap" user="wap" password="wap" proxy="172.16.30.9" port="8080" type="default,supl" />
-  <apn carrier="Orange Web SN" mcc="608" mnc="01" apn="internet" user="internet" password="internet" type="default,supl" />
+    <apn
+        mcc="608"
+        mnc="01"
+        apn="wap"
+        carrier="Orange WAP"
+        password="wap"
+        port="8080"
+        proxy="172.16.30.9"
+        type="default,supl"
+        user="wap"
+    />
+    <apn
+        mcc="608"
+        mnc="01"
+        apn="mms"
+        carrier="Orange MMS"
+        mmsc="http://mmsalize/servlets/mms"
+        mmsport="8080"
+        mmsproxy="172.16.30.9"
+        password="mms"
+        type="mms"
+        user="mms"
+    />
+    <apn
+        mcc="608"
+        mnc="01"
+        apn="internet"
+        carrier="Orange GPRS"
+        type="default,supl"
+    />
+    <apn
+        mcc="608"
+        mnc="01"
+        apn="mms"
+        carrier="Orange MMS SN"
+        mmsc="http://mmsalize/servlets/mms"
+        mmsport="8080"
+        mmsproxy="172.16.30.9"
+        password="mms"
+        type="mms"
+        user="mms"
+    />
+    <apn
+        mcc="608"
+        mnc="01"
+        apn="wap"
+        carrier="Orange Wap SN"
+        password="wap"
+        port="8080"
+        proxy="172.16.30.9"
+        type="default,supl"
+        user="wap"
+    />
+    <apn
+        mcc="608"
+        mnc="01"
+        apn="internet"
+        carrier="Orange Web SN"
+        password="internet"
+        type="default,supl"
+        user="internet"
+    />
 </apns>

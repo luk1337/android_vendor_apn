@@ -5,8 +5,44 @@
     SPDX-License-Identifier: Apache-2.0
 -->
 <apns version="8">
-  <apn carrier="Mascom_Internet" mcc="652" mnc="01" apn="internet.mascom" user="" password="" type="default,supl" />
-  <apn carrier="Mascom_Wap" mcc="652" mnc="01" apn="wap.mascom" proxy="192.168.33.138" port="8080" mmsc="" user="" password="" type="default,supl" />
-  <apn carrier="Orange BW MMS" mcc="652" mnc="02" apn="mms.orange.co.bw" mmsc="http://10.0.0.242/servlets/mms" mmsproxy="10.0.0.226" mmsport="8080" type="mms" />
-  <apn carrier="Orange WAP BW" mcc="652" mnc="02" apn="internet.orange.co.bw" proxy="10.0.0.226" port="8080" type="default,supl" />
+    <apn
+        mcc="652"
+        mnc="01"
+        apn="internet.mascom"
+        carrier="Mascom_Internet"
+        password=""
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="652"
+        mnc="01"
+        apn="wap.mascom"
+        carrier="Mascom_Wap"
+        mmsc=""
+        password=""
+        port="8080"
+        proxy="192.168.33.138"
+        type="default,supl"
+        user=""
+    />
+    <apn
+        mcc="652"
+        mnc="02"
+        apn="mms.orange.co.bw"
+        carrier="Orange BW MMS"
+        mmsc="http://10.0.0.242/servlets/mms"
+        mmsport="8080"
+        mmsproxy="10.0.0.226"
+        type="mms"
+    />
+    <apn
+        mcc="652"
+        mnc="02"
+        apn="internet.orange.co.bw"
+        carrier="Orange WAP BW"
+        port="8080"
+        proxy="10.0.0.226"
+        type="default,supl"
+    />
 </apns>

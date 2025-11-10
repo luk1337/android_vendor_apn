@@ -5,5 +5,11 @@
     SPDX-License-Identifier: Apache-2.0
 -->
 <apns version="8">
-  <apn carrier="Africell Sierra Leone" mcc="619" mnc="03" apn="africellnet" type="default,supl" />
+    <apn
+        mcc="619"
+        mnc="03"
+        apn="africellnet"
+        carrier="Africell Sierra Leone"
+        type="default,supl"
+    />
 </apns>
