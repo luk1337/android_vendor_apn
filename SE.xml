@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    SPDX-FileCopyrightText: Google Inc
+    SPDX-FileCopyrightText: The LineageOS Project
+    SPDX-License-Identifier: Apache-2.0
+-->
+<apns version="8">
+  <apn carrier="Halebop Internet" mcc="240" mnc="01" apn="halebop.telia.se" proxy="10.254.254.254" port="8080" mmsc="" user="" password="" type="default,supl" />
+  <apn carrier="Halebop MMS" mcc="240" mnc="01" apn="mms.telia.se" proxy="" port="" mmsproxy="193.209.134.132" mmsport="80" mmsc="http://mmss" user="" password="" type="mms" />
+  <apn carrier="Halebop Internet" mcc="240" mnc="01" apn="halebop.telia.se" proxy="" port="" user="" password="" mmsc="" mvno_type="spn" mvno_match_data="halebop" type="default,supl" />
+  <apn carrier="Halebop MMS" mcc="240" mnc="01" apn="mms.telia.se" proxy="" port="" user="" password="" mmsc="http://mmss/" mmsproxy="193.209.134.132" mmsport="80" mvno_type="spn" mvno_match_data="halebop" type="mms" />
+  <apn carrier="Telia Internet" mcc="240" mnc="01" apn="online.telia.se" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
+  <apn carrier="Telia MMS" mcc="240" mnc="01" apn="mms.telia.se" proxy="" port="" user="" password="" mmsc="http://mmss/" mmsproxy="193.209.134.132" mmsport="80" type="mms" />
+  <apn carrier="TDC Internet" mcc="240" mnc="01" apn="internet.se" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
+  <apn carrier="TDC WAP" mcc="240" mnc="01" apn="internet.se" proxy="194.182.251.15" port="8080" user="" password="" mmsc="" type="default,supl" />
+  <apn carrier="TDC MMS" mcc="240" mnc="01" apn="mms" proxy="" port="" user="" password="" mmsc="http://mms.tdc.se:8002" mmsproxy="194.182.251.15" mmsport="8080" type="mms" />
+  <apn carrier="Alltele Internet" mcc="240" mnc="01" apn="alltele.tmh-gprs.se" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
+  <apn carrier="Alltele MMS" mcc="240" mnc="01" apn="alltele.tmh-mms.se" proxy="" port="" user="" password="" mmsc="http://mmss/" mmsproxy="193.209.134.132" mmsport="80" type="mms" />
+  <apn carrier="Bahnhof AB Internet" mcc="240" mnc="01" apn="bahnhofab.tmhgprs" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
+  <apn carrier="Bahnhof AB MMS" mcc="240" mnc="01" apn="bahnhofab.tmhmms" proxy="" port="" user="" password="" mmsc="http://mmss/" mmsproxy="193.209.134.132" mmsport="80" type="mms" />
+  <apn carrier="Bahnhof LDA Internet" mcc="240" mnc="01" apn="bahnhoflda.tmhgprs" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
+  <apn carrier="Bahnhof LDA MMS" mcc="240" mnc="01" apn="bahnhoflda.tmhmms" proxy="" port="" user="" password="" mmsc="http://mmss/" mmsproxy="193.209.134.132" mmsport="80" type="mms" />
+  <apn carrier="Bixia internet" mcc="240" mnc="01" apn="abbla.telia.se" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
+  <apn carrier="Bixia MMS" mcc="240" mnc="01" apn="abblamms.telia.se" proxy="" port="" user="" password="" mmsc="http://mmss/" mmsproxy="193.209.134.132" mmsport="80" type="mms" />
+  <apn carrier="DGC internet" mcc="240" mnc="01" apn="dgc.tmhgprs" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
+  <apn carrier="DGC MMS" mcc="240" mnc="01" apn="dgc.tmhmms" proxy="" port="" user="" password="" mmsc="http://mmss/" mmsproxy="193.209.134.132" mmsport="80" type="mms" />
+  <apn carrier="Mobil2 internet" mcc="240" mnc="01" apn="mobil2.tmhgprs" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
+  <apn carrier="Mobil2 MMS" mcc="240" mnc="01" apn="mobil2.tmhmms" proxy="" port="" user="" password="" mmsc="http://mmss/" mmsproxy="193.209.134.132" mmsport="80" type="mms" />
+  <apn carrier="Phonera internet" mcc="240" mnc="01" apn="phoneweb.tmh-gprs.se" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
+  <apn carrier="Phonera MMS" mcc="240" mnc="01" apn="phoneweb.tmh-mms.se" proxy="" port="" user="" password="" mmsc="http://mmss/" mmsproxy="193.209.134.132" mmsport="80" type="mms" />
+  <apn carrier="SKOMO internet" mcc="240" mnc="01" apn="scomo.tmh-gprs.se" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
+  <apn carrier="SKOMO MMS" mcc="240" mnc="01" apn="scomo.tmh-mms.se" proxy="" port="" user="" password="" mmsc="http://mmss/" mmsproxy="193.209.134.132" mmsport="80" type="mms" />
+  <apn carrier="Spinbox internet" mcc="240" mnc="01" apn="spinbox.telia.se" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
+  <apn carrier="Spinbox MMS" mcc="240" mnc="01" apn="spinboxmms.telia.se" proxy="" port="" user="" password="" mmsc="http://mmss/" mmsproxy="193.209.134.132" mmsport="80" type="mms" />
+  <apn carrier="Svea Billing internet" mcc="240" mnc="01" apn="inap2.telia.se" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
+  <apn carrier="Svea Billing MMS" mcc="240" mnc="01" apn="inapmms.telia.se" proxy="" port="" user="" password="" mmsc="http://mmss/" mmsproxy="193.209.134.132" mmsport="80" type="mms" />
+  <apn carrier="SveaCom internet" mcc="240" mnc="01" apn="ct.tmh-gprs.se" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
+  <apn carrier="SveaCom MMS" mcc="240" mnc="01" apn="ct.tmh-mms.se" proxy="" port="" user="" password="" mmsc="http://mmss/" mmsproxy="193.209.134.132" mmsport="80" type="mms" />
+  <apn carrier="Telavox internet" mcc="240" mnc="01" apn="telavox.tmhgprs.se" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
+  <apn carrier="Telavox MMS" mcc="240" mnc="01" apn="tel.tmhmms" proxy="" port="" user="" password="" mmsc="http://mmss/" mmsproxy="193.209.134.132" mmsport="80" type="mms" />
+  <apn carrier="Telogic internet" mcc="240" mnc="01" apn="telogic.telia.se" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
+  <apn carrier="Telogic MMS" mcc="240" mnc="01" apn="telogicmms.telia.se" proxy="" port="" user="" password="" mmsc="http://mmss/" mmsproxy="193.209.134.132" mmsport="80" type="mms" />
+  <apn carrier="Ventelo internet" mcc="240" mnc="01" apn="ventelo.telia.se" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
+  <apn carrier="Ventelo MMS" mcc="240" mnc="01" apn="ventelomms.telia.se" proxy="" port="" user="" password="" mmsc="http://mmss/" mmsproxy="193.209.134.132" mmsport="80" type="mms" />
+  <apn carrier="WMG internet" mcc="240" mnc="01" apn="maingate.telia.se" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
+  <apn carrier="WMG MMS" mcc="240" mnc="01" apn="wmgmms.telia.se" proxy="" port="" user="" password="" mmsc="http://mmss/" mmsproxy="193.209.134.132" mmsport="80" type="mms" />
+  <apn carrier="Halebop MMS" mcc="240" mnc="017" apn="mms.telia.se" proxy="" port="" user="" password="" mmsc="http://mmss" mmsproxy="193.209.134.132" mmsport="80" type="mms" />
+  <apn carrier="3" mcc="240" mnc="02" apn="data.tre.se" proxy="" port="" user="" password="" mmsc="http://mms.tre.se" mmsproxy="mmsproxy.tre.se" mmsport="8799" type="default,supl,mms" />
+  <apn carrier="3 SE" mcc="240" mnc="02" apn="data.tre.se" type="default,supl,mms" />
+  <apn carrier="3 SE MMS" mcc="240" mnc="02" apn="data.tre.se" mmsc="http://mms.tre.se" mmsproxy="mmsproxy.tre.se" mmsport="8799" type="mms" />
+  <apn carrier="Telenor Mobilsurf" mcc="240" mnc="04" apn="services.telenor.se" proxy="172.30.253.241" port="8799" user="" password="" mmsc="" type="default,supl" />
+  <apn carrier="Telenor MMS" mcc="240" mnc="04" apn="services.telenor.se" proxy="" port="" user="" password="" mmsc="http://mms" mmsproxy="172.30.253.241" mmsport="8799" type="mms" />
+  <apn carrier="Telenor MMS" mcc="240" mnc="06" apn="services.telenor.se" proxy="" port="" user="" password="" mmsc="http://mms" mmsproxy="173.30.253.241" mmsport="8799" type="mms" />
+  <apn carrier="Telenor Mobilsurf" mcc="240" mnc="06" apn="services.telenor.se" proxy="173.30.253.241" port="8799" user="" password="" mmsc="" type="default,supl" />
+  <apn carrier="Glocalnet Internet" mcc="240" mnc="06" apn="internet.glocalnet.se" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
+  <apn carrier="Glocalnet MMS" mcc="240" mnc="06" apn="services.glocalnet.se" proxy="" port="" user="" password="" mmsc="http://mms" mmsproxy="172.30.253.241" mmsport="8799" type="mms" />
+  <apn carrier="Glocalnet WAP GPRS" mcc="240" mnc="06" apn="services.glocalnet.se" proxy="172.30.253.241" port="8799" user="" password="" mmsc="" type="default,supl" />
+  <apn carrier="Tele2 Internet" mcc="240" mnc="07" apn="4g.tele2.se" type="default,supl" />
+  <apn carrier="Tele2 MMS" mcc="240" mnc="07" apn="4g.tele2.se" mmsc="http://mmsc.tele2.se" mmsproxy="130.244.202.30" mmsport="8080" type="mms" />
+  <apn carrier="Tele2 Internet" mcc="240" mnc="07" apn="internet.tele2.no" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
+  <apn carrier="Tele2 MMS" mcc="240" mnc="07" apn="internet.tele2.no" proxy="" port="" user="" password="" mmsc="http://mmsc.tele2.no" mmsproxy="193.12.40.14" mmsport="8080" type="mms" />
+  <apn carrier="Spring data" mcc="240" mnc="07" apn="data.springmobil.se" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
+  <apn carrier="Spring MMS" mcc="240" mnc="07" apn="mms.springmobil.se" proxy="" port="" user="" password="" mmsc="http://mms.springmobil.se" mmsproxy="213.88.184.37" mmsport="8080" type="mms" />
+  <apn carrier="Glocalnet Mobilsurf" mcc="240" mnc="08" apn="services.glocalnet.se" proxy="172.30.253.241" port="8799" mmsc="" user="" password="" authtype="3" type="default,supl" />
+  <apn carrier="Glocalnet MMS" mcc="240" mnc="08" apn="services.glocalnet.se" proxy="" port="" mmsproxy="172.30.253.241" mmsport="8799" mmsc="http://mms" user="" password="" authtype="3" type="mms" />
+  <apn carrier="Telenor Mobilsurf" mcc="240" mnc="08" apn="services.telenor.se" proxy="172.30.253.241" port="8799" mmsc="" user="" password="" authtype="3" type="default,supl" />
+  <apn carrier="Telenor MMS" mcc="240" mnc="08" apn="services.telenor.se" proxy="" port="" mmsproxy="172.30.253.241" mmsport="8799" mmsc="http://mms" user="" password="" authtype="3" type="mms" />
+  <apn carrier="Telenor SE" mcc="240" mnc="08" apn="internet.telenor.se" type="default,supl" />
+  <apn carrier="Universal" mcc="240" mnc="08" apn="sp-services" proxy="172.030.253.241" port="8799" mmsc="http://mms" mmsproxy="172.30.253.241" mmsport="8799" type="default,supl,mms" />
+  <apn carrier="Cellip" mcc="240" mnc="08" apn="services.telenor.se" proxy="172.30.253.241" port="8799" mmsproxy="172.030.253.241" mmsport="8799" mmsc="http://mms/" user="" password="" type="default,supl,mms" />
+  <apn carrier="Telenor Mobilsurf" mcc="240" mnc="08" apn="services.telenor.se" proxy="" port="" user="" password="" mmsc="" type="default,supl" mvno_match_data="24008" mvno_type="imsi" />
+  <apn carrier="Telenor MMS" mcc="240" mnc="08" apn="services.telenor.se" proxy="" port="" user="" password="" mmsc="http://mms" mmsproxy="172.30.253.241" mmsport="8799" type="mms" />
+  <apn carrier="Glocalnet Internet" mcc="240" mnc="08" apn="internet.glocalnet.se" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
+  <apn carrier="Glocalnet MMS" mcc="240" mnc="08" apn="services.glocalnet.se" proxy="" port="" user="" password="" mmsc="http://mms" mmsproxy="172.30.253.241" mmsport="8799" type="mms" />
+  <apn carrier="Telenor MMS" mcc="240" mnc="09" apn="services.telenor.se" proxy="" port="" user="" password="" mmsc="http://mms" mmsproxy="173.30.253.241" mmsport="8799" type="mms" />
+  <apn carrier="Telenor Mobilsurf" mcc="240" mnc="09" apn="services.telenor.se" proxy="173.30.253.241" port="8799" user="" password="" mmsc="" type="default,supl" />
+  <apn carrier="Glocalnet Internet" mcc="240" mnc="09" apn="internet.glocalnet.se" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
+  <apn carrier="Glocalnet MMS" mcc="240" mnc="09" apn="services.glocalnet.se" proxy="" port="" user="" password="" mmsc="http://mms" mmsproxy="172.30.253.241" mmsport="8799" type="mms" />
+  <apn carrier="Spring data" mcc="240" mnc="10" apn="data.springmobil.se" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
+  <apn carrier="Spring MMS" mcc="240" mnc="10" apn="mms.springmobil.se" proxy="" port="" user="" password="" mmsc="http://mmsc.tele2.se" mmsproxy="130.244.202.30" mmsport="8080" type="mms" />
+  <apn carrier="Spring data" mcc="240" mnc="10" apn="data.springmobil.se" type="default,supl" />
+  <apn carrier="Spring MMS" mcc="240" mnc="10" apn="mms.springmobil.se" mmsc="http://mms.springmobil.se" mmsproxy="213.88.184.37" mmsport="8080" type="mms" />
+  <apn carrier="Lycamobile SE" mcc="240" mnc="12" apn="data.lycamobile.se" user="lmse" password="plus" type="default,supl" />
+  <apn carrier="Telenor MMS" mcc="240" mnc="24" apn="services.telenor.se" proxy="" port="" user="" password="" mmsc="http://mms" mmsproxy="173.30.253.241" mmsport="8799" type="mms" />
+  <apn carrier="Telenor Mobilsurf" mcc="240" mnc="24" apn="services.telenor.se" proxy="173.30.253.241" port="8799" user="" password="" mmsc="" type="default,supl" />
+</apns>

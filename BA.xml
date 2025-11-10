@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    SPDX-FileCopyrightText: Google Inc
+    SPDX-FileCopyrightText: The LineageOS Project
+    SPDX-License-Identifier: Apache-2.0
+-->
+<apns version="8">
+  <apn carrier="ERONET START" mcc="218" mnc="03" apn="gprs.eronet.ba" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
+  <apn carrier="ERONET MI 50" mcc="218" mnc="03" apn="web.eronet.ba" proxy="" port="" user="" password="" mmsc="" type="supl" />
+  <apn carrier="ERONET MI 200" mcc="218" mnc="03" apn="web.eronet.ba" proxy="" port="" user="" password="" mmsc="" type="supl" />
+  <apn carrier="ERONET 512" mcc="218" mnc="03" apn="data1.eronet.ba" proxy="" port="" user="" password="" mmsc="" type="supl" />
+  <apn carrier="ERONET 1GB" mcc="218" mnc="03" apn="data4.eronet.ba" proxy="" port="" user="" password="" mmsc="" type="supl" />
+  <apn carrier="ERONET 4GB" mcc="218" mnc="03" apn="data2.eronet.ba" proxy="" port="" user="" password="" mmsc="" type="supl" />
+  <apn carrier="ERONET FLAT" mcc="218" mnc="03" apn="data3.eronet.ba" proxy="" port="" user="" password="" mmsc="" type="supl" />
+  <apn carrier="ERONET MMS" mcc="218" mnc="03" apn="mms.eronet.ba" proxy="" port="" user="" password="" mmsc="http://mms.gprs.eronet.ba/mms/wapenc" mmsproxy="10.12.3.11" mmsport="8080" type="mms" />
+  <apn carrier="M-tel" mcc="218" mnc="05" apn="3g1" proxy="192.168.61.10" port="80" type="default,supl" />
+  <apn carrier="M-tel Frend" mcc="218" mnc="05" apn="mtelfrend" proxy="" port="" user="" password="" mmsc="" type="default,supl" protocol="IP" roaming_protocol="IP" />
+  <apn carrier="M-tel mms" mcc="218" mnc="05" apn="mtelmms" mmsc="http://mmsc.mtel.ba/mms/wapenc" mmsproxy="192.168.61.11" mmsport="8080" type="mms" />
+  <apn carrier="BH Mobile" mcc="218" mnc="90" apn="active.bhmobile.ba" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
+  <apn carrier="BH Mobile MMS" mcc="218" mnc="90" apn="mms.bhmobile.ba" proxy="" port="" user="" password="" mmsc="http://mms.bhmobile.ba/cmmsc/post" mmsproxy="195.222.56.41" mmsport="8080" type="mms" />
+</apns>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    SPDX-FileCopyrightText: Google Inc
+    SPDX-FileCopyrightText: The LineageOS Project
+    SPDX-License-Identifier: Apache-2.0
+-->
+<apns version="8">
+  <apn carrier="Orange DO" mcc="370" mnc="01" apn="orangenet.com.do" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
+  <apn carrier="Orange DO MMS" mcc="370" mnc="01" apn="orangeworld" proxy="" port="" user="" password="" mmsc="http://mmr.orangewi.com/servlets/mms" mmsproxy="172.16.126.70" mmsport="8080" type="mms" />
+  <apn carrier="Ideas CLARO" mcc="370" mnc="02" apn="internet.ideasclaro.com.do" user="" password="" type="default,supl" authtype="3" />
+  <apn carrier="MMS CLARO" mcc="370" mnc="02" apn="internet.ideasclaro.com.do" proxy="" port="" mmsc="http://mms.ideasclaro.com.do/mms/wapenc" user="" password="" type="mms" authtype="3" />
+  <apn carrier="Viva Edge" mcc="370" mnc="04" apn="edge.viva.net.do" user="viva" password="viva" mmsc="http://wap.viva.net.do/WapDeck/" proxy="192.168.016.010" port="9401" type="default,supl" />
+  <apn carrier="Viva MMS" mcc="370" mnc="04" apn="mms.viva.net.do" user="viva" password="viva" mmsproxy="192.168.016.010" mmsport="9401" mmsc="http://10.200.16.4/mms/wapenc" type="mms" />
+  <apn carrier="Trilogy Dominicana" mcc="370" mnc="04" apn="edge.viva.net.do" mmsproxy="192.168.16.10" mmsport="9401" user="viva" password="viva" type="default,supl,mms" />
+  <apn carrier="Orange Net" mcc="370" mnc="010" apn="orangenet.com.do" user="orange" password="orange" type="default,supl" />
+  <apn carrier="Orange MMS" mcc="370" mnc="010" apn="orangeworld" proxy="" port="" mmsproxy="172.16.126.70" mmsport="8080" mmsc="http://mms.orange.com.do/servlets/mms" user="orange" password="orange" type="mms" />
+</apns>

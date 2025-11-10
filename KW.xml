@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    SPDX-FileCopyrightText: Google Inc
+    SPDX-FileCopyrightText: The LineageOS Project
+    SPDX-License-Identifier: Apache-2.0
+-->
+<apns version="8">
+  <apn carrier="MI" mcc="419" mnc="02" apn="pps" user="pps" password="pps" type="default,supl" />
+  <apn carrier="MTC Vodafone KW" mcc="419" mnc="02" apn="apn01" type="default,supl" />
+  <apn carrier="MTC Vodafone KW MMS" mcc="419" mnc="02" apn="mms" user="annyway" password="online" mmsc="http://176.000.000.021" mmsproxy="176.0.0.65" mmsport="8080" type="mms" />
+  <apn carrier="Zain KW" mcc="419" mnc="02" apn="pps" user="pps" password="pps" type="default,supl" />
+  <apn carrier="Zain KW MMS" mcc="419" mnc="02" apn="pps" user="mms" password="mms" mmsc="http://mms.zain" mmsproxy="176.0.0.65" mmsport="8080" type="mms" />
+  <apn carrier="Wataniya Internet" mcc="419" mnc="03" apn="action.wataniya.com" type="*" />
+  <apn carrier="wataniya" mcc="419" mnc="03" apn="action.wataniya.com" type="default,supl" />
+  <apn carrier="wataniya MMS" mcc="419" mnc="03" apn="mms.wataniya.com" mmsc="http://action.wataniya.com" mmsproxy="194.126.053.064" mmsport="8080" type="mms" />
+  <apn carrier="Viva KW" mcc="419" mnc="04" apn="viva" type="default,supl" />
+  <apn carrier="Viva KW MMS" mcc="419" mnc="04" apn="viva" mmsc="http://172.16.128.80:38090/was" mmsproxy="172.16.128.228" mmsport="8080" type="mms" />
+</apns>

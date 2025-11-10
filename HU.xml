@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    SPDX-FileCopyrightText: Google Inc
+    SPDX-FileCopyrightText: The LineageOS Project
+    SPDX-License-Identifier: Apache-2.0
+-->
+<apns version="8">
+  <apn carrier="Telenor Net" mcc="216" mnc="01" apn="net" type="default,supl" />
+  <apn carrier="Telenor online" mcc="216" mnc="01" apn="online" user="" password="" type="default,supl" />
+  <apn carrier="Telenor MMS" mcc="216" mnc="01" apn="mms" proxy="" port="" mmsproxy="84.225.255.1" mmsport="8080" mmsc="http://mmsc.telenor.hu/" user="" password="" type="mms" />
+  <apn carrier="Pannon" mcc="216" mnc="01" apn="net" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
+  <apn carrier="Pannon MMS" mcc="216" mnc="01" apn="mms" proxy="" port="" user="" password="" mmsc="http://mmsc.pgsm.hu/" mmsproxy="193.225.154.22" mmsport="8080" type="mms" />
+  <apn carrier="Telenor Net" mcc="216" mnc="01" apn="net" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
+  <apn carrier="T-Mobile HU" mcc="216" mnc="30" apn="wnw" proxy="" port="" user="" password="" mmsc="http://mms.t-mobile.hu/servlets/mms" mmsproxy="212.51.126.10" mmsport="8080" type="default,supl" />
+  <apn carrier="T-Mobile NET GPRS" mcc="216" mnc="30" apn="internet" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
+  <apn carrier="T-Mobile MMS" mcc="216" mnc="30" apn="mms" proxy="" port="" mmsproxy="212.051.126.010" mmsport="8080" mmsc="http://mms.t-mobile.hu/servlets/mms" user="mms" password="mms" authtype="1" type="mms" />
+  <apn carrier="Telekom HU NET" mcc="216" mnc="30" apn="internet.telekom" type="default,supl" />
+  <apn carrier="Telekom HU MMS" mcc="216" mnc="30" apn="internet.telekom" mmsc="http://mms.t-mobile.hu/servlets/mms" mmsproxy="212.51.126.10" mmsport="8080" type="mms" />
+  <apn carrier="Vodafone HU" mcc="216" mnc="70" apn="internet.vodafone.net" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
+  <apn carrier="VF Internet VitaMax" mcc="216" mnc="70" apn="vitamax.internet.vodafone.net" user="" password="" type="default,supl" />
+  <apn carrier="Vodafone HU MMS" mcc="216" mnc="70" apn="mms.vodafone.net" proxy="" port="" user="" password="" mmsc="http://mms.vodafone.hu/servlets/mms" mmsproxy="80.244.97.2" mmsport="8080" type="mms" />
+</apns>

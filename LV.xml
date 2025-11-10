@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    SPDX-FileCopyrightText: Google Inc
+    SPDX-FileCopyrightText: The LineageOS Project
+    SPDX-License-Identifier: Apache-2.0
+-->
+<apns version="8">
+  <apn carrier="LMT" mcc="247" mnc="01" apn="internet.lmt.lv" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
+  <apn carrier="LMT MMS" mcc="247" mnc="01" apn="internet.lmt.lv" proxy="" port="" user="" password="" mmsc="http://mmsc.lmt.lv/mmsc" mmsproxy="212.93.97.201" mmsport="8080" type="mms" />
+  <apn carrier="Tele2 Internet LV" mcc="247" mnc="02" apn="internet.tele2.lv" user="wap" password="wap" proxy="" port="" type="default,supl" />
+  <apn carrier="Tele2 MMS LV" mcc="247" mnc="02" apn="mms.tele2.lv" proxy="" port="" user="wap" password="wap" mmsc="http://mmsc.tele2.lv/" mmsproxy="193.12.40.38" mmsport="8080" type="mms" />
+  <apn carrier="Bite LV Internet" mcc="247" mnc="05" apn="internet" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
+  <apn carrier="Bite MMS" mcc="247" mnc="05" apn="mms" proxy="" port="" user="mms@mms" password="" mmsc="http://mmsc/servlets/mms" mmsproxy="192.168.150.2" mmsport="8080" type="mms" />
+</apns>

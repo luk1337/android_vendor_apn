@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    SPDX-FileCopyrightText: Google Inc
+    SPDX-FileCopyrightText: The LineageOS Project
+    SPDX-License-Identifier: Apache-2.0
+-->
+<apns version="8">
+  <apn carrier="Zain NG" mcc="621" mnc="20" apn="internet.ng.zain.com" type="default,supl" />
+  <apn carrier="Visafone" mcc="621" mnc="25" apn="#777" proxy="192.168.165.201" port="8080" mmsc="" user="wap@wap.com" password="wap" authtype="3" type="default,supl" />
+  <apn carrier="APTWAP" mcc="621" mnc="25" apn="#777" user="" password="" authtype="3" type="default,supl" />
+  <apn carrier="MTN NG" mcc="621" mnc="30" apn="web.gprs.mtnnigeria.net" user="web" password="web" proxy="10.199.212.2" type="default,supl" />
+  <apn carrier="MTN NG MMS" mcc="621" mnc="30" apn="web.gprs.mtnnigeria.net" user="web" password="web" mmsc="http://10.199.212.8/servlets/mms" mmsproxy="10.199.212.2" mmsport="8080" type="mms" />
+  <apn carrier="Glo Mobile Internet" mcc="621" mnc="50" apn="gloflat" user="flat" password="flat" proxy="10.100.98.22" type="default,supl" />
+  <apn carrier="Glo PAYU" mcc="621" mnc="50" apn="glosecure" type="default,supl" />
+  <apn carrier="Glo MMS" mcc="621" mnc="50" apn="glomms" user="mms" password="mms" mmsc="http://mms.gloworld.com/mmsc" mmsproxy="010.100.082.004" mmsport="3130" type="mms" />
+  <apn carrier="Glo" mcc="621" mnc="50" apn="glo3gvideo" proxy="10.100.98.22" port="" user="" password="" mmsc="" type="default,supl" />
+  <apn carrier="Etisalat Internet" mcc="621" mnc="60" apn="etisalat" user="" password="" authtype="3" type="*" />
+  <apn carrier="Etisalat NG" mcc="621" mnc="60" apn="etisalat" type="default,supl" />
+  <apn carrier="Etisalat NG MMS" mcc="621" mnc="60" apn="etisalat" mmsc="http://10.71.170.30:38090/was" mmsproxy="10.71.170.5" mmsport="8080" type="mms" />
+</apns>

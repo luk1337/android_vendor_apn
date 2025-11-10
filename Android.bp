@@ -1,0 +1,30 @@
+//
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+genrule {
+    name: "apns-conf",
+    out: ["apns-conf.xml"],
+    srcs: ["*.xml"],
+    tools: ["make-apns", "xmllint"],
+    cmd: "XMLLINT=$(location xmllint) $(location make-apns) $(in) > $(out)",
+}
+
+prebuilt_etc_xml {
+    name: "apns-conf.xml",
+    product_specific: true,
+    src: ":apns-conf",
+    schema: ":apns-conf-schema",
+}
+
+filegroup {
+    name: "apns-conf-schema",
+    srcs: ["apns-conf.xsd"],
+}
+
+sh_binary_host {
+    name: "make-apns",
+    src: "make-apns.sh",
+    required: ["xmllint"],
+}

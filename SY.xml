@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    SPDX-FileCopyrightText: Google Inc
+    SPDX-FileCopyrightText: The LineageOS Project
+    SPDX-License-Identifier: Apache-2.0
+-->
+<apns version="8">
+  <apn carrier="Syriatel MMS" mcc="417" mnc="01" apn="mms.syriatel.com" mmsc="http://mymms.syriatel.com/" mmsproxy="172.20.5.6" mmsport="9201" type="mms" />
+  <apn carrier="Syriatel" mcc="417" mnc="01" apn="net.syriatel.com" type="default,supl" />
+  <apn carrier="MTN Syria" mcc="417" mnc="02" apn="internet" type="default,supl" />
+  <apn carrier="MTN SY" mcc="417" mnc="02" apn="internet" type="default,supl" />
+  <apn carrier="MTN SY MMS" mcc="417" mnc="02" apn="mms" mmsc="http://10.11.161.138/:10021/mmsc" mmsproxy="10.11.161.131" mmsport="8080" type="mms" />
+</apns>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    SPDX-FileCopyrightText: Google Inc
+    SPDX-FileCopyrightText: The LineageOS Project
+    SPDX-License-Identifier: Apache-2.0
+-->
+<apns version="8">
+  <apn carrier="Mascom_Internet" mcc="652" mnc="01" apn="internet.mascom" user="" password="" type="default,supl" />
+  <apn carrier="Mascom_Wap" mcc="652" mnc="01" apn="wap.mascom" proxy="192.168.33.138" port="8080" mmsc="" user="" password="" type="default,supl" />
+  <apn carrier="Orange BW MMS" mcc="652" mnc="02" apn="mms.orange.co.bw" mmsc="http://10.0.0.242/servlets/mms" mmsproxy="10.0.0.226" mmsport="8080" type="mms" />
+  <apn carrier="Orange WAP BW" mcc="652" mnc="02" apn="internet.orange.co.bw" proxy="10.0.0.226" port="8080" type="default,supl" />
+</apns>

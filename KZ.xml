@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    SPDX-FileCopyrightText: Google Inc
+    SPDX-FileCopyrightText: The LineageOS Project
+    SPDX-License-Identifier: Apache-2.0
+-->
+<apns version="8">
+  <apn carrier="BeeLine KZ" mcc="401" mnc="01" apn="internet.beeline.kz" proxy="" port="" user="internet.beeline" password="" mmsc="" type="default,supl" />
+  <apn carrier="Kcell" mcc="401" mnc="02" apn="internet" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
+  <apn carrier="Kcell MMS" mcc="401" mnc="02" apn="mms" proxy="" port="" user="" password="" mmsc="http://mms.kcell.kz/post" mmsproxy="195.47.255.7" mmsport="8080" type="mms" />
+  <apn carrier="Kcell WAP" mcc="401" mnc="02" apn="wap" proxy="195.47.255.7" port="8080" mmsc="" user="" password="" type="default,supl" />
+  <apn carrier="Tele2 Internet" mcc="401" mnc="77" apn="internet.tele2.kz" protocol="IPV4V6" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
+  <apn carrier="Altel" mcc="401" mnc="77" apn="internet.altel.kz" protocol="IPV4V6" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
+</apns>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    SPDX-FileCopyrightText: Google Inc
+    SPDX-FileCopyrightText: The LineageOS Project
+    SPDX-License-Identifier: Apache-2.0
+-->
+<apns version="8">
+  <apn carrier="LIME Prepaid Internet" mcc="342" mnc="600" apn="ppinternet" mmsc="" user="" password="" proxy="" port="8799" type="default,supl" />
+  <apn carrier="LIME Postpaid Internet" mcc="342" mnc="600" apn="internet" mmsc="" user="" password="" proxy="" port="8799" type="default,supl" />
+  <apn carrier="LIME Prepaid MMS" mcc="342" mnc="600" apn="ppmms" mmsc="http://mmsc" user="" password="" proxy="10.20.5.34" port="8799" type="mms" />
+  <apn carrier="LIME Postpaid MMS" mcc="342" mnc="600" apn="multimedia" mmsc="http://mmsc" user="" password="" proxy="10.20.5.34" port="8799" type="mms" />
+  <apn carrier="Digicel BB MMS" mcc="342" mnc="750" apn="wap.digicelbarbados.com" proxy="" port="" user="wapbarb" password="wap03barb" mmsc="http://mme.digiceljamaica.com/servlets/mms" mmsproxy="172.16.7.12" mmsport="8080" type="mms" />
+  <apn carrier="Digicel BB" mcc="342" mnc="750" apn="web.digicelbarbados.com" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
+</apns>

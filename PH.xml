@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    SPDX-FileCopyrightText: Google Inc
+    SPDX-FileCopyrightText: The LineageOS Project
+    SPDX-License-Identifier: Apache-2.0
+-->
+<apns version="8">
+  <apn carrier="myGlobe MMS" mcc="515" mnc="02" apn="mms.globe.com.ph" mmsc="http://192.40.100.22:10021/mmsc" mmsport="8080" mmsproxy="203.177.42.214" type="mms" />
+  <apn carrier="myGlobe internet" mcc="515" mnc="02" apn="internet.globe.com.ph" mmsc="http://m.globe.com.ph" type="default,supl" />
+  <apn carrier="ims" mcc="515" mnc="02" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" />
+  <apn carrier="Smart Internet" mcc="515" mnc="03" apn="Internet" type="default,supl" protocol="IPV4V6" roaming_protocol="IPV4V6" />
+  <apn carrier="Smart MMS" mcc="515" mnc="03" apn="mms" mmsc="http://10.102.61.238:8002" mmsport="8080" mmsproxy="10.102.61.46" type="mms" protocol="IPV4V6" roaming_protocol="IPV4V6" />
+  <apn carrier="ims" mcc="515" mnc="03" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IP" />
+  <apn carrier="SUN INTERNET" mcc="515" mnc="034" apn="minternet" type="default,supl" />
+  <apn carrier="SUN INTERNET" mcc="515" mnc="035" apn="minternet" type="default,supl" />
+  <apn carrier="SUN INTERNET" mcc="515" mnc="036" apn="minternet" type="default,supl" />
+  <apn carrier="SUN INTERNET" mcc="515" mnc="037" apn="minternet" type="default,supl" />
+  <apn carrier="SUN INTERNET" mcc="515" mnc="038" apn="minternet" type="default,supl" />
+  <apn carrier="SUN INTERNET" mcc="515" mnc="039" apn="minternet" type="default,supl" />
+  <apn carrier="Sun Internet" mcc="515" mnc="05" apn="minternet" type="default,supl" />
+  <apn carrier="SUN MMS" mcc="515" mnc="05" apn="mms" mmsc="http://mmscenter.suncellular.com.ph" mmsport="8080" mmsproxy="202.138.159.78" type="mms" />
+  <apn carrier="Sun SBW" mcc="515" mnc="05" apn="fbband" type="default,supl" />
+  <apn carrier="Sun Streaming" mcc="515" mnc="05" apn="minterenet" type="default,supl" />
+  <apn carrier="SUN WAP GPRS" mcc="515" mnc="05" apn="wap" port="8080" proxy="202.138.159.78" type="default,supl" />
+  <apn carrier="Sun MMS" mcc="515" mnc="05" apn="mms" mmsport="8080" mmsproxy="202.138.159.78" type="mms" />
+  <apn carrier="Sun Internet" mcc="515" mnc="05" apn="minternet" mmsc="http://wap.suncellular.com.ph" type="default,supl" />
+  <apn carrier="Internet" mcc="515" mnc="06" authtype="1" apn="internet" type="default" />
+  <apn carrier="Redinternet" mcc="515" mnc="18" apn="redinternet" type="default,supl" />
+  <apn carrier="Redmms" mcc="515" mnc="18" apn="real.globe.com.ph" mmsc="http://10.102.61.193:8002/mmsc" mmsport="8080" mmsproxy="10.138.3.35" type="mms" />
+  <apn carrier="DITO Internet" mcc="515" mnc="66" apn="internet.dito.ph" type="default,supl" protocol="IPV4V6" roaming_protocol="IPV4V6" />
+  <apn carrier="DITO IMS" mcc="515" mnc="66" apn="IMS" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" />
+</apns>

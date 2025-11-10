@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    SPDX-FileCopyrightText: Google Inc
+    SPDX-FileCopyrightText: The LineageOS Project
+    SPDX-License-Identifier: Apache-2.0
+-->
+<apns version="8">
+  <apn carrier="Kolbi" mcc="712" mnc="01" apn="kolbi3g" type="default,supl" />
+  <apn carrier="Kolbi MMS" mcc="712" mnc="01" apn="kolbimundo" mmsc="http://mmsice" mmsproxy="10.184.202.24" mmsport="8080" type="mms" />
+  <apn carrier="Mundo Kolbi" mcc="712" mnc="01" apn="kolbi3g" proxy="172.27.10.4" port="8080" type="default,supl" />
+  <apn carrier="Mundo Kolbi MMS" mcc="712" mnc="01" apn="mmscelular" mmsc="http://mmsice" mmsproxy="172.27.10.4" mmsport="8080" type="mms" />
+  <apn carrier="Kolbi" mcc="712" mnc="02" apn="kolbi3g" type="default,supl" />
+  <apn carrier="Kolbi MMS" mcc="712" mnc="02" apn="kolbimundo" mmsc="http://mmsice" mmsproxy="10.184.202.24" mmsport="8080" type="mms" />
+  <apn carrier="Claro" mcc="712" mnc="03" apn="internet.ideasclaro" type="default,supl" />
+  <apn carrier="Claro MMS" mcc="712" mnc="03" apn="mms.ideasclaro" mmsproxy="216.230.133.66" mmsport="8080" mmsc="http://mms.ideasclaro.com:8002" type="mms" />
+  <apn carrier="Movistar INTERNET" mcc="712" mnc="04" apn="internet.movistar.cr" user="movistarcr" password="movistarcr" authtype="1" type="default,supl" />
+  <apn carrier="Movistar MMS" mcc="712" mnc="04" apn="mms.movistar.cr" proxy="" port="" mmsproxy="10.221.79.83" mmsport="80" mmsc="http://mms.movistar.cr" user="movistarcr" password="movistarcr" authtype="1" type="mms" />
+</apns>

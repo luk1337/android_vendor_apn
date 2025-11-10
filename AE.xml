@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    SPDX-FileCopyrightText: Google Inc
+    SPDX-FileCopyrightText: The LineageOS Project
+    SPDX-License-Identifier: Apache-2.0
+-->
+<apns version="8">
+  <apn carrier="Etisalat internet" mcc="424" mnc="02" apn="etisalat.ae" user="" password="" type="default,supl" />
+  <apn carrier="Etisalat MMS" mcc="424" mnc="02" apn="etisalat" proxy="" port="" mmsproxy="10.12.0.32" mmsport="8080" mmsc="http://mms/servlets/mms" user="" password="" authtype="1" type="mms" />
+  <apn carrier="Etisalat WAP" mcc="424" mnc="02" apn="etisalat" proxy="10.12.0.32" port="8080" mmsc="" user="" password="" type="default,supl" />
+  <apn carrier="Etisalat UAE" mcc="424" mnc="02" apn="etisalat.ae" type="default,supl" authtype="1" />
+  <apn carrier="Etisalat UAE MMS" mcc="424" mnc="02" apn="mms" user="mms" password="mms" mmsc="http://mms/servlets/mms" mmsproxy="10.12.0.32" mmsport="8080" type="mms" authtype="1" />
+  <apn carrier="Du internet" mcc="424" mnc="03" apn="du" user="" password="" type="default,supl" />
+  <apn carrier="Du MMS" mcc="424" mnc="03" apn="du" proxy="" port="" mmsproxy="10.19.18.4" mmsport="8080" mmsc="http://mms.du.ae:8002" user="" password="" authtype="1" type="mms" />
+  <apn carrier="Du WAP" mcc="424" mnc="03" apn="du" proxy="10.19.18.4" port="8080" mmsc="" user="" password="" type="default,supl" />
+  <apn carrier="du" mcc="424" mnc="03" apn="du" mmsc="http://mms.du.ae" mmsproxy="10.19.18.4" mmsport="9201" type="default,supl,mms" />
+</apns>

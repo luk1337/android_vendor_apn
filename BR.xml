@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    SPDX-FileCopyrightText: Google Inc
+    SPDX-FileCopyrightText: The LineageOS Project
+    SPDX-License-Identifier: Apache-2.0
+-->
+<apns version="8">
+  <apn carrier="TIM IMS" mcc="724" mnc="02" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" />
+  <apn carrier="TIM Connect" mcc="724" mnc="02" apn="timbrasil.br" user="tim" password="tim" mmsc="http://mms.tim.br" mmsproxy="189.40.191.96" mmsport="8080" authtype="1" type="default,ia,supl,mms,xcap" protocol="IPV4V6" roaming_protocol="IPV4V6" />
+  <apn carrier="TIM IMS" mcc="724" mnc="03" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" />
+  <apn carrier="TIM Connect" mcc="724" mnc="03" apn="timbrasil.br" user="tim" password="tim" mmsc="http://mms.tim.br" mmsproxy="189.40.191.96" mmsport="8080" authtype="1" type="default,ia,supl,mms,xcap" protocol="IPV4V6" roaming_protocol="IPV4V6" />
+  <apn carrier="TIM IMS" mcc="724" mnc="04" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" />
+  <apn carrier="TIM Connect" mcc="724" mnc="04" apn="timbrasil.br" user="tim" password="tim" mmsc="http://mms.tim.br" mmsproxy="189.40.191.96" mmsport="8080" authtype="1" type="default,ia,supl,mms,xcap" protocol="IPV4V6" roaming_protocol="IPV4V6" />
+  <apn carrier="Java Session" mcc="724" mnc="05" apn="java.claro.com.br" user="claro" password="claro" type="default,ia,supl" />
+  <apn carrier="Claro Foto" mcc="724" mnc="05" apn="mms.claro.com.br" mmsproxy="200.169.126.10" mmsport="8799" mmsc="http://mms.claro.com.br" user="claro" password="claro" type="mms" />
+  <apn carrier="Vivo Internet" mcc="724" mnc="06" apn="zap.vivo.com.br" user="vivo" password="vivo" authtype="1" type="default" protocol="IPV4V6" roaming_protocol="IPV4V6" />
+  <apn carrier="VIVO XCAP" mcc="724" mnc="06" apn="xcap.ims" type="xcap" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" />
+  <apn carrier="Vivo IMS" mcc="724" mnc="06" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" />
+  <apn carrier="Vivo MMS" mcc="724" mnc="06" apn="mms.vivo.com.br" mmsproxy="200.142.130.104" mmsport="80" mmsc="http://termnat.vivomms.com.br:8088/mms" user="vivo" password="vivo" authtype="1" type="mms" protocol="IPV4V6" roaming_protocol="IPV4V6" />
+  <apn carrier="SCTL MMS" mcc="724" mnc="07" apn="mms.sercomtel.com.br" user="sercomtel" password="sercomtel" mmsc="http://mms.claro.com.br" mmsproxy="200.169.126.10" mmsport="8799" type="mms" />
+  <apn carrier="SCTL GPRS" mcc="724" mnc="07" apn="sercomtel.com.br" user="sercomtel" password="sercomtel" type="default,ia,supl" />
+  <apn carrier="Vivo Internet" mcc="724" mnc="10" apn="zap.vivo.com.br" user="vivo" password="vivo" authtype="1" type="default" protocol="IPV4V6" roaming_protocol="IPV4V6" />
+  <apn carrier="VIVO XCAP" mcc="724" mnc="10" apn="xcap.ims" type="xcap" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" />
+  <apn carrier="Vivo IMS" mcc="724" mnc="10" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" />
+  <apn carrier="Vivo MMS" mcc="724" mnc="10" apn="mms.vivo.com.br" mmsproxy="200.142.130.104" mmsport="80" mmsc="http://termnat.vivomms.com.br:8088/mms" user="vivo" password="vivo" authtype="1" type="mms" protocol="IPV4V6" roaming_protocol="IPV4V6" />
+  <apn carrier="Vivo Internet" mcc="724" mnc="11" apn="zap.vivo.com.br" user="vivo" password="vivo" authtype="1" type="default" protocol="IPV4V6" roaming_protocol="IPV4V6" />
+  <apn carrier="VIVO XCAP" mcc="724" mnc="11" apn="xcap.ims" type="xcap" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" />
+  <apn carrier="Vivo IMS" mcc="724" mnc="11" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" />
+  <apn carrier="Vivo MMS" mcc="724" mnc="11" apn="mms.vivo.com.br" mmsproxy="200.142.130.104" mmsport="80" mmsc="http://termnat.vivomms.com.br:8088/mms" user="vivo" password="vivo" authtype="1" type="mms" protocol="IPV4V6" roaming_protocol="IPV4V6" />
+  <apn carrier="Sercomtel:MMS" mcc="724" mnc="15" apn="mms.sercomtel.com.br" user="sercomtel" password="sercomtel" mmsc="http://mms.claro.com.br" mmsproxy="200.169.126.10" mmsport="8799" authtype="1" type="mms" />
+  <apn carrier="Sercomtel:Dados" mcc="724" mnc="15" apn="sercomtel.com.br" user="sercomtel" password="sercomtel" authtype="1" type="default,ia,supl" />
+  <apn carrier="Oi Internet" mcc="724" mnc="16" apn="gprs.oi.com.br" user="oi" password="oi" type="default,ia,supl" protocol="IPV4V6" roaming_protocol="IPV4V6" />
+  <apn carrier="Oi MMS" mcc="724" mnc="16" apn="mmsgprs.oi.com.br" mmsproxy="192.168.10.50" mmsport="3128" mmsc="http://200.222.42.204:8002/" user="oimms" password="oioioi" type="mms" protocol="IPV4V6" roaming_protocol="IPV4V6" />
+  <apn carrier="Correios Celular" mcc="724" mnc="17" apn="internet.br" type="default,supl" />
+  <apn carrier="Vivo Internet" mcc="724" mnc="23" apn="zap.vivo.com.br" user="vivo" password="vivo" authtype="1" type="default" protocol="IPV4V6" roaming_protocol="IPV4V6" />
+  <apn carrier="VIVO XCAP" mcc="724" mnc="23" apn="xcap.ims" type="xcap" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" />
+  <apn carrier="Vivo IMS" mcc="724" mnc="23" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" />
+  <apn carrier="Vivo MMS" mcc="724" mnc="23" apn="mms.vivo.com.br" mmsproxy="200.142.130.104" mmsport="80" mmsc="http://termnat.vivomms.com.br:8088/mms" user="vivo" password="vivo" authtype="1" type="mms" protocol="IPV4V6" roaming_protocol="IPV4V6" />
+  <apn carrier="Oi Internet" mcc="724" mnc="24" apn="gprs.oi.com.br" user="oi" password="oi" type="default,ia,supl" protocol="IPV4V6" roaming_protocol="IPV4V6" />
+  <apn carrier="Oi MMS" mcc="724" mnc="24" apn="mmsgprs.oi.com.br" mmsproxy="192.168.10.50" mmsport="3128" mmsc="http://200.222.42.204:8002/" user="oimms" password="oioioi" type="mms" protocol="IPV4V6" roaming_protocol="IPV4V6" />
+  <apn carrier="Unifique" mcc="724" mnc="29" apn="unifique.br" type="default,ims,supl,xcap" protocol="IPV4V6" roaming_protocol="IPV4V6" />
+  <apn carrier="Oi Internet" mcc="724" mnc="31" apn="gprs.oi.com.br" user="oi" password="oi" type="default,ia,supl" protocol="IPV4V6" roaming_protocol="IPV4V6" />
+  <apn carrier="Oi MMS" mcc="724" mnc="31" apn="mmsgprs.oi.com.br" mmsproxy="192.168.10.50" mmsport="3128" mmsc="http://200.222.42.204:8002/" user="oimms" password="oioioi" type="mms" protocol="IPV4V6" roaming_protocol="IPV4V6" />
+  <apn carrier="Algar Telecom Internet" mcc="724" mnc="32" apn="algar.br" user="algar" password="1212" type="default,ia" />
+  <apn carrier="Algar MMS" mcc="724" mnc="32" apn="algar.br" user="algar" password="1212" mmsc="http://mms.ctbccelular.com.br/was" mmsproxy="172.29.7.70" mmsport="8080" type="mms" />
+  <apn carrier="Algar Telecom Internet" mcc="724" mnc="33" apn="algar.br" user="algar" password="1212" type="default,ia" />
+  <apn carrier="Algar MMS" mcc="724" mnc="33" apn="algar.br" user="algar" password="1212" mmsc="http://mms.ctbccelular.com.br/was" mmsproxy="172.29.7.70" mmsport="8080" type="mms" />
+  <apn carrier="Algar Telecom Internet" mcc="724" mnc="34" apn="algar.br" user="algar" password="1212" type="default,ia" />
+  <apn carrier="Algar MMS" mcc="724" mnc="34" apn="algar.br" user="algar" password="1212" mmsc="http://mms.ctbccelular.com.br/was" mmsproxy="172.29.7.70" mmsport="8080" type="mms" />
+  <apn carrier="Nextel Internet" mcc="724" mnc="39" apn="datacard.nextel3g.net.br" mmsc="http://www.google.com.br" user="Nextel3g" password="nextel" authtype="1" type="default,supl" />
+  <apn carrier="Nextel WAP" mcc="724" mnc="39" apn="wap.nextel3g.net.br" user="" password="" type="default,supl" />
+  <apn carrier="Nextel MMS" mcc="724" mnc="39" apn="mms.nextel3g.net.br" proxy="" port="" mmsproxy="129.129.129.104" mmsport="8080" mmsc="http://3gmms.nextel3g.net.br" user="" password="" authtype="1" type="mms" />
+  <apn carrier="Nextel 3G" mcc="724" mnc="39" apn="datacard.nextel3g.net.br" type="default,supl" />
+  <apn carrier="TIM IMS" mcc="724" mnc="54" apn="ims" type="ims" protocol="IPV4V6" roaming_protocol="IPV4V6" user_visible="false" />
+  <apn carrier="TIM Connect" mcc="724" mnc="54" apn="timbrasil.br" user="tim" password="tim" mmsc="http://mms.tim.br" mmsproxy="189.40.191.96" mmsport="8080" authtype="1" type="default,ia,supl,mms,xcap" protocol="IPV4V6" roaming_protocol="IPV4V6" />
+</apns>

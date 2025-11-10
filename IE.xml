@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    SPDX-FileCopyrightText: Google Inc
+    SPDX-FileCopyrightText: The LineageOS Project
+    SPDX-License-Identifier: Apache-2.0
+-->
+<apns version="8">
+  <apn carrier="Tesco" mcc="272" mnc="01" apn="tescomobile.liffeytelecom.com" mmsc="http://mmc1/servlets/mms" mmsproxy="10.1.11.19" mmsport="8080" type="default,supl,mms" />
+  <apn carrier="Vodafone WAP" mcc="272" mnc="01" apn="live.vodafone.com" proxy="10.24.59.100" port="80" user="" password="" mmsc="" type="default,supl" />
+  <apn carrier="Vodafone Internet" mcc="272" mnc="01" apn="isp.vodafone.ie" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
+  <apn carrier="Vodafone MMS" mcc="272" mnc="01" apn="mms.vodafone.net" proxy="" port="" user="" password="" mmsc="http://www.vodafone.ie/mms" mmsproxy="10.24.59.200" mmsport="80" type="mms" />
+  <apn carrier="Vodafone IE-ISP" mcc="272" mnc="01" apn="isp.vodafone.ie" proxy="" port="" user="vodafone" password="vodafone" mmsc="" type="default,supl" />
+  <apn carrier="Vodafone IE" mcc="272" mnc="01" apn="live.vodafone.com" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
+  <apn carrier="Vodafone IE-MMS" mcc="272" mnc="01" apn="mms.vodafone.net" proxy="" port="" user="" password="" mmsc="http://www.vodafone.ie/mms" mmsproxy="10.24.59.200" mmsport="80" type="mms" />
+  <apn carrier="O2 Internet" mcc="272" mnc="02" apn="internet" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
+  <apn carrier="O2 WAP" mcc="272" mnc="02" apn="internet" proxy="62.40.32.40" port="8080" user="" password="" mmsc="" type="default,supl" />
+  <apn carrier="O2 MMS" mcc="272" mnc="02" apn="internet" proxy="" port="" user="" password="" mmsc="http://mmsc.mms.o2.ie:8002" mmsproxy="62.40.32.40" mmsport="8080" type="mms" />
+  <apn carrier="O2 Ireland" mcc="272" mnc="02" apn="internet" proxy="" port="" user="" password="" mmsc="http://mmsc.mms.o2.ie:8002" mmsproxy="62.40.32.40" mmsport="8080" type="default,supl,mms" />
+  <apn carrier="O2 IE" mcc="272" mnc="02" apn="wap.dol.ie" proxy="62.40.32.40" port="8080" user="user" password="user" server="www.o2.ie" mmsc="http://mmsc.mms.o2.ie:8002" mmsproxy="62.40.32.40" mmsport="8080" type="default,supl,mms" />
+  <apn carrier="Meteor Internet" mcc="272" mnc="03" apn="data.mymeteor.ie" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
+  <apn carrier="Meteor WAP" mcc="272" mnc="03" apn="wap.mymeteor.ie" proxy="10.85.85.85" port="8799" user="my" password="wap" mmsc="" type="default,supl" />
+  <apn carrier="Meteor MMS" mcc="272" mnc="03" apn="mms.mymeteor.ie" proxy="" port="" user="my" password="meteor" mmsc="http://mms.mymeteor.ie" mmsproxy="10.85.85.85" mmsport="8799" type="mms" />
+  <apn carrier="Eircom/Meteor" mcc="272" mnc="03" apn="wap.mymeteor.ie" user="my" password="meteor" server="http://wap.mymeteor.ie" proxy="10.85.85.85" port="8799" mmsc="mms.mymeteor.ie" mmsproxy="10.85.85.85" mmsport="8799" type="default,supl" />
+  <apn carrier="Eircom/Meteor MMS" mcc="272" mnc="03" apn="wap.mymeteor.ie" user="my" password="meteor" server="http://wap.mymeteor.ie" proxy="10.85.85.85" port="8799" mmsc="http://mms.mymeteor.ie" mmsproxy="10.85.85.85" mmsport="8799" type="mms" />
+  <apn carrier="3 Internet" mcc="272" mnc="05" apn="3ireland.ie" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
+  <apn carrier="3 MMS" mcc="272" mnc="05" apn="3ireland.ie" proxy="" port="" user="" password="" mmsc="http://mms.um.3ireland.ie:10021/mmsc" mmsproxy="mms.3ireland.ie" mmsport="8799" type="mms" />
+  <apn carrier="3 IE MMS" mcc="272" mnc="05" apn="3ireland.ie" proxy="" port="" user="" password="" server="3ireland.ie" mmsc="http://mms.um.3ireland.ie:10021/mmsc" mmsproxy="mms.3ireland.ie" mmsport="8799" type="default,supl,mms" />
+  <apn carrier="3 Ireland" mcc="272" mnc="05" apn="3ireland.ie" proxy="" port="" user="" password="" mmsc="http://mms.um.3ireland.ie:10021/mmsc" mmsproxy="mms.3ireland.ie" mmsport="8799" type="default,supl,mms" />
+  <apn carrier="Tesco" mcc="272" mnc="10" apn="tescomobile.liffeytelecom.com" mmsc="http://mmc1/servlets/mms" mmsproxy="10.1.11.19" mmsport="8080" type="default,supl,mms" />
+  <apn carrier="TMI APN" mcc="272" mnc="11" apn="tescomobile.liffeytelecom.com" mmsc="http://mmc1/servlets/mms" mmsproxy="10.1.11.19" mmsport="8080" type="default,supl,mms" />
+  <apn carrier="48months" mcc="272" mnc="11" apn="48months.liffeytelecom.com" mmsc="http://mmc1/servlets/mms" mmsproxy="10.1.11.19" mmsport="8080" type="default,supl,mms" />
+  <apn carrier="Lycamobile IE" mcc="272" mnc="13" apn="data.lycamobile.ie" user="lmie" password="plus" type="default,supl" />
+  <apn carrier="Virgin Media Ireland" mcc="272" mnc="15" apn="internet" proxy="" port="" user="" password="" mmsc="" mmsproxy="" mmsport="" type="default,supl,mms" />
+</apns>

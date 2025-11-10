@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    SPDX-FileCopyrightText: Google Inc
+    SPDX-FileCopyrightText: The LineageOS Project
+    SPDX-License-Identifier: Apache-2.0
+-->
+<apns version="8">
+  <apn carrier="AirtelWAP" mcc="646" mnc="01" apn="wap.mg.airtel.com" proxy="10.77.48.50" port="8080" user="" password="" mmsc="" type="default,supl" />
+  <apn carrier="AirtelWEB" mcc="646" mnc="01" apn="internet.mg.airtel.com" proxy="10.77.48.50" port="8080" user="" password="" mmsc="" type="default,supl" />
+  <apn carrier="AirtelMMS" mcc="646" mnc="01" apn="mms.mg.airtel.com" proxy="" port="" user="" password="" mmsc="http://10.77.48.35/servlets/mms" mmsproxy="10.77.48.50" mmsport="8080" type="mms" />
+  <apn carrier="Orangenet" mcc="646" mnc="02" apn="orangenet" proxy="" port="" user="" password="" type="default,supl" />
+  <apn carrier="Orange World" mcc="646" mnc="02" apn="orangeworld" proxy="10.150.0.115" port="8080" user="world" password="orange" type="default,supl" />
+  <apn carrier="Orange MMS" mcc="646" mnc="02" apn="orangemms" user="mms" password="orange" mmsc="http://10.152.10.70:38090" mmsproxy="10.150.0.115" mmsport="8080" type="mms" />
+  <apn carrier="Orange MG MMS" mcc="646" mnc="02" apn="orangemms" user="mms" password="orange" mmsc="http://10.152.10.70.38090" mmsproxy="10.150.0.115" mmsport="8080" type="mms" />
+  <apn carrier="Orange World MG" mcc="646" mnc="02" apn="orangeworld" user="world" password="orange" proxy="10.150.0.115" port="8080" type="default,supl" />
+  <apn carrier="Orange MG" mcc="646" mnc="02" apn="orangenet" type="default,supl" />
+  <apn carrier="TELMA GPRS" mcc="646" mnc="04" apn="internet" proxy="" port="" mmsc="" type="default,supl" />
+  <apn carrier="TELMA MMS" mcc="646" mnc="04" apn="mms" proxy="" port="" mmsc="http://10.6.4.34:1981" mmsproxy="10.6.4.34" mmsport="8080" type="mms" />
+</apns>

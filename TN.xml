@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    SPDX-FileCopyrightText: Google Inc
+    SPDX-FileCopyrightText: The LineageOS Project
+    SPDX-License-Identifier: Apache-2.0
+-->
+<apns version="8">
+  <apn carrier="weborange" mcc="605" mnc="01" apn="weborange" proxy="10.12.1.52" port="8080" type="default,supl" />
+  <apn carrier="MMS Orange" apn="mms.otun" mmsc="https://mms.orange.tn" mmsproxy="10.12.1.52" mmsport="8080" mcc="605" mnc="01" type="mms" />
+  <apn carrier="Orange TN" mcc="605" mnc="01" apn="keypro" type="default,supl" />
+  <apn carrier="weborange" mcc="605" mnc="01" apn="weborange" type="default,supl" />
+  <apn carrier="Orange MMS" mcc="605" mnc="01" apn="mms.otun" mmsc="http://mms.orange.tn" mmsproxy="10.12.1.52" mmsport="8080" type="mms" />
+  <apn carrier="Tunisia Telecom MMS" mcc="605" mnc="02" apn="mms.tn" mmsc="http://192.168.0.3:19090/was" mmsproxy="192.168.0.2" mmsport="8080" type="mms" />
+  <apn carrier="Tunisia Telecom WAP" mcc="605" mnc="02" apn="wap.tn" proxy="192.168.0.2" port="8080" user="wap@tt1" password="wap" type="default,supl" />
+  <apn carrier="Tunisia Telecom Internet" mcc="605" mnc="02" apn="gprs.tn" proxy="" port="" user="mobinet" password="mobinet" type="default,supl" />
+  <apn carrier="Tunisie Télécom TN" mcc="605" mnc="02" apn="internet.tn" type="default,supl" />
+  <apn carrier="Tunisiana MMS" mcc="605" mnc="03" apn="mms.tunisiana.com" mmsproxy="10.3.2.100" mmsport="9201" mmsc="http://192.168.0.3:19090/was" user="mms" password="mms" type="mms" />
+  <apn carrier="Tunisiana Wap" mcc="605" mnc="03" apn="internet.tunisiana.com" proxy="10.3.2.99" port="8080" user="internet" password="internet" type="default,supl" />
+  <apn carrier="Ooredoo TN" mcc="605" mnc="03" apn="internet.ooredoo.tn" type="default,supl" />
+</apns>
